@@ -334,4 +334,94 @@ This iteration requires selection of the ‘next best’ responder, which the pr
 
 Similarly, introducing a maximum distance, above which devices (and therefore responders) are ignored is straightforward. SQL Server’s \texttt{\color{OliveGreen}STDistance} function returns a distance in metres, so a conversion into miles can be done by dividing the returned value by 1609.344. Armed with this information, it’s simply a case of adding another \texttt{\color{OliveGreen}WHERE} condition to the previous device selection query.\\
 
+
+
+%start of iteraitoin 3
+\pagebreak
+		\subsubsection{Iteration 3 - Improving Responder Alert}
+		\paragraph{Aim}
+This iteration addresses the issue of our system currently only contacting one person at a time when searching for an emergency responder. With the timeout of the accept response by the contacted user being (at minimum) 30 seconds, the time between the first person contacted and eventually finding an available responder could be many minutes (which would eat into the 8 minute ambulance response time [30]).\\
+
+This iteration aims to reduce this concern by adding a parallel search (in the same vein as the previous iteration) so that multiple responders can be contacted simultaneously increasing the likelihood of contacting someone who is available and reducing the responder response time.\\
+
+		\paragraph{Storyboard}
+		This storyboard visualises the intended functionality of the system.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration3/Storyboard - Iteration 2 - 1"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration3/Storyboard - Iteration 2 - 2"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration3/Storyboard - Iteration 2 - 3"}
+	\end{figure}
+	\begin{enumerate}
+  		\item Multiple parallel searches for responders are started. Each stream selects from the same group of responders (without overlap).
+  		\item The responder is given the opportunity to accept or decline the request (as in the previous iteration).
+  		\item If they accept the request, they go off to help at the emergency. If they decline, the system contacts the next closest person to the emergency. Subsequent responders are also given the option to accept or decline.
+  		\item This continues until a user says they are able to help or the request is cancelled/resolved by the dispatcher.
+	\end{enumerate}
+	This will help our system to more quickly find an available responder to attend an incident as we are benefiting from the effects of parallelization. It also allows us to send multiple responders to an incident so that if one was delayed on route there is already another responder who is actively attending. It would also allow the dispatcher to specify that they required many responders, for example a large scale emergency with many casualties.\\
+	
+	\paragraph{Parallel Searches}
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{"Iteration3/parallelization_of_search (4) (1)"}
+  \end{center}
+  \vspace{-250pt}
+\end{wrapfigure}
+	In order to implement the ability to perform parallel searches for responders we need to first look at the way in which the process for searching and selecting a responder is done. Below is a flowchart showing the basic layout of searching for a responder on the server side. We can see how the workflow lends itself to parallelization as there is a single flow from top to bottom which, once started, has no outside influences and will terminate by itself once a responder has been found or there are no more suitable responders to ask (based off the criteria in the previous iteration).\\
+
+This means that with some refactoring we can set up multiple runs of this search alongside each other with little effort.\\
+
+\pagebreak
+	\begin{figure}[H]
+		\centering
+		\vspace{-80pt}
+		\includegraphics[width=0.9\textwidth]{"Iteration3/parallelization_of_search (2) (1)"}
+	\end{figure}
+The above diagram shows how, after the number of required responders is specified, the searches can be run independently of each other and terminate on their own.
+Implementing this would require extracting the initial setup of the search (passing the details such as the location) and calling a overseeing method which then start the required number of parallel searches. As each search is using a common database for selecting and marking users decisions (using the methods described in the previous iteration) this should eliminate the possibility of a parallel search selecting a responder for an event who has already been contacted.\\
+
+\begin{wrapfigure}{l}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{"Iteration3/parallelization_of_search (3) (1)"}
+  \end{center}
+\end{wrapfigure}
+We do need to take measures to prevent some problems. The first being that we need to ensure that when parallel searches come to select a new responder to contact they do not select the same responder in the time between one search selecting the user and marking them as available or unavailable. The red box on the below diagram illustrates the current area of overlap between a responder being selected by a search and that responder being marked by that search (i.e. the area where two searches could select the same responder to contact).\\
+
+To counter this we need to implement two things, first we need to mark a chosen responder as soon as they have been selected. Currently a responder is only marked as chosen after they have accepted or declined (minimum of 30 seconds) so if we were to leave it like this any parallel searches would have to wait on this mark to continue.\\
+
+This can be implemented right after the selection has been made and before the notification is sent to the user minimizing the time that a selected user is not marked. We could add another table in the database for ‘SelectedResponders’ however we already have a system in place to differentiate between selected and non-selected responders (the accepted/declined mark). We could simply mark a responder as ‘declined’ as soon as we have selected them as this does not impact the flow from that point on (contacting the user and obtaining a response) and then change this mark to ‘Accepted’ if they accept. If they decline or the operation time out then we have already marked them as ‘Declined’ and simply return to the start of the search process.\\
+
+In order to further reduce same responder selection we can close the window for searches to overlap completely by locking the database table while one search is selecting a responder until they have marked them as selected. This would mean that two parallel searches that ran at exactly the same time would not be able to access the database table and so one would have to wait until the other finished and unlocked the table before continuing. Introducing a lock also introduces a form of staggered startup so that at the initial responder selection for each parallel search there would not be an occasion where they would both be able to select the same initial user to start as they could be running very close (time wise) together and have a greater chance of overlapping.\\
+
+\begin{wrapfigure}{l}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{"Iteration3/parallelization_of_search (4) (2)"}
+  \end{center}
+  \vspace{-250pt}
+\end{wrapfigure}
+The diagram left shows the revised series of stages for the search to complete and displays the time that the database table would need to be locked for. As you can see it is substantially less than the overlap time from before and both of the operations inside the lock should be completed very swiftly. As soon as the lock is lifted any other searches looking for a responder are free to search and the responder selected by the search that owned the lock has marked that responder so no other searches will select it.\\
+
+This should fix all of the problems when implementing this feature and allow us to speed up the selection process and allow multiple responders to be contacted.\\
+
+\pagebreak
+\paragraph{Usage}
+This feature will be used in two distinct ways, firstly it gives the dispatcher the ability to request more assistance for larger emergencies in the form of more responders being directed to the site. A use case for this could be a car crash with multiple injured people where one responder would be quickly overwhelmed and unable to help more than a few people. This request will be part of the API and can be built into the dispatchers system to increase the number of responders as they see appropriate.\\
+
+The system should also be used and, by default, contact two people for each emergency. This would mean that more potential responders are contacted faster than in the old system (through the parallelization) and it should end with two responders being sent to the incident. This is useful as it increases the chance that one of them arrives before the paramedics (for example one might be stuck due to unforeseen circumstances) and the risk of the responders not getting there is halved (split between the two). \\
+
+We feel that it is acceptable to send two responders to an incident by default as it firstly decreases the risk that the responder does not arrive. It also means that, if both responders arrive, they can help each other with the casualty until the paramedics relieve them. We feel that sending two responders to the same incident is acceptable and that they should not mind not being the only one sent as the health of the casualty should take priority.\\
+
+
+
+%start of iteraitoin 3
+\pagebreak
+		\subsubsection{Iteration 4 - Context of the emergency}
+		\paragraph{Aim}
+This iteration addresses the issue of the responders currently going out to an emergency blind to what they may encounter. This iteration will address this by supplying relevant information to the responder when they are alerted to an incident. This information will help them identify the patient when the arrive on site and alert them to any critical information that may be of help.\\
 \end{document}
