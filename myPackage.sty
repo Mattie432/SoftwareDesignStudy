@@ -24,6 +24,8 @@
 \RequirePackage{gensymb}
 \RequirePackage{wrapfig}
 \RequirePackage{longtable}
+\RequirePackage[usenames,dvipsnames]{xcolor}
+
 
 \RequirePackage[parfill]{parskip}
 \RequirePackage{supertabular,booktabs}
@@ -31,19 +33,21 @@
 \RequirePackage{booktabs}
 \newcommand{\bftab}{\fontseries{b}\selectfont}
 %Paths for graphics locations
-\graphicspath{ {./}{../../}{../}{TitlePage/}{SystemOverview/}{Modules/}{Specification/CommonTechnologies/}{CommonTechnologies/}{Modules/}}
+\graphicspath{ {./}{../../}{../}{TitlePage/}{SystemOverview/}{Modules/}{Specification/CommonTechnologies/}{CommonTechnologies/}{Modules/}{CPRSystem/}{Specification/CPRSystem/}}
 
 %create common paths for inputs!!!
 \makeatletter
 \def\input@path{{CommonTechnologies/}{Specification/}}
 \makeatother
 
+\setcounter{secnumdepth}{5}
 
 %Code snipets
 \RequirePackage{listings}
 \RequirePackage{color}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{ggreen}{rgb}{0.66,0.7,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 

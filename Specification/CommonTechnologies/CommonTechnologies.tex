@@ -3,11 +3,11 @@
 
 
 \begin{document}
-	\section{Common Technologies}
+	\subsection{Common Technologies}
 	
-	\subsection{Google Cloud Messaging}
+		\subsubsection{Google Cloud Messaging}
 	
-		\subsubsection{Design Overview}
+		\paragraph{Design Overview}
 		For our system we intend to utilize push notifications as the main way of initialising contact between our server and the users phone. As our system is initially being developed for the Android platform, we are going to implement the Google Cloud Messaging (GCM) [10] system as the main method of sending and receiving these notifications.\\
 		
 	\begin{figure}[H]
@@ -22,7 +22,7 @@
 		
 		
 		
-		\subsubsection{GCM Setup}
+		\paragraph{GCM Setup}
 		We intend to use GCM primarily for its ability to push notifications to a clients device. There are several things which we need to have set up before the notifications can be sent. Firstly, each phone will have a unique key associated with it which is used to identify an individual's phone so messages can be sent to it. This is obtained by the app when it registers with the GCM service. In order for our server to send messages to this device we need to know and store this registration ID, therefore the device will need to send it to our server to be stored in a secure database. The detailed setup instructions are available directly from google and have example code to assist in the setup [14]. \\
 
 	\begin{figure}[H]
@@ -40,7 +40,7 @@
 	\end{figure}
 
 	
-		\subsubsection{Sending Downstream Messages}
+		\paragraph{Sending Downstream Messages}
 		Once the initial setup is completed we can focus more on the message sending and receiving parts of the application. In order to push a notification to our users phone our server needs to send a request containing the registration ID and the message to Google’s Messaging Server which then sends it directly to the device associated with that ID.\\
 
 	\begin{figure}[H]
@@ -81,7 +81,7 @@ These response messages will need to be dealt with according to their responses.
 
 In some situations, we will include a ‘payload’ of data that will be sent (in the message) to the clients device. This payload is easily incorporated into the message and forms part of the JSON-encoded message string. This payload data has no limit to the number of key-value pairs however there is a total limit of 4kb maximum message size. String values are recommended to all other data types would need to be converted to strings before sending them to the device [15].\\
 		
-		\subsubsection{Sending Upstream Messages}
+		\paragraph{Sending Upstream Messages}
 		We can also use GCM to send upstream messages from the clients device to the server via Google’s CCM (Cloud Connection Service). This works by embedding the server’s registration ID (obtained when registering for the GCM service) into the clients software and passing this ID along with a message to the GCM service to be forwarded to the server.\\
 		
 	\begin{figure}[H]
@@ -132,7 +132,7 @@ gcm.send(GCM_SENDER_ID + "@gcm.googleapis.com", id, ttl, data);
 	\end{figure}
 
 
-	\subsection{Database}
+	\subsubsection{Database}
 	It was immediately apparent that both the Emergency App and CPR System would need a database backend. To ensure we chose the best system, we investigated the three most prolific database management systems (DBMSs): MySQL, Oracle, and SQL Server.\\
 
 Almost immediately, we discounted MySQL as being immature compared to Oracle and SQL Server. Transactions and stored procedures are a relatively recent addition to the system, and both are technologies that we will rely on heavily to ensure data is consistent and intact. It also has far fewer features relevant in enterprise environments, lacking fine-grained access control, table partitioning and disaster recovery.\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 17:05
 entering extended mode
 **SoftwareDesignStudy.tex
 
@@ -593,7 +593,7 @@ Package gensymb Warning: Not defining \micro.
 \c@lstlisting=\count144
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\TitlePage/Tit
-lePage.tex <TitlePage/university.jpg, id=87, 580.1675pt x 513.92pt>
+lePage.tex <TitlePage/university.jpg, id=75, 580.1675pt x 513.92pt>
 File: TitlePage/university.jpg Graphic file (type jpg)
 
 <use TitlePage/university.jpg>
@@ -712,7 +712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--33
 
 [3
 
-] <Modules/"SDS Video Bandwidth".png, id=127, 516.42938pt x 611.28375pt>
+] <Modules/"SDS Video Bandwidth".png, id=112, 516.42938pt x 611.28375pt>
 File: Modules/"SDS Video Bandwidth".png Graphic file (type png)
 
 <use Modules/"SDS Video Bandwidth".png>
@@ -841,7 +841,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=143, 1039
+<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=128, 1039
 .885pt x 538.01pt>
 File: Specification/CommonTechnologies/"Network Map - Iteration 0".png Graphic 
 file (type png)
@@ -873,7 +873,7 @@ has been already used, duplicate ignored
 l.27 
       <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
 cation/CommonTechnologies/Network Map - Iteration 0.png>]
-<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=151
+<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=137
 , 783.92876pt x 456.70625pt>
 File: Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png Gr
 aphic file (type png)
@@ -889,7 +889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 
 <Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Iteratio
-n 0".png, id=152, 634.37pt x 405.515pt>
+n 0".png, id=138, 634.37pt x 405.515pt>
 File: Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -923,7 +923,7 @@ cation/CommonTechnologies/Initial GCM Setup - Iteration 0.png> <D:/Users/Mattie
 432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CommonTechnolog
 ies/GCM Registration Sequence Diagram - Iteration 0.png>]
 <Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0".png
-, id=161, 795.97375pt x 538.01pt>
+, id=148, 795.97375pt x 538.01pt>
 File: Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0
 ".png Graphic file (type png)
 
@@ -942,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
 
 <Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Iteratio
-n 0".png, id=162, 735.74875pt x 626.34pt>
+n 0".png, id=149, 735.74875pt x 626.34pt>
 File: Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -1003,7 +1003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=191,
+<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=179,
  603.0028pt x 132.495pt>
 File: Specification/CommonTechnologies/"GSM Sending a message upstream".png Gra
 phic file (type png)
@@ -1034,12 +1034,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.116 \begin{lstlisting}
-                         <D:/Users/Mattie432/Dropbox/Programming/LaTeX/Software
-DesignStudy/Specification/CommonTechnologies/GSM Sending a message upstream.png
->]
+l.118   <
+         gcm xmlns="google:mobile:data"> <D:/Users/Mattie432/Dropbox/Programmin
+g/LaTeX/SoftwareDesignStudy/Specification/CommonTechnologies/GSM Sending a mess
+age upstream.png>]
 <Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, 
-id=215, 450.18187pt x 277.78781pt>
+id=204, 450.18187pt x 277.78781pt>
 File: Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".
 png Graphic file (type png)
 
@@ -1048,48 +1048,93 @@ ng>
 Package pdftex.def Info: Specification/CommonTechnologies/"GCM Upstream Message
  Sequence Diagram".png used on input line 130.
 (pdftex.def)             Requested size: 409.72125pt x 252.83391pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+)
+(D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
+/CPRSystem/CPRSystem.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.10 
+      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
+cation/CommonTechnologies/GCM Upstream Message Sequence Diagram.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
 ))
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\ProjectManage
 ment/ProjectManagement.tex)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\PersonalRefle
 ctions/PersonalReflections.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.47 \end{document}
-                    <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesig
-nStudy/Specification/CommonTechnologies/GCM Upstream Message Sequence Diagram.p
-ng>]
+ [13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
 nStudy.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
-Package rerunfilecheck Info: File `SoftwareDesignStudy.out' has not changed.
-(rerunfilecheck)             Checksum: 6335B7C7E32FAF4D782A8EE72A87133F;1387.
+
+
+Package rerunfilecheck Warning: File `SoftwareDesignStudy.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SoftwareDesignStudy.out':
+(rerunfilecheck)             Before: DF4F0FEA8F3E06CD7A23C24DC08B4BDB;1160
+(rerunfilecheck)             After:  EE7AF379C95D4F5CD1B66D937F2037D1;1315.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 9224 strings out of 493921
- 144921 string characters out of 3144864
+ 9233 strings out of 493921
+ 145311 string characters out of 3144864
  272507 words of memory out of 3000000
- 12219 multiletter control sequences out of 15000+200000
+ 12216 multiletter control sequences out of 15000+200000
  6504 words of font info for 25 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 74i,9n,74p,1040b,1131s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,9n,74p,1040b,1804s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on SoftwareDesignStudy.pdf (12 pages, 503843 bytes).
+Output written on SoftwareDesignStudy.pdf (13 pages, 505744 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,3 @@
-\BOOKMARK [1][-]{section.1}{Common Technologies}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Google Cloud Messaging}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.1.1}{Design Overview}{subsection.1.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.1.2}{GCM Setup}{subsection.1.1}% 4
-\BOOKMARK [3][-]{subsubsection.1.1.3}{Sending Downstream Messages}{subsection.1.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.1.4}{Sending Upstream Messages}{subsection.1.1}% 6
-\BOOKMARK [2][-]{subsection.1.2}{Database}{section.1}% 7
+\BOOKMARK [2][-]{subsection.0.1}{Common Technologies}{}% 1
+\BOOKMARK [3][-]{subsubsection.0.1.1}{Google Cloud Messaging}{subsection.0.1}% 2
+\BOOKMARK [3][-]{subsubsection.0.1.2}{Database}{subsection.0.1}% 3

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:57
 entering extended mode
 **CommonTechnologies.tex
 
@@ -600,7 +600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-<"Network Map - Iteration 0".png, id=27, 1039.885pt x 538.01pt>
+<"Network Map - Iteration 0".png, id=11, 1039.885pt x 538.01pt>
 File: "Network Map - Iteration 0".png Graphic file (type png)
 
 <use "Network Map - Iteration 0".png>
@@ -633,7 +633,7 @@ ready used, duplicate ignored
 l.27 
       <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
 cation/CommonTechnologies/Network Map - Iteration 0.png>]
-<"Initial GCM Setup - Iteration 0".png, id=39, 783.92876pt x 456.70625pt>
+<"Initial GCM Setup - Iteration 0".png, id=24, 783.92876pt x 456.70625pt>
 File: "Initial GCM Setup - Iteration 0".png Graphic file (type png)
 
 <use "Initial GCM Setup - Iteration 0".png>
@@ -646,7 +646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 
-<"GCM Registration Sequence Diagram - Iteration 0".png, id=40, 634.37pt x 405.5
+<"GCM Registration Sequence Diagram - Iteration 0".png, id=25, 634.37pt x 405.5
 15pt>
 File: "GCM Registration Sequence Diagram - Iteration 0".png Graphic file (type 
 png)
@@ -671,7 +671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
  []
 
 
-<"Sending a message via GCM - Iteration 0".png, id=47, 795.97375pt x 538.01pt>
+<"Sending a message via GCM - Iteration 0".png, id=33, 795.97375pt x 538.01pt>
 File: "Sending a message via GCM - Iteration 0".png Graphic file (type png)
 
 <use "Sending a message via GCM - Iteration 0".png>
@@ -695,7 +695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
  []
 
 
-<"GCM Send Message Sequence Diagram - Iteration 0".png, id=54, 735.74875pt x 62
+<"GCM Send Message Sequence Diagram - Iteration 0".png, id=41, 735.74875pt x 62
 6.34pt>
 File: "GCM Send Message Sequence Diagram - Iteration 0".png Graphic file (type 
 png)
@@ -755,7 +755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-<"GSM Sending a message upstream".png, id=78, 603.0028pt x 132.495pt>
+<"GSM Sending a message upstream".png, id=65, 603.0028pt x 132.495pt>
 File: "GSM Sending a message upstream".png Graphic file (type png)
 
 <use "GSM Sending a message upstream".png>
@@ -773,10 +773,9 @@ Missing character: There is no ™ in font cmr10!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.98       "
-            category":"com.example.yourapp", // to know which app sent it <D:/U
-sers/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Comm
-onTechnologies/GSM Sending a message upstream.png>]
+l.99       "
+            data": <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesign
+Study/Specification/CommonTechnologies/GSM Sending a message upstream.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
@@ -789,7 +788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []
 
 
-<"GCM Upstream Message Sequence Diagram".png, id=92, 450.18187pt x 277.78781pt>
+<"GCM Upstream Message Sequence Diagram".png, id=81, 450.18187pt x 277.78781pt>
 File: "GCM Upstream Message Sequence Diagram".png Graphic file (type png)
 <use "GCM Upstream Message Sequence Diagram".png>
 Package pdftex.def Info: "GCM Upstream Message Sequence Diagram".png used on in
@@ -841,16 +840,16 @@ Package rerunfilecheck Warning: File `CommonTechnologies.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `CommonTechnologies.out':
-(rerunfilecheck)             Before: F220AEC3530B1D0B2A39C7E671922D25;443
-(rerunfilecheck)             After:  1D0011C41DA14AD3926D40D2BBF23635;501.
+(rerunfilecheck)             Before: D9A2C4F28E6DC7B38A6D9E0D870F1B70;142
+(rerunfilecheck)             After:  4A75658590ACA4886F22527471FED6F9;210.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 9122 strings out of 493921
- 140617 string characters out of 3144864
- 272626 words of memory out of 3000000
- 12189 multiletter control sequences out of 15000+200000
- 5898 words of font info for 23 fonts, out of 3000000 for 9000
+ 9116 strings out of 493921
+ 140517 string characters out of 3144864
+ 271626 words of memory out of 3000000
+ 12183 multiletter control sequences out of 15000+200000
+ 5293 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  74i,6n,74p,872b,1737s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
@@ -858,9 +857,9 @@ Here is how much of TeX's memory you used:
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on CommonTechnologies.pdf (8 pages, 390581 bytes).
+Output written on CommonTechnologies.pdf (8 pages, 388757 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

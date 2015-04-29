@@ -1,9 +1,9 @@
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 18:19
 entering extended mode
-**Specification.tex
+**CPRSystem.tex
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\Specification.tex
+\CPRSystem\CPRSystem.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -34,7 +34,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\myPackage.sty
 
-LaTeX Warning: You have requested package `../myPackage',
+LaTeX Warning: You have requested package `../../myPackage',
                but the package provides `myPackage'.
 
 Package: myPackage 2011/01/11 v0.01 LaTeX package for my own purpose
@@ -522,7 +522,7 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 ))
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\Specification.aux)
+\CPRSystem\CPRSystem.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -601,9 +601,9 @@ LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\Specification.out)
+\CPRSystem\CPRSystem.out)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\Specification.out)
+\CPRSystem\CPRSystem.out)
 \@outlinefile=\write3
 LaTeX Info: Redefining \celsius on input line 5.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
@@ -618,259 +618,10 @@ Package gensymb Warning: Not defining \micro.
 
 \c@lstlisting=\count144
 
-(D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\CommonTechnologies/CommonTechnologies.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-<CommonTechnologies/"Network Map - Iteration 0".png, id=27, 1039.885pt x 538.01
-pt>
-File: CommonTechnologies/"Network Map - Iteration 0".png Graphic file (type png
-)
- <use CommonTechnologies/"Network Map - Iteration 0".png>
-Package pdftex.def Info: CommonTechnologies/"Network Map - Iteration 0".png use
-d on input line 15.
-(pdftex.def)             Requested size: 418.25368pt x 216.39053pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-
- []
-
-[1
-
-{D:/Users/Mattie432/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}pdfTeX wa
-rning (ext4): destination with the same identifier (name{figure.1}) has been al
-ready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.22 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Network Map - Iteration 0.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
-<CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=40, 783.92876pt x
- 456.70625pt>
-File: CommonTechnologies/"Initial GCM Setup - Iteration 0".png Graphic file (ty
-pe png)
- <use CommonTechnologies/"Initial GCM Setup - Iteration 0".png>
-Package pdftex.def Info: CommonTechnologies/"Initial GCM Setup - Iteration 0".p
-ng used on input line 30.
-(pdftex.def)             Requested size: 334.60422pt x 194.93732pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-<CommonTechnologies/"GCM Registration Sequence Diagram - Iteration 0".png, id=4
-1, 634.37pt x 405.515pt>
-File: CommonTechnologies/"GCM Registration Sequence Diagram - Iteration 0".png 
-Graphic file (type png)
-
-<use CommonTechnologies/"GCM Registration Sequence Diagram - Iteration 0".png>
-Package pdftex.def Info: CommonTechnologies/"GCM Registration Sequence Diagram 
-- Iteration 0".png used on input line 38.
-(pdftex.def)             Requested size: 334.60422pt x 213.89476pt.
-
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.41 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Initial GCM Setup - Iteration 0.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-<CommonTechnologies/"Sending a message via GCM - Iteration 0".png, id=49, 795.9
-7375pt x 538.01pt>
-File: CommonTechnologies/"Sending a message via GCM - Iteration 0".png Graphic 
-file (type png)
-
-<use CommonTechnologies/"Sending a message via GCM - Iteration 0".png>
-Package pdftex.def Info: CommonTechnologies/"Sending a message via GCM - Iterat
-ion 0".png used on input line 48.
-(pdftex.def)             Requested size: 418.25368pt x 282.69754pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.51 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/GCM Registration Sequence Diagram - Iteration 0.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-<CommonTechnologies/"GCM Send Message Sequence Diagram - Iteration 0".png, id=5
-7, 735.74875pt x 626.34pt>
-File: CommonTechnologies/"GCM Send Message Sequence Diagram - Iteration 0".png 
-Graphic file (type png)
-
-<use CommonTechnologies/"GCM Send Message Sequence Diagram - Iteration 0".png>
-Package pdftex.def Info: CommonTechnologies/"GCM Send Message Sequence Diagram 
-- Iteration 0".png used on input line 56.
-(pdftex.def)             Requested size: 418.25368pt x 356.06178pt.
-
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.59 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Sending a message via GCM - Iteration 0.png>]
-Missing character: There is no ‚ in font cmtt9!
-Missing character: There is no Ä in font cmtt9!
-Missing character: There is no ô in font cmtt9!
-
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.72       }
-             <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/
-Specification/CommonTechnologies/GCM Send Message Sequence Diagram - Iteration 
-0.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-<CommonTechnologies/"GSM Sending a message upstream".png, id=81, 603.0028pt x 1
-32.495pt>
-File: CommonTechnologies/"GSM Sending a message upstream".png Graphic file (typ
-e png)
- <use CommonTechnologies/"GSM Sending a message upstream".png>
-Package pdftex.def Info: CommonTechnologies/"GSM Sending a message upstream".pn
-g used on input line 89.
-(pdftex.def)             Requested size: 334.60422pt x 73.51941pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.99       "
-            data": <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesign
-Study/Specification/CommonTechnologies/GSM Sending a message upstream.png>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-<CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, id=97, 450.181
-87pt x 277.78781pt>
-File: CommonTechnologies/"GCM Upstream Message Sequence Diagram".png Graphic fi
-le (type png)
-
-<use CommonTechnologies/"GCM Upstream Message Sequence Diagram".png>
-Package pdftex.def Info: CommonTechnologies/"GCM Upstream Message Sequence Diag
-ram".png used on input line 130.
-(pdftex.def)             Requested size: 334.60422pt x 206.47954pt.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-)
-(D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\CPRSystem/CPRSystem.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/GCM Upstream Message Sequence Diagram.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -880,39 +631,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-<CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=133, 894.34125pt x
- 464.73625pt>
-File: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png Graphic file (typ
-e png)
- <use CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".pn
-g used on input line 17.
+<"Iteration1/Storyboard - Iteration 0 - 1".png, id=11, 894.34125pt x 464.73625p
+t>
+File: "Iteration1/Storyboard - Iteration 0 - 1".png Graphic file (type png)
+ <use "Iteration1/Storyboard - Iteration 0 - 1".png>
+Package pdftex.def Info: "Iteration1/Storyboard - Iteration 0 - 1".png used on 
+input line 17.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
-<CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=134, 894.34125pt x
- 455.7025pt>
-File: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png Graphic file (typ
-e png)
- <use CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".pn
-g used on input line 21.
+<"Iteration1/Storyboard - Iteration 0 - 2".png, id=13, 894.34125pt x 455.7025pt
+>
+File: "Iteration1/Storyboard - Iteration 0 - 2".png Graphic file (type png)
+ <use "Iteration1/Storyboard - Iteration 0 - 2".png>
+Package pdftex.def Info: "Iteration1/Storyboard - Iteration 0 - 2".png used on 
+input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 213.11632pt.
 
-<CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=135, 894.34125pt x
- 454.69875pt>
-File: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png Graphic file (typ
-e png)
- <use CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".pn
-g used on input line 25.
+<"Iteration1/Storyboard - Iteration 0 - 3".png, id=14, 894.34125pt x 454.69875p
+t>
+File: "Iteration1/Storyboard - Iteration 0 - 3".png Graphic file (type png)
+ <use "Iteration1/Storyboard - Iteration 0 - 3".png>
+Package pdftex.def Info: "Iteration1/Storyboard - Iteration 0 - 3".png used on 
+input line 25.
 (pdftex.def)             Requested size: 418.25368pt x 212.6469pt.
+ [1
 
-[9 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
-ion/CPRSystem/Iteration1/Storyboard - Iteration 0 - 1.png>] [10 <D:/Users/Matti
-e432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iter
-ation1/Storyboard - Iteration 0 - 2.png> <D:/Users/Mattie432/Dropbox/Programmin
-g/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteration1/Storyboard - Ite
-ration 0 - 3.png>]
+{D:/Users/Mattie432/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/User
+s/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSyst
+em/Iteration1/Storyboard - Iteration 0 - 1.png>] [2 <D:/Users/Mattie432/Dropbox
+/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteration1/Story
+board - Iteration 0 - 2.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/Soft
+wareDesignStudy/Specification/CPRSystem/Iteration1/Storyboard - Iteration 0 - 3
+.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -935,7 +685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[11]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
@@ -954,13 +704,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
  []
 
 
-<CPRSystem/"Iteration1/Android Notification Layout".png, id=173, 365.6862pt x 1
-23.3408pt>
-File: CPRSystem/"Iteration1/Android Notification Layout".png Graphic file (type
- png)
- <use CPRSystem/"Iteration1/Android Notification Layout".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Android Notification Layout".png
- used on input line 69.
+<"Iteration1/Android Notification Layout".png, id=58, 365.6862pt x 123.3408pt>
+File: "Iteration1/Android Notification Layout".png Graphic file (type png)
+
+<use "Iteration1/Android Notification Layout".png>
+Package pdftex.def Info: "Iteration1/Android Notification Layout".png used on i
+nput line 69.
 (pdftex.def)             Requested size: 200.75996pt x 67.7153pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -978,15 +727,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[12 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
-tion/CPRSystem/Iteration1/Android Notification Layout.png>]
-<CPRSystem/"Iteration1/Android notification icon".jpg, id=180, 278.9622pt x 288
-.5982pt>
-File: CPRSystem/"Iteration1/Android notification icon".jpg Graphic file (type j
-pg)
- <use CPRSystem/"Iteration1/Android notification icon".jpg>
-Package pdftex.def Info: CPRSystem/"Iteration1/Android notification icon".jpg u
-sed on input line 77.
+[4 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
+ion/CPRSystem/Iteration1/Android Notification Layout.png>]
+<"Iteration1/Android notification icon".jpg, id=65, 278.9622pt x 288.5982pt>
+File: "Iteration1/Android notification icon".jpg Graphic file (type jpg)
+
+<use "Iteration1/Android notification icon".jpg>
+Package pdftex.def Info: "Iteration1/Android notification icon".jpg used on inp
+ut line 77.
 (pdftex.def)             Requested size: 62.73549pt x 64.90096pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
@@ -994,14 +742,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
  []
 
 
-<CPRSystem/"Iteration1/Android Notification Layout Extended".png, id=181, 576.6
-5437pt x 476.53032pt>
-File: CPRSystem/"Iteration1/Android Notification Layout Extended".png Graphic f
-ile (type png)
-
-<use CPRSystem/"Iteration1/Android Notification Layout Extended".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Android Notification Layout Exte
-nded".png used on input line 84.
+<"Iteration1/Android Notification Layout Extended".png, id=66, 576.65437pt x 47
+6.53032pt>
+File: "Iteration1/Android Notification Layout Extended".png Graphic file (type 
+png)
+ <use "Iteration1/Android Notification Layout Extended".png>
+Package pdftex.def Info: "Iteration1/Android Notification Layout Extended".png 
+used on input line 84.
 (pdftex.def)             Requested size: 200.75996pt x 165.90102pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1080,13 +827,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
  []
 
 
-<CPRSystem/"Iteration1/Android Notification Design".png, id=182, 416.30531pt x 
-318.43968pt>
-File: CPRSystem/"Iteration1/Android Notification Design".png Graphic file (type
- png)
- <use CPRSystem/"Iteration1/Android Notification Design".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Android Notification Design".png
- used on input line 91.
+<"Iteration1/Android Notification Design".png, id=67, 416.30531pt x 318.43968pt
+>
+File: "Iteration1/Android Notification Design".png Graphic file (type png)
+ <use "Iteration1/Android Notification Design".png>
+Package pdftex.def Info: "Iteration1/Android Notification Design".png used on i
+nput line 91.
 (pdftex.def)             Requested size: 209.12683pt x 159.96773pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1170,7 +916,7 @@ Missing character: There is no ú in font cmtt10!
 Missing character: There is no ‚ in font cmtt10!
 Missing character: There is no Ä in font cmtt10!
 Missing character: There is no ù in font cmtt10!
-[13
+[5
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificatio
 n/CPRSystem/Iteration1/Android notification icon.jpg> <D:/Users/Mattie432/Dropb
@@ -1197,18 +943,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-[14]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
+<"Iteration1/Android CPR app pane".png, id=88, 431.6125pt x 819.06pt>
+File: "Iteration1/Android CPR app pane".png Graphic file (type png)
 
-<CPRSystem/"Iteration1/Android CPR app pane".png, id=204, 431.6125pt x 819.06pt
->
-File: CPRSystem/"Iteration1/Android CPR app pane".png Graphic file (type png)
- <use CPRSystem/"Iteration1/Android CPR app pane".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/Android CPR app pane".png used o
-n input line 118.
+<use "Iteration1/Android CPR app pane".png>
+Package pdftex.def Info: "Iteration1/Android CPR app pane".png used on input li
+ne 118.
 (pdftex.def)             Requested size: 167.2989pt x 317.46996pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1330,8 +1075,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-[15 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
-tion/CPRSystem/Iteration1/Android CPR app pane.png>]
+[7 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
+ion/CPRSystem/Iteration1/Android CPR app pane.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
@@ -1372,7 +1117,7 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[16]
+[8]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -1410,7 +1155,7 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [17]
+ [9]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1438,12 +1183,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<CPRSystem/"Iteration1/cpr-database-0".png, id=233, 572.1375pt x 553.31718pt>
-File: CPRSystem/"Iteration1/cpr-database-0".png Graphic file (type png)
+<"Iteration1/cpr-database-0".png, id=118, 572.1375pt x 553.31718pt>
+File: "Iteration1/cpr-database-0".png Graphic file (type png)
 
-<use CPRSystem/"Iteration1/cpr-database-0".png>
-Package pdftex.def Info: CPRSystem/"Iteration1/cpr-database-0".png used on inpu
-t line 175.
+<use "Iteration1/cpr-database-0".png>
+Package pdftex.def Info: "Iteration1/cpr-database-0".png used on input line 175
+.
 (pdftex.def)             Requested size: 460.08159pt x 444.95082pt.
 
 Overfull \hbox (41.82791pt too wide) in paragraph at lines 175--176
@@ -1452,11 +1197,11 @@ Overfull \hbox (41.82791pt too wide) in paragraph at lines 175--176
 
 
 Overfull \hbox (6.29564pt too wide) in paragraph at lines 172--176
- \OT1/cmr/bx/n/10 1.2.1.9.3 En-tity Re-la-tion-ship Di-a-gram[] \OT1/cmr/m/n/10
+ \OT1/cmr/bx/n/10 0.1.1.9.3 En-tity Re-la-tion-ship Di-a-gram[] \OT1/cmr/m/n/10
  En-tity re-la-tion-ship di-a-gram of the database. 
  []
 
-[18]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
@@ -1468,33 +1213,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [19 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
+) [11 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
 cation/CPRSystem/Iteration1/cpr-database-0.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12.
- [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
-\Specification.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
-Package rerunfilecheck Info: File `Specification.out' has not changed.
-(rerunfilecheck)             Checksum: 48E0DBAFC5D580E233942FAA611BAACC;421.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12.
+\CPRSystem\CPRSystem.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package rerunfilecheck Info: File `CPRSystem.out' has not changed.
+(rerunfilecheck)             Checksum: EAAC6D55AD20DD4D1E59241EAA471082;144.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
  ) 
 Here is how much of TeX's memory you used:
- 10095 strings out of 493921
- 155546 string characters out of 3144864
- 304957 words of memory out of 3000000
- 13016 multiletter control sequences out of 15000+200000
- 6244 words of font info for 24 fonts, out of 3000000 for 9000
+ 9970 strings out of 493921
+ 151352 string characters out of 3144864
+ 306013 words of memory out of 3000000
+ 12976 multiletter control sequences out of 15000+200000
+ 5639 words of font info for 22 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 74i,7n,75p,1201b,1869s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,7n,74p,1168b,1699s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
@@ -1502,9 +1246,9 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Specification.pdf (20 pages, 1339636 bytes).
+Output written on CPRSystem.pdf (12 pages, 1022527 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

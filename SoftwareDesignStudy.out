@@ -11,11 +11,10 @@
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Project SMS-livräddare}{subsection.4.2}% 11
 \BOOKMARK [2][-]{subsection.4.3}{API}{section.4}% 12
 \BOOKMARK [1][-]{section.5}{Specification}{}% 13
-\BOOKMARK [1][-]{section.6}{Common Technologies}{}% 14
-\BOOKMARK [2][-]{subsection.6.1}{Google Cloud Messaging}{section.6}% 15
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Design Overview}{subsection.6.1}% 16
-\BOOKMARK [3][-]{subsubsection.6.1.2}{GCM Setup}{subsection.6.1}% 17
-\BOOKMARK [3][-]{subsubsection.6.1.3}{Sending Downstream Messages}{subsection.6.1}% 18
-\BOOKMARK [3][-]{subsubsection.6.1.4}{Sending Upstream Messages}{subsection.6.1}% 19
-\BOOKMARK [1][-]{section.7}{Project Management}{}% 20
-\BOOKMARK [1][-]{section.8}{Personal Reflections}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Common Technologies}{section.5}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Google Cloud Messaging}{subsection.5.1}% 15
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Database}{subsection.5.1}% 16
+\BOOKMARK [2][-]{subsection.5.2}{CPR System}{section.5}% 17
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Iteration 1 - Basic Functionality}{subsection.5.2}% 18
+\BOOKMARK [1][-]{section.6}{Project Management}{}% 19
+\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 20

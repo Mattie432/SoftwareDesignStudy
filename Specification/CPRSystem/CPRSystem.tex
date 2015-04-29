@@ -1,14 +1,226 @@
 \documentclass{article}
-\usepackage[normalem]{ulem}
-\usepackage{fixltx2e}
-\usepackage{color}
-\usepackage[hidelinks]{hyperref}
-\usepackage{graphicx}
-\usepackage[top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry}
-\usepackage{multicol}
-\usepackage{float}
+\usepackage{../../myPackage}
 
 
 \begin{document}
-    \section{System Overview}
+	\subsection{CPR System}
+		\subsubsection{Iteration 1 - Basic Functionality}
+			\paragraph{Aims}
+			This iteration develops the core functionality of the CPR system; it is intended to be the simplest application possible that has the required functionality. Subsequent iterations will refine and build on top of its services and components.\\
+
+At its most basic level, the system needs to be able to send a message to a responder’s devices to notify them of the location of an emergency. This individual should be the closest person in the database to the incident. They are then expected to attend the emergency location and provide assistance where necessary. The individual is assumed to have the appropriate qualifications and training which has been verified, and have willingly signed up for the service.\\
+
+	\paragraph{Storyboard}
+	This is a storyboard to help visualise the intended functionality of the system.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration1/Storyboard - Iteration 0 - 1"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration1/Storyboard - Iteration 0 - 2"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration1/Storyboard - Iteration 0 - 3"}
+	\end{figure}
+	\begin{enumerate}
+  		\item The emergency services receive a call detailing a medical emergency which is triaged.
+  		\item While waiting for a response vehicle to arrive, the dispatcher has the option to send the emergency location to a trained responder (first aid or CPR) who may be able to attend quicker than the emergency services. This option to request this responders assistance should be limited to certain situations and locations so that responders are not sent to potentially dangerous environments.
+  		\item Once the request has been sent, the responder is notified that an emergency requires their presence. The notification shows the responder the location of the incident
+  		\item The responder then decides if they are able to attend the emergency to help the situation and makes their own way there.
+	\end{enumerate}
+	In theory, the responder gets to the location quicker than an emergency response and they are able to provide first aid to those who need it until the ambulance arrives.\\
+	\paragraph{Sending Notifications}
+	In order for responders to attend an emergency, they need to know where it is. The standard way of doing this is to send a latitude and longitude, which we will include in the payload section of a GCM message. This information can be directly passed to all mapping applications to plot the location. The structure of the message data should be as follows:
+	\begin{lstlisting}
+...
+"data":
+      {
+          "message_type":"new_emergency",
+          "longitude":"VALUE",
+          "latitude":"VALUE"
+      }
+...
+	\end{lstlisting}
+In this message the \texttt{\color{OliveGreen}"message\_type"} field describes what kind of message this is. To send a new emergency to the user the value of this field should be \texttt{\color{OliveGreen}"new\_emergency"}. This is checked when the message is received and the appropriate action is taken (i.e. a new emergency alert is created). The alternative is \texttt{\color{OliveGreen}"close\_emergency"} as the value and this is used when the dispatcher wishes to cancel the assistance of the user either because they are no longer required or the casualty has been dealt with and the emergency case closed (see ‘App CPR pane’ for more details). \\
+
+The other data we need to send is a coordinate pair corresponding to the location of the emergency, (where longitude and latitude values are in the range of [-180, 180] and [-90, 90] respectively [16]) as this is a standard way of referencing a location and is the coordinate system major map applications use. This will allow us to parse the coordinates directly into a map app on the device to show the user where to go. This can be easily done in two ways, one is opening the default maps app with the location entered into a geo-URI [17] and opening it. This URI contains the coordinates and when called opens the default map with the location shown as a drop point (Example: \texttt{\color{OliveGreen}"geo:0,0?q=34.99,-106.61(Emergency)"}). The second option is to incorporate the Maps API into our app, this would allows us a greater degree of control on what the user can see and also disable features (such as removing the emergency marker). The implementation of this is relatively easy and adding a marker simply uses the \texttt{\color{OliveGreen}LatLng} data type [18].
+\lstset{language=Java}
+\begin{lstlisting}
+public void onMapReady(GoogleMap map) {
+    map.addMarker(new MarkerOptions()
+        .position(new LatLng(10, 10))
+        .title("Emergency"));
+}
+\end{lstlisting}
+\lstset{language=XML}
+Integrating a map into our app is the route we have decided to go down as this allows us greater granularity and control over what the user sees and is able to do. This should be shown to the user when they click on an emergency notification.\\
+
+\paragraph{Notification Interaction and Alert}
+When an emergency is sent to the phone the user will need to be notified immediately so that they can attend the scene as quickly as possible. The first step towards doing this is to create a popup notification so that the user can immediately see (either on top of other applications or on the lock screen) that their assistance is required.\\
+
+There are two main factors of information that the user needs to be informed of, the first is that their assistance is required, the presence of this notification does imply this however it should also be stated somewhere in the notification that this is an emergency situation. The second is the location of the emergency, for this we have identified two main points of information that are useful to the user. The first is the address of the emergency location, this should be present so that if the user knows the area around them they can instantly recognise where they are needed and start making their way towards it. It also allows them to give directions, say to a taxi driver, directly from the notification without having to open the app at all. The second is the distance to the emergency that the user is currently This information is very useful to the user as it allows them to instantly gauge how long they will take to attend the scene and make decisions based off this such as the best mode of transport.\\
+
+To provide both of these points to the user we will need to use Android’s built-in location API, as the information provided to the device is in coordinate form. There are several features which will allow us to obtain the required information, the first is in the Geocoder class of the location API [19]. The method \texttt{\color{OliveGreen}getFromLocation()} rmation, the first is in the Geocoder class of the location API [19]. The method getFromLocation()takes a coordinate pair (latitude and longitude) and returns a list of addresses which are known to describe the area immediately surrounding the coordinates. Upon calling this we can then extract the address line by line using the associated methods with the \texttt{\color{OliveGreen}Address} class [20] and insert them into our notification. We can also use the \texttt{\color{OliveGreen}Location} class of the location API to get the \texttt{\color{OliveGreen}distanceTo()} a destination [21]. This takes a location as a parameter (which we can set the longitude and latitude of) and returns the distance in meters to the destination from the users current location.\\
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{"Iteration1/Android Notification Layout"}
+  \end{center}
+\end{wrapfigure}
+Android supports a variety of notification formats [22] however they all have four common features, a Title/Name, Notification Icon, Timestamp and a Message. Our notification should also have these features, the title should be a common one (for all emergency notifications) which relates to the fact that the users assistance is required at an emergency. A title similar to “Medical Assistance Required” should both inform the user of what the notification is for and grab their attention. \\
+\clearpage
+
+\begin{wrapfigure}{l}{0.15\textwidth}
+  \begin{center}
+    \includegraphics[width=0.15\textwidth]{"Iteration1/Android notification icon"}
+  \end{center}
+\end{wrapfigure}
+The notification icon should also be striking to grab their attention, and also needs to be unique to the app and tell the user, at a glance, the nature of the notification. Something similar to this image would be best as the image is striking and so should catch the users attention while being unique among other notification icons and being related to the theme of the notification. \\
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{"Iteration1/Android Notification Layout Extended"}
+  \end{center}
+\end{wrapfigure}
+The timestamp of the notification should be set to the time that the push notification was received and the message body should contain both the distance to and the address of the emergency. Android allows “expandable layouts” [22] which allows the notification to be minimal initially and expand when clicked on. The minimal layout still contains both the title and the icon (along with a line of text) which means the user can still instantly see what the notification is about and can click on it to expand the description (which contains the address). \\\\
+
+\begin{wrapfigure}{l}{0.5\textwidth}
+  \begin{center}
+		\includegraphics[width=0.5\textwidth]{"Iteration1/Android Notification Design"}  \end{center}
+\end{wrapfigure}
+	This is a design shown how our notification might look to the user on either the lock screen or while actively using the phone. Upon clicking this notification the app will be launched and show a ‘CPR pane’ which would not be normally accessible. This pane contains a map with the location of the emergency shown clearly with a marker, the users current location and a directions button which will plot a route to the emergency from the users current location.\\\\\\
+	
+	\paragraph{Cancel Notification}
+	The dispatchers should also be able to cancel the assistance request remotely for a variety of reasons such as the emergency has been dealt with or paramedics have already arrived to name a few. To do this we will utilise the collapsible feature of messages sent over GCM [23] which allows us to overwrite previous messages with the same \texttt{\color{OliveGreen}“collapse\_key”}. We can combine this with the field in the payload of the message \texttt{\color{OliveGreen}"message\_type"} which is set to \texttt{\color{OliveGreen}"new\_emergency"} when the dispatcher wishes to ask for assistance. The new message should have a  \texttt{\color{OliveGreen}"message\_type":"close\_emergency"} so that, when the message is read the message type should be checked and the appropriate action taken, in this case it should, if its currently accessible, hide the CPR pane and clear any associated data. A message field should also be present which will be displayed in the message field of the notification.
+	\begin{lstlisting}
+...
+"data":
+      {
+          "message_type":"close_emergency",
+          "message":"Emergency resolved"
+      }
+...
+	\end{lstlisting}
+	
+	\paragraph{Notification Sound of the App}
+	This was the first thing which we thought the user would like to customize as this has been  commonplace among phones for years and our users would expect to be able to do this with our app. However, after some discussion we thought about how this might negatively affect the user’s ability to be alerted to incoming emergencies. For example, if a user was allowed to set their own notification sounds and they chose one that was the same (or similar) to their message alert or ringtone then they might be more inclined to ignore the phone for a period of time believing it was just a regular notification. This is more likely as our app is likely to be only used occasionally when the individual is the closest responder to an emergency, it will be a case of ‘setup and forget’ for most users who might even have forgotten they installed it until they are being asked to help.\\
+
+For this reason we have decided against allowing the user to change the notification sounds. We intend to use a custom alert noise which is unlike any other provided by default on the phone. We believe that keeping this sound is more beneficial than allowing the user more personalisation as they will not recognise the sound and therefore are more likely to check why their phone is making a noise.\\
+
+\pagebreak
+\paragraph{CPR App Pane}
+This is the design prototype for the CPR pane of the application. By default (i.e if its opened without an emergency) this shows a blank map and information pane which, when an emergency notification is received from the dispatchers, changes to display the information for that emergency. Upon receiving the notification (with the payload data) the coordinates are sent to this app and become the destination marker of the map.\\
+
+\begin{wrapfigure}{l}{0.4\textwidth}
+  \begin{center}
+		\includegraphics[width=0.4\textwidth]{"Iteration1/Android CPR app pane"}  \end{center}
+\end{wrapfigure}
+The associated information is displayed at the bottom third of the pane which can be obtained (as in the ‘Notification Interaction and Alert’ section) from coordinates provided using the location API. The distance measurement should be re-calculated at a set interval so that the value is updated while moving.\\
+
+The map also contains a ‘Directions’ button which, when pressed, will start navigation assistance from the users current location to the emergency.\\
+
+We have decided to implement an in-app map view rather than opening the directions in the default map app because it gives us a greater degree of control over what we can show the user and allow them to interact with. For example it allows us to disable the ‘draggable’ state of the marker [18] so that the user cannot accidentally move it to the wrong location and then delay their response time. It also allows us to display our own content on the screen (in the lower third) at the same time that the user is getting directions to the emergency. This is currently displaying the address and distance of the emergency from the user however it could be used to display extra information as appropriate.\\
+
+There are two ways for this information to be hidden once again. The first is that the phone receives a new notification from the dispatchers which contains the same \texttt{\color{OliveGreen}“collapse\_key”} as this emergency (detailed in ‘Cancel Notification’) in this case it should clear any associated data from the app (the destination marker and info pane). The second way is when the app is first loaded a timeout timer should be started which contains a reasonable amount of time to allow the user to attend the scene, but once expired should hide this pane from view and clear any previous emergency data. A timer of 60 minutes should be enough time for any first responder to attend a scene and pass the casualty over to the emergency services (this time should in fact be more than enough). This is so that if, for some reason, the collapse message is not received the information will be removed on its own accord\\
+
+\paragraph{GPS Location}
+We need to maintain a database of registered users locations so that we can target an individual who is the closest person to the emergency and send a notification directly to them via GCM. There are a number of ways which we could implement this, however we decided to (for this iteration) push the location from the device to our servers on a regular time interval. A time period of 1 hour is what we will use initially, this should be enough to maintain a reasonably accurate location of the user (more accurate when they are stationary for a while and less accurate while traveling) while not heavily impacting battery useage or performance of the device with more frequent updates. While not being a very complex or clever system this will be enough for us to get started and will be sufficient for this iteration.\\
+
+An alternative implementation would have been to push the location of all emergencies to all phones registered on the service. It would then be upto the phone to determine if they were close enough to alert the user to the emergency. We decided against this method for a few reasons, firstly it does not scale well with a large user base. If this was to be rolled out nationally you could easily be sending hundreds of emergencies to thousands of phones on a daily basis. This would also drastically affect battery life of the users device as it would then have to process each emergency received to determine if it was near them, possibly leading to increased user dissatisfaction and uninstallations of the app. Finally, there would be a lot more data being sent and received in this implementation. Rather than sending each clients location once every 1 hour (for example) you would have to send each emergency to every registered phone which would quickly rack up with multiple emergencies per day.\\
+
+Other ideas we thought about were having the user subscribe to an area that they are likely to be in (possibly one for work and home) then using this location to send messages to people who are likely to be in the area. This is currently how the Swedish project “Project SMS-livräddare“ [6] is contacting its users. We feel however, that this is not accurate enough as there will be situations when they are not around the area (e.g traveling to another city) and using the GPS location of the phone would allow us to contact users with greater geographically accuracy. \\
+
+To send this data to our server we decided to use GCM’s upstream message feature to send the message via Google’s CCM (Cloud Connection Service). We chose this over establishing our own connection for a few reasons but primarily for increased efficiency. GCM upstream messages are sent over the same connection used for receiving, which is managed by the operating system and is left in an ‘always open’ state. It makes sense to utilize this connection rather than use excess resources which would decrease performance (such as battery) [26]. It is also very easily implemented as the API provided does most of the work that would have to be managed if we were to implement our own connection (e.g. checking if the network is available) [27]. It is also not necessary to establish our own connection as the only data we will be sending to the server (in this iteration) is a GPS coordinate pair for the users location, this can be easily converted into string format and sent as a payload GCM message.\\
+
+The message should be sent according to the specification detailed in the GCM justification section under ‘Sending Upstream Messages’. This details that the sent message will have the users registration ID attached which the server can use to associate this sent location with a registered user. The structure of the message data should be as follows:
+\begin{lstlisting}
+...
+"data":
+      {
+          "message_type":"location_update",
+          "longitude":"VALUE",
+          "latitude":"VALUE"
+      }
+...
+\end{lstlisting}
+This message, when received by our server, will then be able to parse the message type to see that it is a new location that's being sent and add it to the database appropriately. The longitude and latitude values are the devices current location and can be obtained by the ‘getLastLocaiton()’ method of the Location API [28]. Android's Network Location Provider determines user location using cell tower and Wi-Fi signals, providing location information in a way that works indoors and outdoors, responds faster, and uses less battery power. This method returns the most recent location currently available, if another app has recently updated the devices location then this will be used otherwise it will be updated before the most recent value is returned.\\
+
+\paragraph{Database Design}
+The simplicity of this iteration means that it does not require a complex database. We fully intend to have to make sweeping changes to this design in future iterations, however it should form an easily-expandable base on which to build.\\
+
+The DBMS used for this system will be Microsoft SQL Server 2014, due to its prevalence in professional applications, spatial data types and comprehensive high-availability features, including redundancy and failover, which are critical for a system as important as this.\\
+
+	\subparagraph{Requirements}
+	\begin{itemize}
+	\item \textit{Registration details of responders}\\
+This need only be a unique identifier and forename and surname for now - it can be trivially expanded later on, so we will not dwell on implementation details.
+	\item \textit{Responders’ devices}\\Each responder can (and should) register as many devices as they have to their account, in order to increase the chances of them being successfully notified that their assistance is required. In order to do this, we need to store information about responders’ devices, in particular the push notification key that allows us to tell GCM (or any alternate service, such as APNS) which device to send notifications to.
+	\item \textit{The locations of these devices at any given time}\\To be able to find the closest responder to the incident, we need to track the locations of all responders’ devices in as close to real-time as possible. We could only keep the latest position, however maintaining the full history (or at least a certain amount of it) is a trivial change, and could be used in the future to improve the responder selection algorithm.
+	\item \textit{Incidents, and the responder chosen to attend that incident}\\The database needs to be able to store the location of incidents so it can send these to responders. It must also keep a history of which responder attended which incidents for logging purposes.
+	\end{itemize}
+	
+	\subparagraph{Data Types}
+	Location data is commonly represented as a latitude and longitude pair, however modern databases have dedicated spatial data types. SQL Server 2014 is no exception; it has the \texttt{\color{OliveGreen}geography} type for ellipsoidal data. The key \texttt{\color{OliveGreen}geography} instance type that we’ll be using is \texttt{\color{OliveGreen}Point}: a 0-dimensional object representing a single location. We’ll use it to identify the whereabouts of incidents and responders’ devices. It has the added benefit of supporting elevation, should we need it in the future to increase accuracy of location data.\\
+	
+	Primary keys will be \texttt{\color{OliveGreen}ints}, unless we can guarantee they will not overflow if a smaller width type is used. Unfortunately SQL Server only supports signed types, so 32-bit integers will allow up to 2,147,483,647 (231 - 1) rows per table. Considering there are roughly 65m people in the UK, this is more than enough to store all possible responders. Even at this limit, the type is large enough to handle each of them having 33 registered devices each - also an infeasible number. As already mentioned, there are an estimated 60,000 [2] incidents in the UK every year that this system could be relevant to. Assuming this figure doesn’t exceed, an \texttt{\color{OliveGreen}int} primary key will sustain the system for 35 millenia. The only exception is device types: there are less than 255 services offering push notification facilities, so a \texttt{\color{OliveGreen}tinyint} will suffice for this purpose.\\
+
+Device keys are allowed to be up to 4096 bytes, as GCM \texttt{\color{OliveGreen}registration\_ids} can be up to 4KB in size, however in practice they will be much smaller than this - it is this long to handle edge cases.\\
+
+\pagebreak
+\subparagraph{Entity Relationship Diagram}
+Entity relationship diagram of the database.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.1\textwidth]{"Iteration1/cpr-database-0"}
+	\end{figure}
+
+N.B. \texttt{\color{OliveGreen}Incidents.ResponderID} is nullable as it is conceivable that an incident might be created, and it take a few moments for a responder to be assigned to it.\\
+
+\paragraph{Selecting the Responder to notify}
+In this iteration, we are simply choosing the single closest responder to the incident. In terms of the above schema, we need to alert the owner of the device whose latest position is closest to the incident.\\
+
+We have a table of device locations; the first step is to extract the latest location of each device:
+\lstset{language=SQL}
+\begin{lstlisting}
+SELECT LatestLocations.DeviceID, LatestLocations.Location
+FROM (SELECT DeviceLocations.DeviceID, DeviceLocations.Location,
+             ROW_NUMBER() OVER (PARTITION BY Devices.DeviceID
+                                ORDER BY DeviceLocations.Timestamp DESC) AS Rank
+      FROM Devices
+	      INNER JOIN DeviceLocations
+	          ON DeviceLocations.DeviceID = Devices.DeviceID
+	 ) AS LatestLocations
+WHERE LatestLocations.Rank = 1
+\end{lstlisting}
+\lstset{language=XML}
+As well as spatial data types, SQL Server also includes operations on these types, one of which is \texttt{\color{OliveGreen}STDistance}, which returns the shortest distance between two \texttt{\color{OliveGreen}Point}s. We can now intersect this with the known location of the incident, producing a list of \texttt{\color{OliveGreen}DeviceID}s in ascending order of distance to the incident.
+\lstset{language=SQL}
+\begin{lstlisting}
+-- will hold the location of the incident
+DECLARE @incident geography;
+
+-- look up the location of the incident with identity `x`
+SELECT @incident = Location FROM Incidents WHERE IncidentID = x;
+
+-- sort devices by their proximity to the location of the incident
+SELECT LatestLocations.DeviceID,
+       LatestLocations.Location,
+       @incident.STDistance(LatestLocations.Location) AS Proximity
+FROM (SELECT DeviceLocations.DeviceID, DeviceLocations.Location,
+             ROW_NUMBER() OVER (PARTITION BY Devices.DeviceID
+			            ORDER BY DeviceLocations.Timestamp DESC) AS Rank
+      FROM Devices
+	      INNER JOIN DeviceLocations
+	          ON DeviceLocations.DeviceID = Devices.DeviceID
+	 ) AS LatestLocations
+WHERE LatestLocations.Rank = 1
+ORDER BY Proximity ASC;
+\end{lstlisting}
+\lstset{language=XML}
+From here, it is trivial to look up the owner of the closest device and notify all of their devices of the emergency.\\
+
+
+
 \end{document}
