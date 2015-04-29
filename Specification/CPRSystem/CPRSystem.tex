@@ -537,4 +537,140 @@ This pane is scrollable so that if a longer description is provided, or in futur
 \pagebreak
 		\subsubsection{Iteration 5 - User Preferences}
 		\paragraph{Aim}
+		This iteration gives the user more flexibility and control over various features that the CPR system offers. The user should be able to change preferences such as when they can be contacted or how they are alerted allowing them to personalise the service to fit into their lifestyle.
+		
+		\paragraph{Storyboard}
+		This storyboard visualises the intended functionality of the system.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration5/Storyboard - Iteration 5 - 1"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration5/Storyboard - Iteration 5 - 2"}
+		\vspace{10pt}
+	\end{figure}
+	\begin{enumerate}
+  		\item A responder wishes to personalise the app to better suit their lifestyle.
+  		\item The responder can find a variety of options inside a settings menu of the app.
+
+	\end{enumerate}
+	This will help the responders to emergency to personalise how they are contacted to fit into their lifestyle. There should be options to change notification alerts, change how often they can be contacted, set hours they can be contacted along with more. This means that the user has control over when it's convenient for them to be contacted which makes it more likely they will keep using the service improving its efficiency and user base.\\
+
+The settings menu of the app will be accessible from the default OS settings menu. Here there will be an app-specific pane which will grant access to the settings menu for our app. This means that we do not have to implement an icon on the main app page which would take up space from more important features. Also, the user is unlikely to be regularly changing the settings for this app so they are not needed to accessible from the app itself.
+
+\paragraph{'Do Not Disturb' for a period of time}
+We feel that the option to ‘unregister’ from being contacted for a period of time is one which users would appreciate and use. Allowing the user to set a length of time in which they do not wish to be contacted will help to keep the retention rate of those using the app high. If this is not implemented then people may look to unregister from the service and then re-register later increasing the chance that some never re-register because it is too much hassle.\\
+
+This feature could be used in a variety of situations such as a responder is going on holiday for a week or two, they are physically unable to help for a while (for example a broken foot) or other personal matters which mean they are not in a position to help. Whatever the reason our app will give the user the ability to specify a period of time that they are not to be contacted in.
+
+\subparagraph{App Design}
+Our settings menu should clearly show a category for allowing the user to say they are unavailable for a time. From here they should be taken to a new settings pane in which they are able to set the amount of time they are unavailable for. \\
+
+	\begin{figure}[H]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=1\textwidth]{"Iteration5/Storyboard - Iteration 6 - 1"}
+	\end{figure}
+This pane allows them to select a date until which they do not wish to be contacted, at the bottom the time until the selected date is displayed in days, months and years and there is a ‘save’ button at the bottom. Once the save button is pressed the date is uploaded to our servers via the GCM upstream messages service and is then stored in our database.
+\subparagraph{Server Modifications}
+In order to provide this feature our search algorithm will need to be modified to check if a ‘do not contact’ date has been set. There are three possible genres of value for this field:
+\begin{itemize}
+\item Null (i.e. not set)
+\item A date in the future
+\item A date in the present or past
+\end{itemize}
+If an individual's records have no date set then the individual is available for contacting and the algorithm proceeds as normal. If there is a date present and it is in the future then this individual is ignored by the algorithm. If there is a date and it is in the present (current day) or the past then the algorithm should replace this value with null and then proceed with the individual as normal.\\
+
+This feature will provide little extra overhead to the server as there will be only one extra comparison (between the saved and current date) which will be run if a user is selected as a candidate to be contacted.
+
+\subparagraph{Database Modifications}
+This feature is tied to an individual rather than a device - if a responder selects a do not disturb date on one device, we want to ignore them completely (on all devices) until that date.\\
+
+As a result, this feature is trivial from a data perspective: it is simply represented by a new \texttt{\color{OliveGreen}DoNotDisturbUntil} field in the \texttt{\color{OliveGreen}Responders} table. Minute precision is provided by SQL Server’s \texttt{\color{OliveGreen}smalldatetime} type, and the column will default to \texttt{\color{OliveGreen}null}.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{"Iteration5/iteration-5-dnd"}
+	\end{figure}
+
+\paragraph{Respecting system alert preferences}
+We have decided to include an option in the setting menu which will allow the user to toggle whether the app should respect the operating system’s alert preferences. This controls whether the app should be silenced by the device’s ‘silent’ or ‘do not disturb’ modes.\\
+
+We have decided to include this toggle for situations where the user does not wish to unregister for a period of time, but does not wish for the alert to make a sound and feels they would be able to notice an alert regardless. However, we have decided that by default this feature is disabled so that the app will ignore the system alert preferences.\\
+
+The reasoning for this stems from the nature of the app: in an emergency situation every second is vital and a user not realising they have a notification would mean that the search would pause for 30 seconds until the alert is automatically declined. We also believe that users are of a mind that the importance of potentially saving a life is above any inconvenience caused by the users phone going off. Also the frequency of messages from this app is likely to be quite low from an individual's perspective so it is unlikely that this will prove to be a common issue for them.
+
+\subparagraph{App design}
+Our settings menu should clearly show a category for allowing the user to say they are unavailable for a time. From here they should be taken to a new settings pane in which they are able to set the amount of time they are unavailable for.\\
+
+	\begin{figure}[H]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=1\textwidth]{"Iteration5/Storyboard - Iteration 6 - 2"}
+	\end{figure}
+
+Here you can see that the effect of toggling this button is clearly defined to the user and it is explained that the default setting is that its turned on and why that is. Toggling this button will change how the notifications created when a new message is received from GCM are categorized.\\
+
+Different categories determine if the notification is affected by Androids ‘Priority Mode’ and therefore if they are silenced. Setting the notification to an “ALARM” type [56] will mean the sound plays regardless of the system state. This settings value will need to be stored locally and then used when building the notifications for an alert.
+
+\paragraph{Let the user specify the hours they will be asleep and thus unavailable}
+This option allows the user to set a time when they are likely to be asleep and therefore do not wish to be contacted about any emergencies. There is also an option for users who do not mind being contacted at all hours. When toggled to ‘ON’ the rest of the settings pane is greyed out and unavailable to change.
+
+\subparagraph{App Design}
+The settings pane for this feature allows the user to enter a start and end time during which they are usually asleep. This will then be sent to our server when the ‘save’ button is pressed and exclude this user between the two times. By default the app is set to “allow contact at all times” because we feel that it is best to let the user select the appropriate times for themselves. Also the frequency of messages from this app is likely to be quite low from an individual's perspective so it is unlikely that being woken in the night by this app will be a common problem for an individual.\\
+	\begin{figure}[H]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=1\textwidth]{"Iteration5/Storyboard - Iteration 6 - 3"}
+		\vspace{-20pt}
+	\end{figure}
+	
+
+When the save button is clicked the start and end date are both sent to our server via GCM’s upstream service and stored on our database. If “allow contact at all times” is set to ‘ON’, the start and end times are set to midnight, which is interpreted by the server as no sleep period.
+
+\subparagraph{Server Modifications}
+Our search algorithm will need to be modified so that once an individual is selected there is a check that the current time is not between the start and end of the ‘sleep’ times. This feature will provide little extra overhead to the server as there will be only one extra comparison (between the sleep times and current time) which will only be run if an individual is selected as a candidate to be contacted.
+\subparagraph{Database Modifications}
+Similarly to the do not disturb feature, the sleep times are tied to the responder rather than their individual devices, so the data is places in the \texttt{\color{OliveGreen}Responders} table. It will be contained in two fields, \texttt{\color{OliveGreen}SleepBegin} and \texttt{\color{OliveGreen}SleepEnd}, which will both default to \texttt{\color{OliveGreen}null}, indicating no times configured. Regarding the type, we only need accuracy to the minute, and no date component is required (as sleep reoccurs every night). SQL Server doesn’t have a perfect match, however the closest is \texttt{\color{OliveGreen}time(0)} which can handle a seconds component as well - it is more accurate than required.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{"Iteration5/iteration-5-sleep"}
+	\end{figure}
+
+\pagebreak
+This leaves the database design at the end of this iteration as follows:
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration5/iteration-5-end"}
+	\end{figure}
+
+	
+%start of iteraitoin 6
+\pagebreak
+		\subsubsection{Iteration 6 - Improving User Selection}
+		\paragraph{Aim}
+		As it stands, users are selected based on their straight line distance from the location of the incident. This works at a basic level, but is suboptimal and problematic for several reasons.
+		
+		\paragraph{Problems}
+		\subparagraph{Impassable Terrain}
+		Not all distances are equally quick to cover. A 200m journey along a flat road is relatively quick, whereas a shorter journey up a steep hill - or indeed over or up a cliff - poses more of a problem for responders. This will either substantially slow the responder down while they find a route, or mean they reject the request for assistance.
+		\subparagraph{Mode of Transport}
+		Similarly the current selection mechanism doesn’t take into account the rate at which responders can cover the distance to the emergency. Those in cars will usually move quicker, but traffic conditions will influence this, so it cannot be universally regarded as superior. In addition, the selection algorithm is only given positions of responders - it is unaware of their mode of transport, whether they’re moving towards or away from an incident etc.
+		\subparagraph{Elevation}
+		This is a more subtle problem, but it could cause major delays in built up areas. The current algorithm works in two-dimensional space, assuming two equal distances are equally quick to traverse. As a result, cities containing lots of tall buildings with subtle access points pose a problem. Someone initially appearing to be closer may take longer to reach an emergency, as they have to go further away to reach an escalator or lift. This problem will also emerge whenever paths cross or overlap, such as when a road crosses a river, built over a path along the bank.
+
+		\paragraph{Solutions}
+		There are some solutions to all of the issues described above, however before they are considered, so must be performance. Currently, straight line distance is calculated by the database engine using the \texttt{\color{OliveGreen}STDistance} function. As a result, it is incredibly fast and so conceivable to run on the latest data from every responder for every incident. More involved solutions, like route-finding, cannot be done in this way. They require significant overhead and so the speed of operation must be considered.\\
+
+The issue of impassable terrain can be overcome by using a mapping service (such as Google Maps or Ordinance Survey) to get details of terrain and routes. If the surface profile between the responder and the incident is relatively flat, the straight line distance becomes a more effective measure of travel time. Likewise, if there is a path or road that starts and ends near the points, it suggests they are reasonably accessible to each other.\\
+
+The next step up from this is doing a full search between each responder and the incident. While this would give the most accurate result, and could even be used to guide responders to incidents, it is also very inefficient, even when highly parallelised. As a result, it would have to be used with another technique, possibly straight line distance. In this case, straight line distance would be used to filter out those who are simply too far away to arrive within the 8 minute window. Using the average walking speed of 3.1 mph [61], and assuming this is the slowest any responder will travel at (a safe approximation, given most responders will walk briskly or run), the maximum straight line distance any potential responder should be from an incident is 665m. Therefore, \texttt{\color{OliveGreen}STDistance} can be used to select all responders within this radius of an incident, and then do run a search algorithm on them. If this proves to be too much in congested areas, even after optimising performance (in theory every responder’s search could be run in parallel), the limit would have to be lowered.\\
+
+However, it is important to realise that there are no universal solutions to the issues described above. It is impossible to keep a constant record of whether a responder is on foot or bicycle, in a car or on a bus that is travelling a set route - which may happen to deviate away from the incident in the future. It would be foolish to select someone based on a footpath between them and the incident, when they are in a car.\\
+
+After a fair amount of thought and brainstorming, it became evident that the best overall solution is to use the historical data available to make better decisions. People’s lives are normally full of patterns, which can be exploited to our advantage. This, combined with using the last few locations of a person to calculate their speed - and therefore likely mode of transport (with on foot being a good assumption if no movement), means it should be possible to give accurate predictions of where each person will be at a given time. Using this data, the system will be able to answer questions like ‘Who will be nearest to this incident within the next minute?’, compensating for travel distance as the time increases. It will be a compromise between sending someone further away sooner, and telling someone currently further away who we believe is travelling towards the emergency.\\
+
+Of course, in practice the system would always choose someone closer to the incident now, as it is safer, however specifying such a system is beyond the scope of this project. Although a very interesting mini-project, a large testing effort would be required to design it, so our specification will remain with eliminating those too far away using straight line distance, before running search on the remaining ones using walking as the mode of transport.
+
 \end{document}
