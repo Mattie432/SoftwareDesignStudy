@@ -10,5 +10,28 @@
 
 
 \begin{document}
-    \section{System Overview}
+\section{Modules}
+    \subsection{Emergency App}
+    
+    \subsection{CPR System}
+    	\subsubsection{Rationale}
+    	Cardiovascular diseases are one of the leading causes of death in the western world [1]. They come with an increased risk of cardiac arrest, of which there are an estimated 60,000 [2] incidents out of hospital annually in the UK - about 1 every 9 minutes. In fact, across the whole of Europe, 1 person per 1000 population will suffer a cardiac arrest in any year.\\
+    	
+The truth however, is that in most cases of out of hospital cardiac arrest the chances of survival are depressingly low. The average overall survival rate for England is just 8.6\% [2] and in some parts of the country, just 1 in 14 people survive an unanticipated cardiac arrest [3]. This is poor by international standards, with some of the highest survival rates being Norway (25\%), Holland (21\%) and Seattle (20\%) [2] which shows clear potential for improvement in the UK.\\
+
+The most effective way to increase a person’s chances of survival from cardiac arrest is to perform immediate CPR, whether that be only chest compressions or mouth to mouth. Evidence suggests that where CPR is attempted, survival rates are doubled [5] and this could be expected to save around 300 lives per year. This is because the chance of survival after a cardiac arrest reduces by around 10\% every minute without proper care [6] due to the lack of oxygen the body (and especially the brain) experiences. Early CPR until paramedics arrive is very important to maintain blood circulation to the heart and brain, which also increases the chance that treatment with defibrillators is successful [6].\\
+
+One of the main reasons that the fatality rates of the UK are so high is because of a low rate of initial CPR by bystanders: “Fewer than one in five people who suffer a survivable cardiac arrest receive the life-saving intervention they need from people nearby” [3]. Compare this to 73\% in Norway [4] and it is clear that this is an area for major improvement. There are several factors thought to be responsible for low levels of bystander-initiated CPR, including lack of training and fear of litigation [5]. In addition, the number of population trained in CPR is currently 3.8m [5] (out of 60m). This small proportion means the likelihood of someone being nearby when an individual suffers a cardiac arrest is very low, and furthermore, training new people to give CPR will only help in the long term as it will take some time before any difference to this likelihood is noticed. In the meantime, a better way is needed to link those trained to give CPR to those in need of it.\\
+
+So few recoverable cardiac arrests are survived mainly due to the time it takes between the arrest occurring and the rescue attempt beginning. With the average waiting time currently around 8 minutes [7], and recent news of longer response times from emergency services [24], we need to look into ways of helping those affected before emergency services arrive.\\
+		\subsubsection{Project SMS-livräddare}
+		
+		There is an ongoing research project in Sweden called “Project SMS-livräddare“ [6], which aims to improve cardiac arrest survival rates by getting trained civilians to start CPR early, before the ambulance arrives [6]. Currently active in the entire capital city of Stockholm, the trial started in May 2010 and has seen massive uptake from the public, with 9,600 residents currently registered [9]. This has resulted in SMS-livräddare-volunteers reaching victims before ambulances in 54\% of cases and has helped increase survival rates from 3\% to nearly 11\%, over the last decade [8].\\
+
+The system works by having willing civilians trained in CPR register to help if a cardiac arrest happens in their vicinity. When an emergency call is received, the geographical position of the caller is determined. If there is suspicion that a cardiac arrest has occurred the emergency operator activates a positioning system that locates the mobile phones of helpers connected to the service. In cases where a lifesaver is nearby, they are alerted via their mobile phone. Meanwhile ambulance and emergency services are alerted. The alarm to the SMS-lifesaver’s mobile phone comes as an SMS. The text message contains information from the emergency services about where the suspected cardiac arrest has occurred and the message also includes a map link which can be used to more easily find the location. The SMS-lifesaver also receives an automatically generated phone call to alert the user that an SMS arrived on the phone [6].\\
+
+This is the basis for our implementation of this feature. We believe that this project has done incredible work and shown people a new way of being a part of first aid assistance, but that there are areas which could be refined and improved. For example, the project currently has users register two areas that they will likely be, one for day and one for evening, then uses these areas to determine people to contact. This, and other problems like it, will be what we intend to address in our implementation of the system.\\
+
+    \subsection{API}
+    
 \end{document}

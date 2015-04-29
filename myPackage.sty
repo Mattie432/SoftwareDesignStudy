@@ -1,0 +1,72 @@
+% this is my first package
+% 
+% (c) Buffalo Bill
+%
+%% This program can be redistributed and/or modified under the terms
+%% of the LaTeX Project Public License Distributed from CTAN archives
+%% in directory macros/latex/base/lppl.txt.
+% 
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{myPackage}
+  [2011/01/11 v0.01 LaTeX package for my own purpose]
+
+\RequirePackage{standalone}
+\RequirePackage{graphicx}
+\RequirePackage[english]{babel}
+\RequirePackage{multicol}
+\RequirePackage[a4paper]{geometry}
+\RequirePackage{enumitem}
+\RequirePackage[normalem]{ulem}
+\RequirePackage{fixltx2e}
+\RequirePackage{color}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{float}
+\RequirePackage{gensymb}
+\RequirePackage{wrapfig}
+\RequirePackage{longtable}
+
+\RequirePackage[parfill]{parskip}
+\RequirePackage{supertabular,booktabs}
+\RequirePackage{listings}
+\RequirePackage{booktabs}
+\newcommand{\bftab}{\fontseries{b}\selectfont}
+%Paths for graphics locations
+\graphicspath{ {./}{../../}{../}{TitlePage/}{SystemOverview/}{Modules/}{Specification/CommonTechnologies/}{CommonTechnologies/}}
+
+%create common paths for inputs!!!
+\makeatletter
+\def\input@path{{CommonTechnologies/}{Specification/}}
+\makeatother
+
+
+%Code snipets
+\RequirePackage{listings}
+\RequirePackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+  %frame=tb,
+  language=XML,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+
+\endinput
+%%
+%% End of file `mypackage.sty'.

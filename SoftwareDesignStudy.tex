@@ -1,29 +1,6 @@
 \documentclass[]{article}
-\usepackage{graphicx}
-\usepackage[english]{babel}
-\usepackage{standalone}
-\usepackage{multicol}
-\usepackage[a4paper]{geometry}
-\usepackage{enumitem}
-\usepackage[normalem]{ulem}
-\usepackage{fixltx2e}
-\usepackage{color}
-\usepackage[hidelinks]{hyperref}
-\usepackage{float}
-\usepackage{gensymb}
-\usepackage{wrapfig}
-\usepackage{longtable}
+\usepackage{myPackage}
 
-\usepackage[parfill]{parskip}
-\usepackage{supertabular,booktabs}
-\usepackage{listings}
-\usepackage{booktabs}
-\newcommand{\bftab}{\fontseries{b}\selectfont}
-
-
-
-%Paths for graphics locations
-\graphicspath{ {./}{../../}{../}{TitlePage/}{SystemOverview/}}
 
 \begin{document}
 	%Insert title page
@@ -41,7 +18,6 @@
 	%adjust page width for sections
 
 	\newgeometry{left=1.5cm,right=1.5cm,bottom=2cm,top=1.5cm}
-\begin{multicols}{2}
 	\input{Abstract/Abstract}
 	\begin{center}
 	\hrulefill
@@ -67,5 +43,5 @@
 	\hrulefill
 	\end{center}
 	\input{PersonalReflections/PersonalReflections}
-\end{multicols}
+
 \end{document}
