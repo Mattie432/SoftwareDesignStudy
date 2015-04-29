@@ -3,6 +3,7 @@
 
 
 \begin{document}
+%start of iteration 1
 	\subsection{CPR System}
 		\subsubsection{Iteration 1 - Basic Functionality}
 			\paragraph{Aims}
@@ -173,7 +174,7 @@ Device keys are allowed to be up to 4096 bytes, as GCM \texttt{\color{OliveGreen
 Entity relationship diagram of the database.
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.1\textwidth]{"Iteration1/cpr-database-0"}
+		\includegraphics[width=1\textwidth]{"Iteration1/cpr-database-0"}
 	\end{figure}
 
 N.B. \texttt{\color{OliveGreen}Incidents.ResponderID} is nullable as it is conceivable that an incident might be created, and it take a few moments for a responder to be assigned to it.\\
@@ -222,5 +223,115 @@ ORDER BY Proximity ASC;
 From here, it is trivial to look up the owner of the closest device and notify all of their devices of the emergency.\\
 
 
+%start of iteraitoin 2
+\pagebreak
+		\subsubsection{Iteration 2 - Accept \& Decline an emergency}
+		\paragraph{Aim}
+		This iteration addresses the issue of an individual either not being able to attend an emergency or not responding to the emergency request in a reasonable time. It will also address whether the person contacted is unreachable and how the system should react in that situation.\\
+		
+On completion, this iteration should give responders the choice to either accept or decline a request for attendance at an incident, and depending on their decision, the system should be able to react appropriately. It should also address the issue of the contacted user being unreachable after the system sends a help request notification.\\
+
+		\paragraph{Storyboard}
+		This storyboard visualises the intended functionality of the system.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration2/Storyboard - Iteration 1 - 1"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration2/Storyboard - Iteration 1 - 2"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration2/Storyboard - Iteration 1 - 3"}
+	\end{figure}
+	\begin{enumerate}
+  		\item The closest person to the emergency is contacted (as per the previous iteration).
+  		\item They are now given the opportunity to accept or decline the request.
+  		\item If they accept the request, they go off to help at the emergency. If they decline, the system contacts the next closest person to the emergency. Subsequent responders are also given the option to accept or decline.
+  		\item This continues until a user says they are able to help or the request is cancelled/resolved by the dispatcher.
+	\end{enumerate}
+	This will make our system more robust as we are no longer assuming that the first person contacted can attend the incident. It also gives responders more control over when they can help rather than simply being contacted and their attendance assumed (as in the previous iteration). This reflects a much more realistic use case, as in reality responders will be busy, or their devices will be unavailable, or notifications will be delayed.\\
+		
+	\paragraph{Confirming Attendance}
+	The best way for us to allow the user to tell the server if they intend to respond to an emergency help request is through  Accept and Decline buttons. This presents the choice to responders in an obvious way that requires no training or learning time.\\
+\begin{wrapfigure}{l}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{"Iteration2/Iteration 1 - Accept_Decline Buttons 1"}
+  \end{center}
+\end{wrapfigure}
+These buttons should be present in the app rather than the notification as then responders are able to see more information about the emergency (such as its the location on a map) before making their decision. It is also less likely to be miss-tapped, as the user first has to acknowledge the notification and open the app to be able to respond.\\
+
+This prototype demonstrates the button placement of the Accept and Decline buttons. They have taken the place of the ‘directions’ button (which started route guidance to the emergency), as this is not applicable until the user has indicated they are attending the incident. In addition, this placement does not interfere with any other visual elements; all information is still readable and clear.\\
+
+The Accept and Decline button colours should be red and green respectively to fit in with the standard format for Yes/No buttons, and to encourage responders to accept requests for help. The placement of the Accept button should be to the left, as this makes it harder to mis-tap - the majority of the population are right handed, [29] and this positioning requires more of a stretch to reach.\\
+
+We have also decided to implement a background timeout for the user to acknowledge a notification. This should start when an emergency request is sent from our server (via GCM) and the notification is displayed. The user will then have 30 seconds to open the notification before the timeout kicks in. If the user does not respond within this time, the notification is automatically declined and the server will send the notification to the next closest person as if the user had declined it themselves.\\
+
+This is implemented because of the time sensitive nature of these type of emergencies. The idea of the first responder is to be able to attend the scene before the emergency services can get there (the target response time being 8 minutes[30]), so any delay in alerting a potential first responder reduces their usefulness. As a result, if the first person contacted does not reply quickly enough then our system will discard them and move onto the next person who might be able to help faster.\\
+
+This cycles should continue until one of the following conditions has been met:
+\begin{itemize}
+\item The 8 minute average response time has passed, after which we expect an emergency response to be either at the incident or very close. After this time the likelihood of a first responder being able to help the injured individual has also decreased dramatically, to the point where it is highly unlikely they would be able to do anything.
+\item The next individual who is due to be contacted with the emergency is beyond the reasonable response distance for a first responder. This stops the chain of help requests reaching anyone who is too far away to be able to help. This distance should be based off the time it would take an individual to travel to the incident. On average an 8 minute journey would take the traveller around 2-3 miles in an urban environment, and up to 5-6 miles in a more rural setting. Therefore our cut-off distance should be towards the upper end to allow people in rural areas the chance to attend the incident. Around 5 miles should be appropriate.
+\end{itemize}
+We cannot use the state of the emergency as a cut-off for our system, as emergency responses tend to not report on the status of their emergency until the casualty has been delivered to a hospital. If we were to use this then our system would still be sending first responders to the emergency after the ambulance had left, wasting their time and reducing the likelihood of them continuing to use the system.\\
+
+\paragraph{Confirmation Messages}
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+  \vspace{-30pt}
+    \includegraphics[width=0.4\textwidth]{"Iteration2/Iteration 1 - Accept_Decline Buttons 2"}
+  \end{center}
+  \vspace{-140pt}
+\end{wrapfigure}
+The Accept and Decline buttons should also have a verification message box to ensure the user intended to select that option. This should clearly state the action (accept or decline)  and  be placed on the screen so that the bottom information pane is still visible.\\
+
+Finally, upon the user accepting an incident, the app pane should have a Withdraw button still visible for cases where there was a missclick (even after the verification), or a situation arises where the user is unable to attend (such as unforeseen traffic jam). Upon clicking this button the system should resume as if it were a normal decline, and alert the next user if the end criteria have not been met.
+\pagebreak
+
+\begin{wrapfigure}{l}{0.55\textwidth}
+  \begin{center}
+  \vspace{-30pt}
+    \includegraphics[width=0.55\textwidth]{"Iteration2/Iteration 1 - Accept_Decline Buttons 3"}
+  \end{center}
+  \vspace{-250pt}
+\end{wrapfigure}
+
+
+This button should be placed on the left hand side of the screen for the aforementioned reasons, and be next to the Directions button so that it does not interfere with any of the information being displayed to the user.\\
+
+Upon clicking this button, the user should be presented with a confirmation screen which clearly states what the action they are performing means.\\
+
+\pagebreak
+\paragraph{Keep playing alert sound until user accepts/declines}
+This is another feature of the app which we discussed and decided on what to implement. Should the phone play a single notification sound or for the sound to keep playing (like an incoming call) until the user accepts or declines it. We decided to play a continuous alert until the user begins to actively use the phone, this means that the alert will play until the phone is turned on (from sleep state), the volume buttons are pressed (standard way to mute an alert on most devices) or the user accepts or declines the emergency alert.\\
+
+This can be easily implemented as we are able to run any code which we like upon receiving a GCM message for this app. This will allow us to start the alert tone and add hooks into the various stop events which will cancel the playing of the alert.\\
+
+\paragraph{Database Modifications}
+This iteration requires the ability to link multiple responders to an incident, which necessitates several changes to the database design. The first step is to remove the \texttt{\color{OliveGreen}ResponderID} field from the \texttt{\color{OliveGreen}Incidents} table, as the relationship is now too complex to be implemented in this way. Instead, another table of \texttt{\color{OliveGreen}IncidentResponders} is needed, which had a foreign key into \texttt{\color{OliveGreen}Incidents:}	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.87\textwidth]{"Iteration2/cpr-database-1"}
+	\end{figure}
+	
+	This allows us to keep track of multiple responders attending a single incident, each having an \texttt{\color{OliveGreen}IncidentResponderID}, which uniquely identifies a responder attending an incident.\\
+
+Next, we need to be able to keep track of the status of each responder - effectively the progress of their notification, from sent, to accepted, declined or withdrawn, including no response at all. This information requires another table, which shall be called \texttt{\color{OliveGreen}IncidentResponderEvents:}\\	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration2/cpr-database-2-portrait"}
+	\end{figure}
+	
+	In the schema above, when a responder is selected to attend an incident, a row is inserted into \texttt{\color{OliveGreen}IncidentResponders}, and notifications for their devices queued for sending. When this completes, a row is inserted into \texttt{\color{OliveGreen}IncidentResponderEvents} with status ‘sent’. From this point on, the aforementioned timeout for the responder to indicate whether they will be attending the incident starts. This timeout should be implemented in the application layer.\\
+
+When the responder selects ‘accept’ or ‘decline’, the application will insert a new row into\\
+\texttt{\color{OliveGreen}IncidentResponderEvents} with the corresponding status, and similarly for if a responder withdraws their acceptance. If that status was ‘declined’ or ‘withdrawn’, the application must first check the timeout for responder help has not expired, before repeating responder selection, which takes into account declined responders for an incident, making sure they are not selected again. More about this process is detailed in the next section.\\
+
+\paragraph{Selection Algorithm Modifications}
+This iteration requires selection of the ‘next best’ responder, which the previous algorithm could not cope with. However, the change is not a difficult one. Given the above database modifications, it is easy to take the set of responders who have declined or withdrawn from a given incident, and subtract this from the set of all potential responders who could attend, removing their devices from the selection step.\\
+
+Similarly, introducing a maximum distance, above which devices (and therefore responders) are ignored is straightforward. SQL Server’s \texttt{\color{OliveGreen}STDistance} function returns a distance in metres, so a conversion into miles can be done by dividing the returned value by 1609.344. Armed with this information, it’s simply a case of adding another \texttt{\color{OliveGreen}WHERE} condition to the previous device selection query.\\
 
 \end{document}

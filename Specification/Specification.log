@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 18:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 22:45
 entering extended mode
 **Specification.tex
 
@@ -449,66 +449,94 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+(D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen143
+\captionmargin@=\dimen144
+\captionwidth=\dimen145
+\caption@tempdima=\dimen146
+\caption@indent=\dimen147
+\caption@parindent=\dimen148
+\caption@hangindent=\dimen149
+)
+\c@ContinuedFloat=\count124
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+)
+(D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count125
+\c@subtable=\count126
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabu
 lar.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count124
-\ST@wd=\dimen143
+\c@tracingst=\count127
+\ST@wd=\dimen150
 \ST@rightskip=\skip52
 \ST@leftskip=\skip53
 \ST@parfillskip=\skip54
-\ST@pageleft=\dimen144
-\ST@headht=\dimen145
-\ST@tailht=\dimen146
-\ST@pagesofar=\dimen147
-\ST@pboxht=\dimen148
-\ST@lineht=\dimen149
-\ST@stretchht=\dimen150
-\ST@prevht=\dimen151
-\ST@toadd=\dimen152
-\ST@dimen=\dimen153
+\ST@pageleft=\dimen151
+\ST@headht=\dimen152
+\ST@tailht=\dimen153
+\ST@pagesofar=\dimen154
+\ST@pboxht=\dimen155
+\ST@lineht=\dimen156
+\ST@stretchht=\dimen157
+\ST@prevht=\dimen158
+\ST@toadd=\dimen159
+\ST@dimen=\dimen160
 \ST@pbox=\box66
 )
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen154
-\lightrulewidth=\dimen155
-\cmidrulewidth=\dimen156
-\belowrulesep=\dimen157
-\belowbottomsep=\dimen158
-\aboverulesep=\dimen159
-\abovetopsep=\dimen160
-\cmidrulesep=\dimen161
-\cmidrulekern=\dimen162
-\defaultaddspace=\dimen163
-\@cmidla=\count125
-\@cmidlb=\count126
-\@aboverulesep=\dimen164
-\@belowrulesep=\dimen165
-\@thisruleclass=\count127
-\@lastruleclass=\count128
-\@thisrulewidth=\dimen166
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
+\@cmidla=\count128
+\@cmidlb=\count129
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
+\@thisruleclass=\count130
+\@lastruleclass=\count131
+\@thisrulewidth=\dimen173
 ) (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.st
 y
-\lst@mode=\count129
+\lst@mode=\count132
 \lst@gtempboxa=\box67
 \lst@token=\toks24
-\lst@length=\count130
-\lst@currlwidth=\dimen167
-\lst@column=\count131
-\lst@pos=\count132
-\lst@lostspace=\dimen168
-\lst@width=\dimen169
-\lst@newlines=\count133
-\lst@lineno=\count134
-\lst@maxwidth=\dimen170
+\lst@length=\count133
+\lst@currlwidth=\dimen174
+\lst@column=\count134
+\lst@pos=\count135
+\lst@lostspace=\dimen175
+\lst@width=\dimen176
+\lst@newlines=\count136
+\lst@lineno=\count137
+\lst@maxwidth=\dimen177
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count135
-\lst@skipnumbers=\count136
+\c@lstnumber=\count138
+\lst@skipnumbers=\count139
 \lst@framebox=\box68
 )
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
@@ -540,16 +568,16 @@ LaTeX Font Info:    ... okay on input line 5.
 
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen171
+\scratchcounter=\count140
+\scratchdimen=\dimen178
 \scratchbox=\box69
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen172
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen179
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
 \everyMPtoPDFconversion=\toks26
 )
 *geometry* driver: auto-detecting
@@ -594,7 +622,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count143
+\c@section@level=\count146
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -616,7 +644,11 @@ Package gensymb Info: Using \Omega for \ohm on input line 5.
 
 Package gensymb Warning: Not defining \micro.
 
-\c@lstlisting=\count144
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count147
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 \CommonTechnologies/CommonTechnologies.tex
@@ -645,15 +677,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
 [1
 
-{D:/Users/Mattie432/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}pdfTeX wa
-rning (ext4): destination with the same identifier (name{figure.1}) has been al
-ready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.22 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Network Map - Iteration 0.png>]
+{D:/Users/Mattie432/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/User
+s/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CommonT
+echnologies/Network Map - Iteration 0.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -683,14 +709,8 @@ Package pdftex.def Info: CommonTechnologies/"GCM Registration Sequence Diagram
 - Iteration 0".png used on input line 38.
 (pdftex.def)             Requested size: 334.60422pt x 213.89476pt.
 
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.41 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Initial GCM Setup - Iteration 0.png>]
+[2 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
+ion/CommonTechnologies/Initial GCM Setup - Iteration 0.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -709,14 +729,8 @@ file (type png)
 Package pdftex.def Info: CommonTechnologies/"Sending a message via GCM - Iterat
 ion 0".png used on input line 48.
 (pdftex.def)             Requested size: 418.25368pt x 282.69754pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.51 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/GCM Registration Sequence Diagram - Iteration 0.png>]
+ [3 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CommonTechnologies/GCM Registration Sequence Diagram - Iteration 0.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -736,27 +750,13 @@ Package pdftex.def Info: CommonTechnologies/"GCM Send Message Sequence Diagram
 - Iteration 0".png used on input line 56.
 (pdftex.def)             Requested size: 418.25368pt x 356.06178pt.
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.59 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Sending a message via GCM - Iteration 0.png>]
+[4 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
+ion/CommonTechnologies/Sending a message via GCM - Iteration 0.png>]
 Missing character: There is no ‚ in font cmtt9!
 Missing character: There is no Ä in font cmtt9!
 Missing character: There is no ô in font cmtt9!
-
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.72       }
-             <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/
-Specification/CommonTechnologies/GCM Send Message Sequence Diagram - Iteration 
-0.png>]
+ [5 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CommonTechnologies/GCM Send Message Sequence Diagram - Iteration 0.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -789,7 +789,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-<CommonTechnologies/"GSM Sending a message upstream".png, id=81, 603.0028pt x 1
+<CommonTechnologies/"GSM Sending a message upstream".png, id=82, 603.0028pt x 1
 32.495pt>
 File: CommonTechnologies/"GSM Sending a message upstream".png Graphic file (typ
 e png)
@@ -804,14 +804,8 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.99       "
-            data": <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesign
-Study/Specification/CommonTechnologies/GSM Sending a message upstream.png>]
+[6 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
+ion/CommonTechnologies/GSM Sending a message upstream.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -824,7 +818,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []
 
 
-<CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, id=97, 450.181
+<CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, id=99, 450.181
 87pt x 277.78781pt>
 File: CommonTechnologies/"GCM Upstream Message Sequence Diagram".png Graphic fi
 le (type png)
@@ -859,23 +853,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 )
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 \CPRSystem/CPRSystem.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/GCM Upstream Message Sequence Diagram.png>]
+[8 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
+ion/CommonTechnologies/GCM Upstream Message Sequence Diagram.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
@@ -886,7 +874,7 @@ File: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png Graphic file (typ
 e png)
  <use CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".pn
-g used on input line 17.
+g used on input line 18.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
 <CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=134, 894.34125pt x
@@ -895,7 +883,7 @@ File: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png Graphic file (typ
 e png)
  <use CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".pn
-g used on input line 21.
+g used on input line 22.
 (pdftex.def)             Requested size: 418.25368pt x 213.11632pt.
 
 <CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=135, 894.34125pt x
@@ -904,7 +892,7 @@ File: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png Graphic file (typ
 e png)
  <use CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".pn
-g used on input line 25.
+g used on input line 26.
 (pdftex.def)             Requested size: 418.25368pt x 212.6469pt.
 
 [9 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
@@ -913,7 +901,7 @@ e432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iter
 ation1/Storyboard - Iteration 0 - 2.png> <D:/Users/Mattie432/Dropbox/Programmin
 g/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteration1/Storyboard - Ite
 ration 0 - 3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
@@ -924,24 +912,24 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
@@ -949,18 +937,18 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-<CPRSystem/"Iteration1/Android Notification Layout".png, id=173, 365.6862pt x 1
+<CPRSystem/"Iteration1/Android Notification Layout".png, id=176, 365.6862pt x 1
 23.3408pt>
 File: CPRSystem/"Iteration1/Android Notification Layout".png Graphic file (type
  png)
  <use CPRSystem/"Iteration1/Android Notification Layout".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Android Notification Layout".png
- used on input line 69.
+ used on input line 70.
 (pdftex.def)             Requested size: 200.75996pt x 67.7153pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -969,39 +957,39 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-Underfull \hbox (badness 1127) in paragraph at lines 72--73
+Underfull \hbox (badness 1127) in paragraph at lines 73--74
 \OT1/cmr/m/n/10 fea-tures, a Ti-tle/-Name, No-ti-fi-ca-tion Icon,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 [12 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration1/Android Notification Layout.png>]
-<CPRSystem/"Iteration1/Android notification icon".jpg, id=180, 278.9622pt x 288
+<CPRSystem/"Iteration1/Android notification icon".jpg, id=184, 278.9622pt x 288
 .5982pt>
 File: CPRSystem/"Iteration1/Android notification icon".jpg Graphic file (type j
 pg)
  <use CPRSystem/"Iteration1/Android notification icon".jpg>
 Package pdftex.def Info: CPRSystem/"Iteration1/Android notification icon".jpg u
-sed on input line 77.
+sed on input line 78.
 (pdftex.def)             Requested size: 62.73549pt x 64.90096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
 
-<CPRSystem/"Iteration1/Android Notification Layout Extended".png, id=181, 576.6
+<CPRSystem/"Iteration1/Android Notification Layout Extended".png, id=185, 576.6
 5437pt x 476.53032pt>
 File: CPRSystem/"Iteration1/Android Notification Layout Extended".png Graphic f
 ile (type png)
 
 <use CPRSystem/"Iteration1/Android Notification Layout Extended".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Android Notification Layout Exte
-nded".png used on input line 84.
+nded".png used on input line 85.
 (pdftex.def)             Requested size: 200.75996pt x 165.90102pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1010,83 +998,83 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-Underfull \hbox (badness 1237) in paragraph at lines 87--88
+Underfull \hbox (badness 1237) in paragraph at lines 88--89
 [][]\OT1/cmr/m/n/10 The times-tamp of the no-ti-fi-ca-tion should
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 87--88
+Underfull \hbox (badness 2894) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 be set to the time that the push no-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 87--88
+Underfull \hbox (badness 3601) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 ti-fi-ca-tion was re-ceived and the mes-sage
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 87--88
+Underfull \hbox (badness 4846) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 body should con-tain both the dis-tance
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 87--88
+Underfull \hbox (badness 5533) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 to and the ad-dress of the emer-gency.
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 87--88
+Underfull \hbox (badness 7291) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 An-droid al-lows ex-pand-able lay-outs [22]
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 87--88
+Underfull \hbox (badness 1540) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 which al-lows the no-ti-fi-ca-tion to be min-
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 87--88
+Underfull \hbox (badness 4899) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 i-mal ini-tially and ex-pand when clicked
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 87--88
+Underfull \hbox (badness 2990) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 on. The min-i-mal lay-out still con-tains
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 87--88
+Underfull \hbox (badness 1596) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 both the ti-tle and the icon (along with
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 87--88
+Underfull \hbox (badness 4492) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 a line of text) which means the user
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 87--88
+Underfull \hbox (badness 1681) in paragraph at lines 88--89
 \OT1/cmr/m/n/10 can still in-stantly see what the no-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-<CPRSystem/"Iteration1/Android Notification Design".png, id=182, 416.30531pt x 
+<CPRSystem/"Iteration1/Android Notification Design".png, id=186, 416.30531pt x 
 318.43968pt>
 File: CPRSystem/"Iteration1/Android Notification Design".png Graphic file (type
  png)
  <use CPRSystem/"Iteration1/Android Notification Design".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Android Notification Design".png
- used on input line 91.
+ used on input line 92.
 (pdftex.def)             Requested size: 209.12683pt x 159.96773pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1095,72 +1083,72 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 3386) in paragraph at lines 93--94
+Underfull \hbox (badness 3386) in paragraph at lines 94--95
 [][]\OT1/cmr/m/n/10 This is a de-sign shown how our no-ti-
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 93--94
+Underfull \hbox (badness 3503) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 fi-ca-tion might look to the user on ei-
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 93--94
+Underfull \hbox (badness 1831) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 ing the phone. Upon click-ing this no-
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 93--94
+Underfull \hbox (badness 2608) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 ti-fi-ca-tion the app will be launched and
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 93--94
+Underfull \hbox (badness 1975) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 show a CPR pane which would not be
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 93--94
+Underfull \hbox (badness 1661) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 nor-mally ac-ces-si-ble. This pane con-tains
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 93--94
+Underfull \hbox (badness 3291) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 a map with the lo-ca-tion of the emer-
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 93--94
+Underfull \hbox (badness 1748) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 gency shown clearly with a marker, the
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 93--94
+Underfull \hbox (badness 5175) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 users cur-rent lo-ca-tion and a di-rec-tions
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 93--94
+Underfull \hbox (badness 3364) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 but-ton which will plot a route to the
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 93--94
+Underfull \hbox (badness 3919) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 emer-gency from the users cur-rent lo-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -1188,27 +1176,27 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-<CPRSystem/"Iteration1/Android CPR app pane".png, id=204, 431.6125pt x 819.06pt
+<CPRSystem/"Iteration1/Android CPR app pane".png, id=211, 431.6125pt x 819.06pt
 >
 File: CPRSystem/"Iteration1/Android CPR app pane".png Graphic file (type png)
  <use CPRSystem/"Iteration1/Android CPR app pane".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/Android CPR app pane".png used o
-n input line 118.
+n input line 119.
 (pdftex.def)             Requested size: 167.2989pt x 317.46996pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -1217,12 +1205,12 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 1231) in paragraph at lines 120--121
+Underfull \hbox (badness 1231) in paragraph at lines 121--122
 \OT1/cmr/m/n/10 in-ter-val so that the value is up-dated while mov-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
@@ -1233,7 +1221,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
@@ -1244,67 +1232,67 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 3815) in paragraph at lines 124--125
+Underfull \hbox (badness 3815) in paragraph at lines 125--126
 []\OT1/cmr/m/n/10 We have de-cided to im-ple-ment an in-app map
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 124--125
+Underfull \hbox (badness 1348) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 fault map app be-cause it gives us a greater de-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 124--125
+Underfull \hbox (badness 1320) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 gree of con-trol over what we can show the user
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 124--125
+Underfull \hbox (badness 3679) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 and al-low them to in-ter-act with. For ex-am-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 124--125
+Underfull \hbox (badness 1158) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 the marker [18] so that the user can-not ac-ci-den-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 124--125
+Underfull \hbox (badness 2932) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 lay their re-sponse time. It also al-lows us to
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 124--125
+Underfull \hbox (badness 3158) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 dis-play our own con-tent on the screen (in the
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 124--125
+Underfull \hbox (badness 2158) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 lower third) at the same time that the user is
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 124--125
+Underfull \hbox (badness 5316) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 get-ting di-rec-tions to the emer-gency. This is
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 124--125
+Underfull \hbox (badness 3118) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 cur-rently dis-play-ing the ad-dress and dis-tance of
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 124--125
+Underfull \hbox (badness 4266) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 the emer-gency from the user how-ever it could
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 124--125
+Underfull \hbox (badness 1028) in paragraph at lines 125--126
 \OT1/cmr/m/n/10 be used to dis-play ex-tra in-for-ma-tion as ap-pro-pri-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
@@ -1321,18 +1309,18 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 [15 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration1/Android CPR app pane.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
@@ -1345,7 +1333,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
@@ -1362,7 +1350,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
@@ -1380,27 +1368,27 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 Missing character: There is no ‚ in font cmti10!
 Missing character: There is no Ä in font cmti10!
 Missing character: There is no ô in font cmti10!
@@ -1421,7 +1409,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
@@ -1429,40 +1417,36 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-<CPRSystem/"Iteration1/cpr-database-0".png, id=233, 572.1375pt x 553.31718pt>
+[18]
+<CPRSystem/"Iteration1/cpr-database-0".png, id=246, 572.1375pt x 553.31718pt>
 File: CPRSystem/"Iteration1/cpr-database-0".png Graphic file (type png)
 
 <use CPRSystem/"Iteration1/cpr-database-0".png>
 Package pdftex.def Info: CPRSystem/"Iteration1/cpr-database-0".png used on inpu
-t line 175.
-(pdftex.def)             Requested size: 460.08159pt x 444.95082pt.
+t line 177.
+(pdftex.def)             Requested size: 418.25368pt x 404.50075pt.
 
-Overfull \hbox (41.82791pt too wide) in paragraph at lines 175--176
- [][] 
- []
-
-
-Overfull \hbox (6.29564pt too wide) in paragraph at lines 172--176
+Overfull \hbox (6.29564pt too wide) in paragraph at lines 174--178
  \OT1/cmr/bx/n/10 1.2.1.9.3 En-tity Re-la-tion-ship Di-a-gram[] \OT1/cmr/m/n/10
  En-tity re-la-tion-ship di-a-gram of the database. 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
@@ -1470,31 +1454,290 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) [19 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
 cation/CPRSystem/Iteration1/cpr-database-0.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+<CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png, id=290, 799.98875pt x
+ 389.455pt>
+File: CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png Graphic file (typ
+e png)
+ <use CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png>
+Package pdftex.def Info: CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".pn
+g used on input line 238.
+(pdftex.def)             Requested size: 418.25368pt x 203.61714pt.
+
+Overfull \hbox (8.69775pt too wide) in paragraph at lines 235--239
+ \OT1/cmr/bx/n/10 1.2.2.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
+u-alises the in-tended func-tion-al-ity of the sys-tem. 
+ []
+
+
+<CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png, id=291, 799.98875pt x
+ 399.4925pt>
+File: CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png Graphic file (typ
+e png)
+ <use CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png>
+Package pdftex.def Info: CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".pn
+g used on input line 242.
+(pdftex.def)             Requested size: 418.25368pt x 208.865pt.
+
+<CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png, id=292, 799.98875pt x
+ 389.455pt>
+File: CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png Graphic file (typ
+e png)
+ <use CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png>
+Package pdftex.def Info: CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".pn
+g used on input line 246.
+(pdftex.def)             Requested size: 418.25368pt x 203.61714pt.
+
+[21 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration2/Storyboard - Iteration 1 - 1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[22 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration2/Storyboard - Iteration 1 - 2.png> <D:/Users/Mattie432
+/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
+n2/Storyboard - Iteration 1 - 3.png>]
+<CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 1".png, id=314, 422
+.57875pt x 808.01875pt>
+File: CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 1".png Graphic
+ file (type png)
+
+<use CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 1".png>
+Package pdftex.def Info: CPRSystem/"Iteration2/Iteration 1 - Accept_Decline But
+tons 1".png used on input line 260.
+(pdftex.def)             Requested size: 167.2989pt x 319.8975pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--262
+
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 262--264
+\OT1/cmr/m/n/10 than the no-ti-fi-ca-tion as then re-spon-ders are able
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 262--264
+\OT1/cmr/m/n/10 as its the lo-ca-tion on a map) be-fore mak-ing
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 262--264
+\OT1/cmr/m/n/10 their de-ci-sion. It is also less likely to be miss-
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 262--264
+\OT1/cmr/m/n/10 tapped, as the user first has to ac-knowl-edge the
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 262--264
+\OT1/cmr/m/n/10 no-ti-fi-ca-tion and open the app to be able to re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 1584) in paragraph at lines 265--266
+\OT1/cmr/m/n/10 of the Ac-cept and De-cline but-tons. They have
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 265--266
+\OT1/cmr/m/n/10 taken the place of the di-rec-tions but-ton (which
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 265--266
+\OT1/cmr/m/n/10 are at-tend-ing the in-ci-dent. In ad-di-tion, this
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 265--266
+\OT1/cmr/m/n/10 place-ment does not in-ter-fere with any other vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 267--268
+\OT1/cmr/m/n/10 dard for-mat for Yes/No but-tons, and to en-cour-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 267--268
+\OT1/cmr/m/n/10 age re-spon-ders to ac-cept re-quests for help. The
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 267--268
+\OT1/cmr/m/n/10 left, as this makes it harder to mis-tap - the
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 267--268
+\OT1/cmr/m/n/10 ma-jor-ity of the pop-u-la-tion are right handed, [29]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+[23 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+<CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 2".png, id=322, 429
+.605pt x 809.0225pt>
+File: CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 2".png Graphic
+ file (type png)
+
+<use CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 2".png>
+Package pdftex.def Info: CPRSystem/"Iteration2/Iteration 1 - Accept_Decline But
+tons 2".png used on input line 284.
+(pdftex.def)             Requested size: 167.2989pt x 315.06076pt.
+
+Underfull \hbox (badness 2951) in paragraph at lines 288--289
+\OT1/cmr/m/n/10 sage box to en-sure the user in-tended to se-lect
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 288--289
+\OT1/cmr/m/n/10 (ac-cept or de-cline) and be placed on the screen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+[24 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 2.png>]
+<CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 3".png, id=332, 430
+.60875pt x 809.0225pt>
+File: CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 3".png Graphic
+ file (type png)
+
+<use CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 3".png>
+Package pdftex.def Info: CPRSystem/"Iteration2/Iteration 1 - Accept_Decline But
+tons 3".png used on input line 296.
+(pdftex.def)             Requested size: 250.95476pt x 471.5048pt.
+
+Underfull \hbox (badness 7869) in paragraph at lines 302--303
+[][]\OT1/cmr/m/n/10 This but-ton should be placed
+ []
+
+
+Underfull \hbox (badness 5637) in paragraph at lines 302--303
+\OT1/cmr/m/n/10 on the left hand side of the
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 302--303
+\OT1/cmr/m/n/10 sons, and be next to the Di-
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 302--303
+\OT1/cmr/m/n/10 rec-tions but-ton so that it does
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 302--303
+\OT1/cmr/m/n/10 for-ma-tion be-ing dis-played to the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+[25 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12.
- [20]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 \Specification.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
-Package rerunfilecheck Info: File `Specification.out' has not changed.
-(rerunfilecheck)             Checksum: 48E0DBAFC5D580E233942FAA611BAACC;421.
+
+
+Package rerunfilecheck Warning: File `Specification.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Specification.out':
+(rerunfilecheck)             Before: 48E0DBAFC5D580E233942FAA611BAACC;421
+(rerunfilecheck)             After:  23CB1F2DE17276221D5A433E1C3D6A42;527.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12.
  ) 
 Here is how much of TeX's memory you used:
- 10095 strings out of 493921
- 155546 string characters out of 3144864
- 304957 words of memory out of 3000000
- 13016 multiletter control sequences out of 15000+200000
+ 11237 strings out of 493921
+ 177851 string characters out of 3144864
+ 325432 words of memory out of 3000000
+ 14098 multiletter control sequences out of 15000+200000
  6244 words of font info for 24 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 74i,7n,75p,1201b,1869s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,7n,98p,1201b,2078s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
@@ -1502,9 +1745,9 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Specification.pdf (20 pages, 1339636 bytes).
+Output written on Specification.pdf (26 pages, 1818850 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
