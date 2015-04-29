@@ -424,4 +424,117 @@ We feel that it is acceptable to send two responders to an incident by default a
 		\subsubsection{Iteration 4 - Context of the emergency}
 		\paragraph{Aim}
 This iteration addresses the issue of the responders currently going out to an emergency blind to what they may encounter. This iteration will address this by supplying relevant information to the responder when they are alerted to an incident. This information will help them identify the patient when the arrive on site and alert them to any critical information that may be of help.\\
+
+		\paragraph{Storyboard}
+		This storyboard visualises the intended functionality of the system.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"Iteration4/Storyboard - Iteration 3 - 1"}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=1\textwidth]{"Iteration4/Storyboard - Iteration 3 - 2"}
+	\end{figure}
+	\begin{enumerate}
+  		\item A responder is contacted about an emergency situation near by.
+  		\item The message contains details about what kind of emergency situation they are being asked to help at as well as relevant details of the casualty (if any are available).
+  		\item If they accept the request, they go off to help at the emergency. If they decline, the system contacts the next closest person to the emergency.
+  		\item After accepting they make their way to the emergency knowing what to expect on the scene and being aware of any special precautions they need to take when dealing with the patient.
+
+	\end{enumerate}
+This will help the responders to emergency situations mentally prepare before they arrive on scene. Information provided to them will alert them to the type of emergency they are attending, allowing them to think about potential first aid that they may need to give. It may also help them to identify casualties better in certain situations, being given a brief description of the casualty (e.g. Sex, Age) for situations where there are multiple casualties (allowing them to go directly to the more serious one).
+
+\paragraph{Information}
+When a phone call is received by the emergency services there is a standard set of questions (for a medical emergency) that will be asked by the call taker. The first set of questions, used to ascertain what help is required, are the location of the emergency, the phone number the caller is using and exactly what has happened regarding the emergency call [31]. Once this information is received the call taker is able to send help. Then the call taker will ask the caller for any additional information such as: the patient's age, gender and medical history. Whether the patient is awake/conscious, breathing and if there is any serious bleeding or chest pain; and Details of the injury and how it happened [31].\\
+
+Out of this information there are two distinct sections. The standard information gained from the questions required before the emergency services are dispatched and the extra information which may or may not be given for a call (dependant on the circumstances). This means that we can rely on the ability to provide some extra information to the emergency responder, such as location (which is already being sent) and a description of exactly what happened. However, in some cases we are able to send additional information as detailed above to help the first responder.\\
+
+For some of this information we need to be mindful of the data protection of the individual in concern and any policies that may be in place by the organizations implementing our system. The London Ambulance Service’s policy on disclosure to third parties is “We will not disclose your information to third parties (for instance outside the NHS) without your permission unless there are exceptional circumstances” [32]. This would mean that without modifications to their data protection policies to either include first responders or class them under the ‘exceptional circumstances’, it is unlikely that they would make use of the extra information sending capability of our system. However, sending the description of the incident should be acceptable as this would contain no personal information about the casualty. We have decided to implement the ability to send the additional information in our system for potential future use by the organizations in question after a review of their policies.\\
+
+A breakdown of the extra information that can be included in a request for a first responder is as follows:\\
+\textbf{Mandatory information:}
+\begin{itemize}
+\item Description of the incident
+\end{itemize}
+\textbf{Voluntary information:}
+\begin{itemize}
+\item Patient age
+\item Patient gender
+\item Relevant medical history
+\item Current state of the patient (awake/conscious)
+\item Breathing
+\item Serious bleeding and/or chest pain
+\item Additional details of the injury and how it happened.
+\end{itemize}
+The mandatory information should be included in all messages sent to first responders as this information is always given to the call taker of an emergency call. The voluntary information may be given in full or part and as such should be included if applicable (and depending on the data protection policies involved).
+
+\paragraph{Notification Details}
+In order to send this new information to the first responders we can utilize the payload feature of GCM’s messages again. The modifications would only need to be to the \texttt{\color{OliveGreen}‘new\_emergency’} messages and there should be a field added for each section of additional information that is to be sent. The structure of the message data should be as follows:
+\begin{lstlisting}
+...
+"data":
+      {
+          "message_type":"new_emergency",
+          "longitude":"VALUE",
+          "latitude":"VALUE",
+          "incidentDescription":"VALUE",
+		  //optional after here
+          "age":"VALUE",
+          "gender":"VALUE",
+          "patientState":"VALUE",
+          "breathing":"VALUE",
+          "bleeding":"VALUE",
+          "chestPain":"VALUE",
+          "medicalHistory":"VALUE",
+          "additionalDetails":"VALUE"
+      }
+...
+\end{lstlisting}
+The \texttt{\color{OliveGreen}“incidentDescription”} field should be present in all \texttt{\color{OliveGreen}‘new\_emergency’} messages from now on and contain a text description of the incident taken from the call takers notes while answering the call. Any optional fields should be not included in the message if no message data is present for them and then parsed in the app to determine which fields to display to the user.\\
+
+The datatype of the optional fields are as follows, though all field values are sent as strings the data in them should be in a standard format to be understood by the app:
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Field Name} & \textbf{Data Type}       & \textbf{Example Data}                 \\ \hline
+age                 & Integer (1-3 characters) & "77"                                  \\ \hline
+gender              & Single Character         & "M" or "F"                            \\ \hline
+patientState        & Single Character         & "C" or "U" (conscious\& unconscious)  \\ \hline
+breathing           & Single Character         & "T" or "F" (true or false)            \\ \hline
+bleeding            & Single Character         & "T" or "F" (true or false)            \\ \hline
+chestPain           & Single Character         & "T" or "F" (true or false)            \\ \hline
+medicalHistory      & String                   & "Asmatic, previous heart attack"      \\ \hline
+additionalDetails   & String                   & "Casualty fell down flight of stairs" \\ \hline
+\end{tabular}
+\end{table}
+Some of the data has been compressed into single characters to be sent over the message, this is to help maximize the available space of the GCM payload (which is limited to 4kb) for other fields which may contain long strings. Fields with a single character will have a limited pool of available values which can be parsed on the app to display a more meaningful message to the user. \\
+
+\paragraph{App CPR Pane}
+This is the prototype for the additional details display pane. This can be accessed from the home page of the app by pressing on the location details covering the lower third of the pane. We decided to use this as the doorway to accessing the additional information rather than a button because we are already dealing with limited space on the menu bar below the map. We wanted it to be accessible while the accept/decline buttons are visible (which cover the menu bar) and we feel that it is an intuitive way to obtain more information. Many apps utilize the ‘click to explore’ methodology and this is what users will be expecting from their previous experiences.\\
+
+The details pane shown below illustrates how an emergency notification with only the essential information will be shown to a user. We maintained the address at the top so that if the user was making their way to the location they would not have to switch back to the previous pane to see the address. The incident description is also present which gives the user some information on the incident and what they might expect.\\
+
+This pane also has a prominent back button which the user can use to move to the homepage of the app.\\
+	\begin{figure}[H]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=1\textwidth]{"Iteration4/Additional Details - 1"}
+	\end{figure}
+	
+A more detailed view is shown in the image below, here much more information has been provided to the user. The information is grouped into common sections and any single characters from the message data have been expanded into their respective words/phrases. Any omitted information is not shown to the user, for example the \texttt{\color{OliveGreen}‘chestPain’} field is not applicable here as the patient is unconscious and so it was not sent in the message and the app does not display anything regarding this piece of information.\\
+
+This pane is scrollable so that if a longer description is provided, or in future versions more information is available to be sent, it will all fit on this pane and the user can easily scroll to the information they need.\\
+
+	\begin{figure}[H]
+		\centering
+		\vspace{-20pt}
+		\includegraphics[width=0.6\textwidth]{"Iteration4/Additional Details - 2"}
+	\end{figure}
+	
+	
+%start of iteraitoin 5
+\pagebreak
+		\subsubsection{Iteration 5 - User Preferences}
+		\paragraph{Aim}
 \end{document}
