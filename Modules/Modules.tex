@@ -12,7 +12,50 @@
 \begin{document}
 \section{Modules}
     \subsection{Emergency App}
-    
+    	\subsubsection{Video Streaming Rationale}
+    	Video calling is not a recent development, but one that has been processed throughout time [33]. It has finally emerged and is making quite the splash in the technology world. Mobile phones with video calling capabilities provide instant face-to-face communication with anyone, anywhere. In order to have this capability, the phone must have a camera and a stable internet connection.\\
+    	
+    	Nowadays, most mobile phones have built-in cameras [34][35] with the capability of capturing images with a resolution of at least 2 MP, which is of HD quality or transferred into pixels: 1600x1200. Some mobile phones provide even more than 41 MP resolution of a single image. These cameras, however, record video with a lower quality than single images. Older phones with older 2 MP camera sensors can record video with resolution of 240p, which is equal to 320x240, at 15 frames per second. With the advances of technology, this has changed a lot. Nowadays, most mobile phones can record videos with at least 480p (640x480) resolution and at least 30 frames per second. The newest models from 2014 even have the possibility of recording video with 4K resolution (4096x2160) at 30 frames per second. Apart from high quality of the video, modern mobile phones can exchange quality for speed and capture video with 720p (1280x720) at 120 fps or some even reach 240 fps.\\
+    	
+    	Another feature that is required in order to make a video call and all mobile phones with built-in cameras have is mobile or wireless internet connection. Mobile connection is usually slower, starting with 2G, 3G and reaching the newest and the most advanced 4G. As of June 2014, the 2G and 3G coverage of the UK premises is 99.7\% and 99.5\%, respectively [36]. Nevertheless, further technology improvements are being developed. 4G coverage has already reached 73.0\% of UK premises and researchers has began work on 5G, which is believed to be introduced in the early 2020s [37].\\
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Technology} & \textbf{Coverage} & \textbf{Speed}   \\ \hline
+2G (GPRS)           & 99.7\%            & 56 to 115 kbps   \\ \hline
+2G (EDGE)           & 99\%              & up to 237 kbps   \\ \hline
+3G                  & 97\%              & 0.2 to 28 Mbit/s \\ \hline
+4G                  & 73\%              & 100 Mbps         \\ \hline
+\end{tabular}
+\end{table}
+    	Based on statistics by Skype [38], a normal internet call requires a minimum of 30 kbps of download and upload bandwidth. In order to be able to conduct a simple video call using a smartphone, a bandwidth of minimum 128 kbps upload and download speed is needed, whereas 300 kbps is recommended. For higher quality of the call the speed requirements rise to 400kbps and 1.2 Mbps for the highest quality. Youtube suggests similar network requirements for its streaming service [39]. Taking into account the use of newer encoding techniques, the network requirements can be compared with the network speed that mobile technology provides. Using 2G, a simple video call can be made, with low quality settings. However, 3G speeds are enough in order to perform a medium to high quality stream and 4G will be able to provide even better streams.\\
+    	
+\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"SDS Video Bandwidth"}
+		\caption{The bandwidth requirements for video streaming.}
+	\end{figure}
+	
+	Wireless internet connection can be compared to the same network requirements. As it can usually provide better and more reliable internet connection, it would be the prefered way of transferring the video stream data. However, free wireless internet connection is available in limited places, thus, a combination between wireless and mobile internet connect is required, in order to provide internet access of the highest quality and coverage.\\
+
+Thanks to the low bandwidth requirements and fast mobile network that is available almost everywhere, it is now possible to make video calls using your mobile phone wherever you are. Furthermore, with the technology evolving so fast, it is likely to be able to make High Quality video calls from everywhere in the near future.\\
+
+These technology innovations could change how emergency situations are handled. Being able to send real time video footage to an emergency operator or an emergency team, could help them assess a given situation better and give better instructions to the people requesting help. In a phone conversation we held with a personnel of an emergency department, we asked to express what are her thoughts on introducing video streaming feature to an emergency call. 
+“That would be very useful. One of the issues we always have, when we take a 999 call, is that we are blind. We are going on what our caller is telling us, so to be able to see it, would make things a lot easier and we could assess the severity a lot quicker.” - Dawn Whelan.
+This was also confirmed by a survey that we have conducted, which showed that 82\% of the people, who participated, think that they could benefit from such a feature.\\
+
+	    \subsubsection{Chat System Rationale}
+	    As of 2012, there are more than 32,000 registered phones with the Emergency SMS service [52]. However, according to statistics [53] there are more than 10 million people with some kind of hearing loss and 800,000 of them are severely or profoundly deaf. That means that only about 4\% of the people, who might experience the need to use the Emergency SMS service, are registered. Including a live chat feature in the emergency application will greatly reduce the difficulty of using such a service and will make it more accessible to a greater part of the population.\\
+
+Using a live chat requires a minimum amount of internet access, which means that the chat will be available for use even in regions where mobile network coverage is poor. Moreover, such chat will be able to deliver messages in the same order they were sent, keep track whether a message has been delivered and read by the operator and will make requesting more information easier and faster. A single message will take only milliseconds to be delivered, rather than the slow speed of delivering SMS messages. If a message fails to be delivered, the application can keep trying or notify the user that it was unable to send the message. Giving such information to the users, rather than suggesting to them to resend the message if no response has been received in 3 minutes, gives them the opportunity to react faster.\\
+
+	\subsubsection{Automatic Video Sending Rationale}
+	A problem that may arise during a 999 call is that the caller may not be able to describe in details where he is located. This could be due to him being in an unknown place or just confused because of stress. The results of such a problem can be that the emergency team head in the wrong direction or arrive to the place of the emergency, but are unable to find the exact location of the accident. In order to help with transferring the exact location of the person, requesting emergency, mobile phones can be used.\\
+
+As already stated, nowadays, all mobile phones have the ability to access internet, through various technologies. Apart from that, most mobile phones have GPS sensors [34][35] and are able to locate themselves within seconds. The acquired location can either be exact, within a few meters, if a GPS sensor is available and a good GPS signal is present, or at least identifying the correct region, based on mobile network reception. This information is also very small, in terms of data size, which means that it can easily and quickly be sent over the network. Including such a feature in the emergency application can greatly reduce the time needed for the emergency team to head in the right direction, thus, the team will be able to arrive faster.\\
+    	
+    	
     \subsection{CPR System}
     	\subsubsection{Rationale}
     	Cardiovascular diseases are one of the leading causes of death in the western world [1]. They come with an increased risk of cardiac arrest, of which there are an estimated 60,000 [2] incidents out of hospital annually in the UK - about 1 every 9 minutes. In fact, across the whole of Europe, 1 person per 1000 population will suffer a cardiac arrest in any year.\\

@@ -132,5 +132,13 @@ gcm.send(GCM_SENDER_ID + "@gcm.googleapis.com", id, ttl, data);
 	\end{figure}
 
 
+	\subsection{Database}
+	It was immediately apparent that both the Emergency App and CPR System would need a database backend. To ensure we chose the best system, we investigated the three most prolific database management systems (DBMSs): MySQL, Oracle, and SQL Server.\\
+
+Almost immediately, we discounted MySQL as being immature compared to Oracle and SQL Server. Transactions and stored procedures are a relatively recent addition to the system, and both are technologies that we will rely on heavily to ensure data is consistent and intact. It also has far fewer features relevant in enterprise environments, lacking fine-grained access control, table partitioning and disaster recovery.\\
+
+Next, we scrutinised the remaining contenders. Ultimately, there isn’t a lot of difference between them; SQL Server has a marginal advantage with in-memory tables and better performance in write-intensive environments, while Oracle is supposedly more suited to applications with equal read and write traffic due to its locking system.\\
+
+In the end, we decided to go for SQL Server due to its Spatial Data extensions, which would be used particularly heavily in the CPR System. This functionality allows us to do accurate geometric calculations, like finding the distance between two sets of coordinates, within the database itself. In addition, SQL Server is renowned for its stability, with a transaction and journaling system that detects and automatically fixes errors, preventing corruption and increasing uptime - all of which are desirable traits in such life-critical applications.\\
 	
 \end{document}

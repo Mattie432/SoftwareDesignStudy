@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:43
 entering extended mode
 **SoftwareDesignStudy.tex
 
@@ -593,7 +593,7 @@ Package gensymb Warning: Not defining \micro.
 \c@lstlisting=\count144
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\TitlePage/Tit
-lePage.tex <TitlePage/university.jpg, id=75, 580.1675pt x 513.92pt>
+lePage.tex <TitlePage/university.jpg, id=87, 580.1675pt x 513.92pt>
 File: TitlePage/university.jpg Graphic file (type jpg)
 
 <use TitlePage/university.jpg>
@@ -696,20 +696,43 @@ Introduction.tex)
 w/SystemOverview.tex)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Modules/Modul
 es.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 20--33
 
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+[3
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+] <Modules/"SDS Video Bandwidth".png, id=127, 516.42938pt x 611.28375pt>
+File: Modules/"SDS Video Bandwidth".png Graphic file (type png)
+
+<use Modules/"SDS Video Bandwidth".png>
+Package pdftex.def Info: Modules/"SDS Video Bandwidth".png used on input line 3
+6.
+(pdftex.def)             Requested size: 512.14963pt x 606.27342pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.41 
+      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Modules
+/SDS Video Bandwidth.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
@@ -720,18 +743,64 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[3
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
 Missing character: There is no √ in font cmbx10!
 Missing character: There is no § in font cmbx10!
 Missing character: There is no ‚ in font cmr10!
@@ -745,7 +814,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no § in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
@@ -753,16 +822,16 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-)
+) [6]
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 /Specification.tex
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
@@ -772,7 +841,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=112, 1039
+<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=143, 1039
 .885pt x 538.01pt>
 File: Specification/CommonTechnologies/"Network Map - Iteration 0".png Graphic 
 file (type png)
@@ -781,7 +850,7 @@ file (type png)
 Package pdftex.def Info: Specification/CommonTechnologies/"Network Map - Iterat
 ion 0".png used on input line 15.
 (pdftex.def)             Requested size: 512.14963pt x 264.97354pt.
- [4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -796,8 +865,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 
-<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=118
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
+cation/CommonTechnologies/Network Map - Iteration 0.png>]
+<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=151
 , 783.92876pt x 456.70625pt>
 File: Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png Gr
 aphic file (type png)
@@ -807,21 +883,13 @@ Package pdftex.def Info: Specification/CommonTechnologies/"Initial GCM Setup -
 Iteration 0".png used on input line 30.
 (pdftex.def)             Requested size: 409.72125pt x 238.70117pt.
 
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.33 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Network Map - Iteration 0.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
 <Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Iteratio
-n 0".png, id=125, 634.37pt x 405.515pt>
+n 0".png, id=152, 634.37pt x 405.515pt>
 File: Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -838,9 +906,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
+cation/CommonTechnologies/Initial GCM Setup - Iteration 0.png> <D:/Users/Mattie
+432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CommonTechnolog
+ies/GCM Registration Sequence Diagram - Iteration 0.png>]
 <Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0".png
-, id=126, 795.97375pt x 538.01pt>
+, id=161, 795.97375pt x 538.01pt>
 File: Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0
 ".png Graphic file (type png)
 
@@ -849,22 +932,6 @@ File: Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0
 Package pdftex.def Info: Specification/CommonTechnologies/"Sending a message vi
 a GCM - Iteration 0".png used on input line 48.
 (pdftex.def)             Requested size: 512.14963pt x 346.18054pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.51 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.51 
-      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
-cation/CommonTechnologies/Initial GCM Setup - Iteration 0.png> <D:/Users/Mattie
-432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CommonTechnolog
-ies/GCM Registration Sequence Diagram - Iteration 0.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -875,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
 
 <Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Iteratio
-n 0".png, id=135, 735.74875pt x 626.34pt>
+n 0".png, id=162, 735.74875pt x 626.34pt>
 File: Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -884,7 +951,7 @@ ation 0".png>
 Package pdftex.def Info: Specification/CommonTechnologies/"GCM Send Message Seq
 uence Diagram - Iteration 0".png used on input line 56.
 (pdftex.def)             Requested size: 512.14963pt x 436.01704pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -900,8 +967,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
-has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -936,7 +1003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=165,
+<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=191,
  603.0028pt x 132.495pt>
 File: Specification/CommonTechnologies/"GSM Sending a message upstream".png Gra
 phic file (type png)
@@ -962,8 +1029,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
-has been already used, duplicate ignored
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -972,7 +1039,7 @@ l.116 \begin{lstlisting}
 DesignStudy/Specification/CommonTechnologies/GSM Sending a message upstream.png
 >]
 <Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, 
-id=189, 450.18187pt x 277.78781pt>
+id=215, 450.18187pt x 277.78781pt>
 File: Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".
 png Graphic file (type png)
 
@@ -987,7 +1054,7 @@ ment/ProjectManagement.tex)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\PersonalRefle
 ctions/PersonalReflections.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1003,26 +1070,26 @@ nStudy.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `SoftwareDesignStudy.out' has not changed.
-(rerunfilecheck)             Checksum: 086CC65ADE18C8B36596E9669BD477B7;1125.
+(rerunfilecheck)             Checksum: 6335B7C7E32FAF4D782A8EE72A87133F;1387.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 9210 strings out of 493921
- 144603 string characters out of 3144864
- 272497 words of memory out of 3000000
- 12212 multiletter control sequences out of 15000+200000
+ 9224 strings out of 493921
+ 144921 string characters out of 3144864
+ 272507 words of memory out of 3000000
+ 12219 multiletter control sequences out of 15000+200000
  6504 words of font info for 25 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 74i,6n,74p,1040b,1131s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,9n,74p,1040b,1131s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on SoftwareDesignStudy.pdf (10 pages, 462895 bytes).
+Output written on SoftwareDesignStudy.pdf (12 pages, 503843 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 272 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

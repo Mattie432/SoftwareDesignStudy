@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  29 APR 2015 16:44
 entering extended mode
 **CommonTechnologies.tex
 
@@ -653,7 +653,7 @@ png)
  <use "GCM Registration Sequence Diagram - Iteration 0".png>
 Package pdftex.def Info: "GCM Registration Sequence Diagram - Iteration 0".png 
 used on input line 38.
-(pdftex.def)             Requested size: 418.25368pt x 267.37465pt.
+(pdftex.def)             Requested size: 334.60422pt x 213.89476pt.
  [2pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
  has been already used, duplicate ignored
 
@@ -761,7 +761,7 @@ File: "GSM Sending a message upstream".png Graphic file (type png)
 <use "GSM Sending a message upstream".png>
 Package pdftex.def Info: "GSM Sending a message upstream".png used on input lin
 e 89.
-(pdftex.def)             Requested size: 418.25368pt x 91.90077pt.
+(pdftex.def)             Requested size: 334.60422pt x 73.51941pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
@@ -773,10 +773,10 @@ Missing character: There is no ™ in font cmr10!
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.96   <
-        gcm xmlns="google:mobile:data"> <D:/Users/Mattie432/Dropbox/Programming
-/LaTeX/SoftwareDesignStudy/Specification/CommonTechnologies/GSM Sending a messa
-ge upstream.png>]
+l.98       "
+            category":"com.example.yourapp", // to know which app sent it <D:/U
+sers/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Comm
+onTechnologies/GSM Sending a message upstream.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
@@ -789,37 +789,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
  []
 
 
-<"GCM Upstream Message Sequence Diagram".png, id=90, 450.18187pt x 277.78781pt>
+<"GCM Upstream Message Sequence Diagram".png, id=92, 450.18187pt x 277.78781pt>
 File: "GCM Upstream Message Sequence Diagram".png Graphic file (type png)
 <use "GCM Upstream Message Sequence Diagram".png>
 Package pdftex.def Info: "GCM Upstream Message Sequence Diagram".png used on in
 put line 130.
-(pdftex.def)             Requested size: 418.25368pt x 258.09836pt.
+(pdftex.def)             Requested size: 334.60422pt x 206.47954pt.
  [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.136 \end{document}
+l.144 \end{document}
                      <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesi
 gnStudy/Specification/CommonTechnologies/GCM Upstream Message Sequence Diagram.
 png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 \CommonTechnologies\CommonTechnologies.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
-Package rerunfilecheck Info: File `CommonTechnologies.out' has not changed.
-(rerunfilecheck)             Checksum: F220AEC3530B1D0B2A39C7E671922D25;443.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+
+
+Package rerunfilecheck Warning: File `CommonTechnologies.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CommonTechnologies.out':
+(rerunfilecheck)             Before: F220AEC3530B1D0B2A39C7E671922D25;443
+(rerunfilecheck)             After:  1D0011C41DA14AD3926D40D2BBF23635;501.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 9121 strings out of 493921
- 140603 string characters out of 3144864
- 273616 words of memory out of 3000000
+ 9122 strings out of 493921
+ 140617 string characters out of 3144864
+ 272626 words of memory out of 3000000
  12189 multiletter control sequences out of 15000+200000
  5898 words of font info for 23 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -829,9 +858,9 @@ Here is how much of TeX's memory you used:
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on CommonTechnologies.pdf (8 pages, 387066 bytes).
+Output written on CommonTechnologies.pdf (8 pages, 390581 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
  84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
