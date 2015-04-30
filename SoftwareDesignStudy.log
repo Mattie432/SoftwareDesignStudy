@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 20:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  1 MAY 2015 00:11
 entering extended mode
 **SoftwareDesignStudy.tex
 
@@ -577,20 +577,20 @@ File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 ))
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
 nStudy.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -641,7 +641,7 @@ LaTeX Font Info:    ... okay on input line 5.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 5.
+Package hyperref Info: Link coloring OFF on input line 6.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -650,23 +650,23 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count150
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 6.
+LaTeX Info: Redefining \pageref on input line 6.
+LaTeX Info: Redefining \nameref on input line 6.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
 nStudy.out)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
 nStudy.out)
 \@outlinefile=\write3
-LaTeX Info: Redefining \celsius on input line 5.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 5.
+LaTeX Info: Redefining \celsius on input line 6.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 6.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 5.
-Package gensymb Info: Using \Omega for \ohm on input line 5.
+LaTeX Info: Redefining \ohm on input line 6.
+Package gensymb Info: Using \Omega for \ohm on input line 6.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -677,7 +677,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count151
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\TitlePage/Tit
-lePage.tex <TitlePage/university.jpg, id=235, 580.1675pt x 513.92pt>
+lePage.tex <TitlePage/university.jpg, id=287, 580.1675pt x 513.92pt>
 File: TitlePage/university.jpg Graphic file (type jpg)
 
 <use TitlePage/university.jpg>
@@ -731,9 +731,9 @@ jpg>])
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
 nStudy.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
+(Font)              <5> on input line 4.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no § in font cmr10!
  [2
@@ -753,16 +753,26 @@ Introduction.tex [4]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
@@ -808,7 +818,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--28
 
  []
 
-<Modules/"SDS Video Bandwidth".png, id=347, 516.42938pt x 611.28375pt>
+<Modules/"SDS Video Bandwidth".png, id=399, 516.42938pt x 611.28375pt>
 File: Modules/"SDS Video Bandwidth".png Graphic file (type png)
 
 <use Modules/"SDS Video Bandwidth".png>
@@ -941,7 +951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=380, 1039
+<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=432, 1039
 .885pt x 538.01pt>
 File: Specification/CommonTechnologies/"Network Map - Iteration 0".png Graphic 
 file (type png)
@@ -967,7 +977,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 [14 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CommonTechnologies/Network Map - Iteration 0.png>]
-<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=389
+<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=441
 , 783.92876pt x 456.70625pt>
 File: Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png Gr
 aphic file (type png)
@@ -983,7 +993,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 
 <Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Iteratio
-n 0".png, id=390, 634.37pt x 405.515pt>
+n 0".png, id=442, 634.37pt x 405.515pt>
 File: Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -1005,7 +1015,7 @@ tion/CommonTechnologies/Initial GCM Setup - Iteration 0.png> <D:/Users/Mattie43
 2/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CommonTechnologie
 s/GCM Registration Sequence Diagram - Iteration 0.png>]
 <Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0".png
-, id=400, 795.97375pt x 538.01pt>
+, id=452, 795.97375pt x 538.01pt>
 File: Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0
 ".png Graphic file (type png)
 
@@ -1024,7 +1034,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
 
 <Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Iteratio
-n 0".png, id=401, 735.74875pt x 626.34pt>
+n 0".png, id=453, 735.74875pt x 626.34pt>
 File: Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -1072,7 +1082,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=430,
+<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=482,
  603.0028pt x 132.495pt>
 File: Specification/CommonTechnologies/"GSM Sending a message upstream".png Gra
 phic file (type png)
@@ -1101,7 +1111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 [18 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CommonTechnologies/GSM Sending a message upstream.png>]
 <Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, 
-id=454, 450.18187pt x 277.78781pt>
+id=506, 450.18187pt x 277.78781pt>
 File: Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".
 png Graphic file (type png)
 
@@ -1149,7 +1159,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backendsearch".pn
-g, id=477, 832.10875pt x 552.0625pt>
+g, id=529, 832.10875pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backendsearc
 h".png Graphic file (type png)
 
@@ -1163,7 +1173,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequenceinitiatesession (2)
-".png, id=478, 634.37pt x 711.65875pt>
+".png, id=530, 634.37pt x 711.65875pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceinitiatesessio
 n (2)".png Graphic file (type png)
 
@@ -1187,8 +1197,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 [22 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/EmergencyApp/EmergencyAppIteration1/sequenceinitiatesession (2).png>]
-<Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png, id=49
-3, 430.60875pt x 811.03pt>
+<Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png, id=54
+5, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png G
 raphic file (type png)
 
@@ -1267,7 +1277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequencestartvideouser".png
-, id=509, 944.52875pt x 745.78625pt>
+, id=561, 944.52875pt x 745.78625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequencestartvideouser
 ".png Graphic file (type png)
 
@@ -1278,7 +1288,7 @@ uencestartvideouser".png used on input line 73.
 (pdftex.def)             Requested size: 418.25368pt x 330.25223pt.
  [24]
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorrequestvide
-o".png, id=517, 1131.22626pt x 976.64874pt>
+o".png, id=569, 1131.22626pt x 976.64874pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorreques
 tvideo".png Graphic file (type png)
 
@@ -1300,7 +1310,7 @@ uenceoperatorrequestvideo".png used on input line 87.
  [26 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/EmergencyAppIteration1/sequenceoperatorrequestvideo.png>]
 <Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStart.png
-, id=531, 430.60875pt x 811.03pt>
+, id=583, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStar
 t.png Graphic file (type png)
 
@@ -1311,7 +1321,7 @@ ation1videocallStart.png used on input line 94.
 (pdftex.def)             Requested size: 209.12683pt x 393.88121pt.
 
 <Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.png, 
-id=532, 430.60875pt x 811.03pt>
+id=584, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.
 png Graphic file (type png)
 
@@ -1327,7 +1337,7 @@ Overfull \hbox (4.44441pt too wide) in paragraph at lines 93--102
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png, id=
-533, 803.0pt x 552.0625pt>
+585, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png
  Graphic file (type png)
 
@@ -1337,7 +1347,7 @@ ration1backend".png used on input line 107.
 (pdftex.def)             Requested size: 376.42575pt x 258.7955pt.
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)".png,
- id=534, 803.0pt x 552.0625pt>
+ id=586, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)"
 .png Graphic file (type png)
 
@@ -1404,8 +1414,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 
-<Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png, id=5
-55, 973.6375pt x 1013.7875pt>
+<Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png, id=6
+07, 973.6375pt x 1013.7875pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png 
 Graphic file (type png)
 
@@ -1416,7 +1426,7 @@ ration2ui (1)".png used on input line 142.
 
 [30]
 <Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".png, 
-id=563, 450.68375pt x 831.105pt>
+id=615, 450.68375pt x 831.105pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".
 png Graphic file (type png)
 
@@ -1466,7 +1476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_nochat (1
-)".png, id=577, 3212.0pt x 2208.25pt>
+)".png, id=629, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_noch
 at (1)".png Graphic file (type png)
 
@@ -1477,7 +1487,7 @@ kend_videocall_nochat (1)".png used on input line 181.
 (pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
 
 <Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_footage 
-(1)".png, id=578, 3212.0pt x 2208.25pt>
+(1)".png, id=630, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_foo
 tage (1)".png Graphic file (type png)
 
@@ -1511,7 +1521,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfirmdia
-log (1)".png, id=595, 803.0pt x 552.0625pt>
+log (1)".png, id=647, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfi
 rmdialog (1)".png Graphic file (type png)
 
@@ -1527,7 +1537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--213
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search_scre
-en".png, id=596, 3328.435pt x 2234.3475pt>
+en".png, id=648, 3328.435pt x 2234.3475pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search
 _screen".png Graphic file (type png)
 
@@ -1557,7 +1567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_itera
-tion3 (1)".png, id=611, 3212.0pt x 2208.25pt>
+tion3 (1)".png, id=663, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_
 iteration3 (1)".png Graphic file (type png)
 
@@ -1568,7 +1578,7 @@ e_accident_streams_iteration3 (1)".png used on input line 238.
 (pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
 
 <Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_opene
-d_iteration3".png, id=612, 3212.0pt x 2208.25pt>
+d_iteration3".png, id=664, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_
 opened_iteration3".png Graphic file (type png)
 
@@ -1617,7 +1627,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--310
  []
 
 [40]
-<Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png, id=677, 8
+<Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png, id=729, 8
 32.10875pt x 552.0625pt>
 File: Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png Graph
 ic file (type png)
@@ -1629,7 +1639,7 @@ d_search".png used on input line 350.
 
 [41 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/EmergencyApp/ChatIteration1/chat_backend_search.png>]
-<Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png, id=696
+<Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png, id=748
 , 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png Gr
 aphic file (type png)
@@ -1648,8 +1658,8 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png, id=70
-5, 430.60875pt x 811.03pt>
+<Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png, id=75
+7, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png G
 raphic file (type png)
 
@@ -1731,7 +1741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 390--391
  []
 
 
-<Specification/EmergencyApp/"ChatIteration2/chat (1)".png, id=706, 4095.3pt x 3
+<Specification/EmergencyApp/"ChatIteration2/chat (1)".png, id=758, 4095.3pt x 3
 244.12pt>
 File: Specification/EmergencyApp/"ChatIteration2/chat (1)".png Graphic file (ty
 pe png)
@@ -1760,7 +1770,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest".png,
- id=723, 803.0pt x 552.0625pt>
+ id=775, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest"
 .png Graphic file (type png)
 
@@ -1771,7 +1781,7 @@ tionbackendrequest".png used on input line 413.
 (pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
 
 <Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived".png
-, id=724, 803.0pt x 552.0625pt>
+, id=776, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived
 ".png Graphic file (type png)
 
@@ -1783,7 +1793,7 @@ tionbackendreceived".png used on input line 421.
  [45 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/AutomaticVideoSending/locationbackendrequest.png>]
 <Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmation".
-png, id=733, 1722.435pt x 3244.12pt>
+png, id=785, 1722.435pt x 3244.12pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmat
 ion".png Graphic file (type png)
 
@@ -1796,7 +1806,7 @@ _location_confirmation".png used on input line 430.
 ation/EmergencyApp/AutomaticVideoSending/locationbackendreceived.png> <D:/Users
 /Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Emergenc
 yApp/AutomaticVideoSending/send_location_confirmation.png>]
-<Specification/EmergencyApp/"AutomaticVideoSending/gcm".png, id=742, 465.99094p
+<Specification/EmergencyApp/"AutomaticVideoSending/gcm".png, id=794, 465.99094p
 t x 301.125pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/gcm".png Graphic file (
 type png)
@@ -1807,7 +1817,7 @@ Package pdftex.def Info: Specification/EmergencyApp/"AutomaticVideoSending/gcm"
 (pdftex.def)             Requested size: 418.25368pt x 270.2886pt.
  [47 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/AutomaticVideoSending/gcm.png>]
-<Specification/EmergencyApp/"Database/file-page1".png, id=754, 481.8pt x 701.50
+<Specification/EmergencyApp/"Database/file-page1".png, id=806, 481.8pt x 701.50
 08pt>
 File: Specification/EmergencyApp/"Database/file-page1".png Graphic file (type p
 ng)
@@ -1832,7 +1842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=761,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=813,
  894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png Gra
 phic file (type png)
@@ -1842,7 +1852,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 1".png used on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=762,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=814,
  894.34125pt x 455.7025pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png Gra
 phic file (type png)
@@ -1852,7 +1862,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 2".png used on input line 23.
 (pdftex.def)             Requested size: 418.25368pt x 213.11632pt.
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=763,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=815,
  894.34125pt x 454.69875pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png Gra
 phic file (type png)
@@ -1909,7 +1919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android Notification Layout".png, id=795, 
+<Specification/CPRSystem/"Iteration1/Android Notification Layout".png, id=847, 
 365.6862pt x 123.3408pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Layout".png Grap
 hic file (type png)
@@ -1937,7 +1947,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android notification icon".jpg, id=807, 27
+<Specification/CPRSystem/"Iteration1/Android notification icon".jpg, id=859, 27
 8.9622pt x 288.5982pt>
 File: Specification/CPRSystem/"Iteration1/Android notification icon".jpg Graphi
 c file (type jpg)
@@ -1953,7 +1963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
 
 <Specification/CPRSystem/"Iteration1/Android Notification Layout Extended".png,
- id=808, 576.65437pt x 476.53032pt>
+ id=860, 576.65437pt x 476.53032pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Layout Extended"
 .png Graphic file (type png)
 
@@ -2034,7 +2044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android Notification Design".png, id=809, 
+<Specification/CPRSystem/"Iteration1/Android Notification Design".png, id=861, 
 416.30531pt x 318.43968pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Design".png Grap
 hic file (type png)
@@ -2147,7 +2157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android CPR app pane".png, id=835, 431.612
+<Specification/CPRSystem/"Iteration1/Android CPR app pane".png, id=887, 431.612
 5pt x 819.06pt>
 File: Specification/CPRSystem/"Iteration1/Android CPR app pane".png Graphic fil
 e (type png)
@@ -2376,7 +2386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
  []
 
 [56]
-<Specification/CPRSystem/"Iteration1/cpr-database-0".png, id=865, 572.1375pt x 
+<Specification/CPRSystem/"Iteration1/cpr-database-0".png, id=917, 572.1375pt x 
 553.31718pt>
 File: Specification/CPRSystem/"Iteration1/cpr-database-0".png Graphic file (typ
 e png)
@@ -2419,7 +2429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
  []
 
 
-<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png, id=908,
+<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png, id=960,
  799.98875pt x 389.455pt>
 File: Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png Gra
 phic file (type png)
@@ -2435,7 +2445,7 @@ u-alises the in-tended func-tion-al-ity of the sys-tem.
  []
 
 
-<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png, id=909,
+<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png, id=961,
  799.98875pt x 399.4925pt>
 File: Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png Gra
 phic file (type png)
@@ -2445,7 +2455,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration2/Storyboard - Itera
 tion 1 - 2".png used on input line 248.
 (pdftex.def)             Requested size: 418.25368pt x 208.865pt.
 
-<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png, id=910,
+<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png, id=962,
  799.98875pt x 389.455pt>
 File: Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png Gra
 phic file (type png)
@@ -2466,7 +2476,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 [60 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/Storyboard - Iteration 1 - 3.png>]
 <Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 1".pn
-g, id=931, 422.57875pt x 808.01875pt>
+g, id=983, 422.57875pt x 808.01875pt>
 File: Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 
 1".png Graphic file (type png)
 
@@ -2584,7 +2594,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
 
 <Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 2".pn
-g, id=940, 429.605pt x 809.0225pt>
+g, id=992, 429.605pt x 809.0225pt>
 File: Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 
 2".png Graphic file (type png)
 
@@ -2611,7 +2621,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 [62 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 2.png>]
 <Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 3".pn
-g, id=948, 430.60875pt x 809.0225pt>
+g, id=1000, 430.60875pt x 809.0225pt>
 File: Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 
 3".png Graphic file (type png)
 
@@ -2687,8 +2697,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--319
  []
 
 
-<Specification/CPRSystem/"Iteration2/cpr-database-1".png, id=955, 572.89032pt x
- 551.81157pt>
+<Specification/CPRSystem/"Iteration2/cpr-database-1".png, id=1007, 572.89032pt 
+x 551.81157pt>
 File: Specification/CPRSystem/"Iteration2/cpr-database-1".png Graphic file (typ
 e png)
  <use Specification/CPRSystem/"Iteration2/cpr-database-1".png>
@@ -2701,8 +2711,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
  []
 
 
-<Specification/CPRSystem/"Iteration2/cpr-database-2-portrait".png, id=956, 580.
-41844pt x 663.22781pt>
+<Specification/CPRSystem/"Iteration2/cpr-database-2-portrait".png, id=1008, 580
+.41844pt x 663.22781pt>
 File: Specification/CPRSystem/"Iteration2/cpr-database-2-portrait".png Graphic 
 file (type png)
 
@@ -2792,8 +2802,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--354
  []
 
 
-<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 1".png, id=975,
- 914.41624pt x 456.70625pt>
+<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 1".png, id=1027
+, 914.41624pt x 456.70625pt>
 File: Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 1".png Gra
 phic file (type png)
 
@@ -2808,8 +2818,8 @@ u-alises the in-tended func-tion-al-ity of the sys-tem.
  []
 
 
-<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 2".png, id=976,
- 923.45pt x 462.72874pt>
+<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 2".png, id=1028
+, 923.45pt x 462.72874pt>
 File: Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 2".png Gra
 phic file (type png)
 
@@ -2818,8 +2828,8 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration3/Storyboard - Itera
 tion 2 - 2".png used on input line 363.
 (pdftex.def)             Requested size: 418.25368pt x 209.58165pt.
 
-<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 3".png, id=977,
- 923.45pt x 458.71375pt>
+<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 3".png, id=1029
+, 923.45pt x 458.71375pt>
 File: Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 3".png Gra
 phic file (type png)
 
@@ -2839,7 +2849,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 375--376
 [68 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/Storyboard - Iteration 2 - 3.png>]
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (1)".png, id
-=999, 355.3275pt x 894.34125pt>
+=1051, 355.3275pt x 894.34125pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (1)".pn
 g Graphic file (type png)
 
@@ -2922,7 +2932,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--388
 [69 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/parallelization_of_search (4) (1).png>]
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (2) (1)".png, id
-=1007, 680.5425pt x 1081.03876pt>
+=1059, 680.5425pt x 1081.03876pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (2) (1)".pn
 g Graphic file (type png)
 
@@ -2939,7 +2949,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--397
 [70 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/parallelization_of_search (2) (1).png>]
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (3) (1)".png, id
-=1014, 246.9225pt x 609.77812pt>
+=1066, 246.9225pt x 609.77812pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (3) (1)".pn
 g Graphic file (type png)
 
@@ -3020,7 +3030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 410--411
 [71 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/parallelization_of_search (3) (1).png>]
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (2)".png, id
-=1021, 355.3275pt x 894.34125pt>
+=1073, 355.3275pt x 894.34125pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (2)".pn
 g Graphic file (type png)
 
@@ -3106,7 +3116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 437--438
  []
 
 
-<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 1".png, id=1034
+<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 1".png, id=1086
 , 894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 1".png Gra
 phic file (type png)
@@ -3122,7 +3132,7 @@ u-alises the in-tended func-tion-al-ity of the sys-tem.
  []
 
 
-<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 2".png, id=1035
+<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 2".png, id=1087
 , 894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 2".png Gra
 phic file (type png)
@@ -3214,7 +3224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--528
  []
 
 
-<Specification/CPRSystem/"Iteration4/Additional Details - 1".png, id=1081, 900.
+<Specification/CPRSystem/"Iteration4/Additional Details - 1".png, id=1133, 900.
 36375pt x 872.25874pt>
 File: Specification/CPRSystem/"Iteration4/Additional Details - 1".png Graphic f
 ile (type png)
@@ -3246,7 +3256,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
 [77 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration4/Additional Details - 1.png>]
-<Specification/CPRSystem/"Iteration4/Additional Details - 2".png, id=1088, 428.
+<Specification/CPRSystem/"Iteration4/Additional Details - 2".png, id=1140, 428.
 60126pt x 872.25874pt>
 File: Specification/CPRSystem/"Iteration4/Additional Details - 2".png Graphic f
 ile (type png)
@@ -3257,7 +3267,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration4/Additional Details
 (pdftex.def)             Requested size: 250.95476pt x 510.72849pt.
  [78 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/CPRSystem/Iteration4/Additional Details - 2.png>]
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 1".png, id=1095
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 1".png, id=1147
 , 816.04875pt x 423.5825pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 1".png Gra
 phic file (type png)
@@ -3273,7 +3283,7 @@ u-alises the in-tended func-tion-al-ity of the sys-tem.
  []
 
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 2".png, id=1096
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 2".png, id=1148
 , 821.0675pt x 414.54875pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 2".png Gra
 phic file (type png)
@@ -3308,7 +3318,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 580--581
  []
 
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 1".png, id=1115
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 1".png, id=1167
 , 912.40875pt x 876.27374pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 1".png Gra
 phic file (type png)
@@ -3344,7 +3354,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Specification/CPRSystem/"Iteration5/iteration-5-dnd".png, id=1124, 248.42813pt
+<Specification/CPRSystem/"Iteration5/iteration-5-dnd".png, id=1176, 248.42813pt
  x 161.10187pt>
 File: Specification/CPRSystem/"Iteration5/iteration-5-dnd".png Graphic file (ty
 pe png)
@@ -3387,7 +3397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 618--619
  []
 
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 2".png, id=1133
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 2".png, id=1185
 , 912.40875pt x 854.19125pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 2".png Gra
 phic file (type png)
@@ -3434,7 +3444,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 3".png, id=1142
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 3".png, id=1194
 , 912.40875pt x 870.25125pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 3".png Gra
 phic file (type png)
@@ -3473,7 +3483,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Specification/CPRSystem/"Iteration5/iteration-5-sleep".png, id=1143, 248.42813
+<Specification/CPRSystem/"Iteration5/iteration-5-sleep".png, id=1195, 248.42813
 pt x 193.47281pt>
 File: Specification/CPRSystem/"Iteration5/iteration-5-sleep".png Graphic file (
 type png)
@@ -3486,7 +3496,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration5/iteration-5-sleep"
 ation/CPRSystem/Iteration5/Storyboard - Iteration 6 - 3.png>] [85 <D:/Users/Mat
 tie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/It
 eration5/iteration-5-sleep.png>]
-<Specification/CPRSystem/"Iteration5/iteration-5-end".png, id=1159, 580.41844pt
+<Specification/CPRSystem/"Iteration5/iteration-5-end".png, id=1211, 580.41844pt
  x 724.95844pt>
 File: Specification/CPRSystem/"Iteration5/iteration-5-end".png Graphic file (ty
 pe png)
@@ -3558,7 +3568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[89] <Specification/API/"1".png, id=1188, 471.26062pt x 151.3153pt>
+[89] <Specification/API/"1".png, id=1240, 471.26062pt x 151.3153pt>
 File: Specification/API/"1".png Graphic file (type png)
 
 <use Specification/API/"1".png>
@@ -3574,7 +3584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<Specification/API/"2".png, id=1189, 396.7322pt x 173.89969pt>
+<Specification/API/"2".png, id=1241, 396.7322pt x 173.89969pt>
 File: Specification/API/"2".png Graphic file (type png)
 
 <use Specification/API/"2".png>
@@ -3592,12 +3602,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 tion/API/1.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStu
 dy/Specification/API/2.png>]))
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\ProjectManage
-ment/ProjectManagement.tex [91])
+ment/ProjectManagement.tex [91]
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\PersonalRefle
 ctions/PersonalReflections.tex [92])
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Appendices/Ap
 pendices.tex [93]
-<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1211, 598.235
+<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1266, 598.235
 pt x 846.16125pt>
 File: Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf Graphic file
  (type pdf)
@@ -3614,7 +3644,7 @@ Package pdftex.def Info: Appendices/Survey/Emergencyapplicationsurvey-GoogleFor
 ms.pdf used on input line 14.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1214, page=1,
+<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1269, page=1,
  598.235pt x 846.16125pt>
 File: Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf Graphic file
  (type pdf)
@@ -3674,7 +3704,7 @@ Package pdftex.def Info: Appendices/Survey/Emergencyapplicationsurvey-GoogleFor
 ms.pdf used on input line 18.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1248, page=2,
+<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1303, page=2,
  598.235pt x 846.16125pt>
 File: Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf Graphic file
  (type pdf)
@@ -3720,7 +3750,7 @@ twareDesignStudy/Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf):
  PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <
 array>); ignored.
 >]
-<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1265, page=3,
+<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1320, page=3,
  598.235pt x 846.16125pt>
 File: Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf Graphic file
  (type pdf)
@@ -3752,7 +3782,7 @@ twareDesignStudy/Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf):
  PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <
 array>); ignored.
 >]
-<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1280, page=4,
+<Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf, id=1335, page=4,
  598.235pt x 846.16125pt>
 File: Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf Graphic file
  (type pdf)
@@ -3783,7 +3813,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/Survey/Emergencyapplicationsurvey-GoogleForms.pdf):
  PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <
 array>); ignored.
->] <Appendices/"VideoStream/1".png, id=1294, 453.19313pt x 502.87875pt>
+>] <Appendices/"VideoStream/1".png, id=1349, 453.19313pt x 502.87875pt>
 File: Appendices/"VideoStream/1".png Graphic file (type png)
 
 <use Appendices/"VideoStream/1".png>
@@ -3791,7 +3821,7 @@ Package pdftex.def Info: Appendices/"VideoStream/1".png used on input line 27.
 (pdftex.def)             Requested size: 376.42575pt x 417.69618pt.
  [98 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendic
 es/VideoStream/1.png>]
-<Appendices/"VideoStream/2".png, id=1302, 1131.22626pt x 976.64874pt>
+<Appendices/"VideoStream/2".png, id=1357, 1131.22626pt x 976.64874pt>
 File: Appendices/"VideoStream/2".png Graphic file (type png)
 
 <use Appendices/"VideoStream/2".png>
@@ -3801,7 +3831,7 @@ Package pdftex.def Info: Appendices/"VideoStream/2".png used on input line 35.
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/2.png>]
-<Appendices/"VideoStream/3".png, id=1309, 944.52875pt x 745.78625pt>
+<Appendices/"VideoStream/3".png, id=1364, 944.52875pt x 745.78625pt>
 File: Appendices/"VideoStream/3".png Graphic file (type png)
 
 <use Appendices/"VideoStream/3".png>
@@ -3811,14 +3841,14 @@ Package pdftex.def Info: Appendices/"VideoStream/3".png used on input line 43.
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/3.png>]
-<Appendices/"VideoStream/4".png, id=1316, 430.60875pt x 811.03pt>
+<Appendices/"VideoStream/4".png, id=1371, 430.60875pt x 811.03pt>
 File: Appendices/"VideoStream/4".png Graphic file (type png)
 
 <use Appendices/"VideoStream/4".png>
 Package pdftex.def Info: Appendices/"VideoStream/4".png used on input line 54.
 (pdftex.def)             Requested size: 188.21286pt x 354.49062pt.
 
-<Appendices/"VideoStream/5".png, id=1317, 430.60875pt x 811.03pt>
+<Appendices/"VideoStream/5".png, id=1372, 430.60875pt x 811.03pt>
 File: Appendices/"VideoStream/5".png Graphic file (type png)
 
 <use Appendices/"VideoStream/5".png>
@@ -3827,21 +3857,21 @@ Package pdftex.def Info: Appendices/"VideoStream/5".png used on input line 60.
  [101 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/VideoStream/4.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDe
 signStudy/Appendices/VideoStream/5.png>]
-<Appendices/"VideoStream/6".png, id=1325, 430.60875pt x 811.03pt>
+<Appendices/"VideoStream/6".png, id=1380, 430.60875pt x 811.03pt>
 File: Appendices/"VideoStream/6".png Graphic file (type png)
 
 <use Appendices/"VideoStream/6".png>
 Package pdftex.def Info: Appendices/"VideoStream/6".png used on input line 73.
 (pdftex.def)             Requested size: 188.21286pt x 354.49062pt.
 
-<Appendices/"VideoStream/7".png, id=1326, 430.60875pt x 811.03pt>
+<Appendices/"VideoStream/7".png, id=1381, 430.60875pt x 811.03pt>
 File: Appendices/"VideoStream/7".png Graphic file (type png)
 
 <use Appendices/"VideoStream/7".png>
 Package pdftex.def Info: Appendices/"VideoStream/7".png used on input line 79.
 (pdftex.def)             Requested size: 188.21286pt x 354.49062pt.
 
-<Appendices/"VideoStream/8".png, id=1327, 832.10875pt x 552.0625pt>
+<Appendices/"VideoStream/8".png, id=1382, 832.10875pt x 552.0625pt>
 File: Appendices/"VideoStream/8".png Graphic file (type png)
 
 <use Appendices/"VideoStream/8".png>
@@ -3851,7 +3881,7 @@ Package pdftex.def Info: Appendices/"VideoStream/8".png used on input line 88.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Appendices/"VideoStream/9".png, id=1328, 803.0pt x 552.0625pt>
+<Appendices/"VideoStream/9".png, id=1383, 803.0pt x 552.0625pt>
 File: Appendices/"VideoStream/9".png Graphic file (type png)
 
 <use Appendices/"VideoStream/9".png>
@@ -3866,7 +3896,7 @@ es/VideoStream/6.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDes
 ignStudy/Appendices/VideoStream/7.png> <D:/Users/Mattie432/Dropbox/Programming/
 LaTeX/SoftwareDesignStudy/Appendices/VideoStream/8.png>] [103 <D:/Users/Mattie4
 32/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/VideoStream/9.png>]
-<Appendices/"VideoStream/10".png, id=1345, 803.0pt x 552.0625pt>
+<Appendices/"VideoStream/10".png, id=1400, 803.0pt x 552.0625pt>
 File: Appendices/"VideoStream/10".png Graphic file (type png)
 
 <use Appendices/"VideoStream/10".png>
@@ -3879,7 +3909,7 @@ Package pdftex.def Info: Appendices/"VideoStream/10".png used on input line 102
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/10.png>]
-<Appendices/"VideoStream/11".png, id=1352, 416.30531pt x 438.13687pt>
+<Appendices/"VideoStream/11".png, id=1407, 416.30531pt x 438.13687pt>
 File: Appendices/"VideoStream/11".png Graphic file (type png)
 
 <use Appendices/"VideoStream/11".png>
@@ -3890,7 +3920,7 @@ Package pdftex.def Info: Appendices/"VideoStream/11".png used on input line 112
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/11.png>]
-<Appendices/"VideoStream/12".png, id=1359, 439.6425pt x 472.01344pt>
+<Appendices/"VideoStream/12".png, id=1414, 439.6425pt x 472.01344pt>
 File: Appendices/"VideoStream/12".png Graphic file (type png)
 
 <use Appendices/"VideoStream/12".png>
@@ -3901,7 +3931,7 @@ Package pdftex.def Info: Appendices/"VideoStream/12".png used on input line 121
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/12.png>]
-<Appendices/"VideoStream/13".png, id=1366, 426.84468pt x 455.45157pt>
+<Appendices/"VideoStream/13".png, id=1421, 426.84468pt x 455.45157pt>
 File: Appendices/"VideoStream/13".png Graphic file (type png)
 
 <use Appendices/"VideoStream/13".png>
@@ -3912,7 +3942,7 @@ Package pdftex.def Info: Appendices/"VideoStream/13".png used on input line 130
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/13.png>]
-<Appendices/"VideoStream/14".png, id=1373, 454.69875pt x 474.27188pt>
+<Appendices/"VideoStream/14".png, id=1428, 454.69875pt x 474.27188pt>
 File: Appendices/"VideoStream/14".png Graphic file (type png)
 
 <use Appendices/"VideoStream/14".png>
@@ -3923,7 +3953,7 @@ Package pdftex.def Info: Appendices/"VideoStream/14".png used on input line 139
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/14.png>]
-<Appendices/"VideoStream/15".png, id=1380, 246.1697pt x 459.21562pt>
+<Appendices/"VideoStream/15".png, id=1435, 246.1697pt x 459.21562pt>
 File: Appendices/"VideoStream/15".png Graphic file (type png)
 
 <use Appendices/"VideoStream/15".png>
@@ -3934,7 +3964,7 @@ Package pdftex.def Info: Appendices/"VideoStream/15".png used on input line 148
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/15.png>]
-<Appendices/"VideoStream/16".png, id=1388, 231.11343pt x 440.39531pt>
+<Appendices/"VideoStream/16".png, id=1443, 231.11343pt x 440.39531pt>
 File: Appendices/"VideoStream/16".png Graphic file (type png)
 
 <use Appendices/"VideoStream/16".png>
@@ -3945,7 +3975,7 @@ Package pdftex.def Info: Appendices/"VideoStream/16".png used on input line 157
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/16.png>]
-<Appendices/"VideoStream/17".png, id=1395, 432.86719pt x 292.84406pt>
+<Appendices/"VideoStream/17".png, id=1450, 432.86719pt x 292.84406pt>
 File: Appendices/"VideoStream/17".png Graphic file (type png)
 
 <use Appendices/"VideoStream/17".png>
@@ -3953,7 +3983,7 @@ Package pdftex.def Info: Appendices/"VideoStream/17".png used on input line 168
 .
 (pdftex.def)             Requested size: 376.42575pt x 254.6695pt.
 
-<Appendices/"VideoStream/18".png, id=1396, 414.79968pt x 282.30469pt>
+<Appendices/"VideoStream/18".png, id=1451, 414.79968pt x 282.30469pt>
 File: Appendices/"VideoStream/18".png Graphic file (type png)
 
 <use Appendices/"VideoStream/18".png>
@@ -3964,7 +3994,7 @@ Package pdftex.def Info: Appendices/"VideoStream/18".png used on input line 180
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/17.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesign
-Study/Appendices/VideoStream/18.png>] <Appendices/"VideoStream/19".png, id=1405
+Study/Appendices/VideoStream/18.png>] <Appendices/"VideoStream/19".png, id=1460
 , 414.79968pt x 280.79906pt>
 File: Appendices/"VideoStream/19".png Graphic file (type png)
 
@@ -3973,7 +4003,7 @@ Package pdftex.def Info: Appendices/"VideoStream/19".png used on input line 191
 .
 (pdftex.def)             Requested size: 334.60422pt x 226.51622pt.
 
-<Appendices/"VideoStream/20".png, id=1406, 417.81094pt x 282.30469pt>
+<Appendices/"VideoStream/20".png, id=1461, 417.81094pt x 282.30469pt>
 File: Appendices/"VideoStream/20".png Graphic file (type png)
 
 <use Appendices/"VideoStream/20".png>
@@ -3984,7 +4014,7 @@ Package pdftex.def Info: Appendices/"VideoStream/20".png used on input line 202
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/19.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesign
-Study/Appendices/VideoStream/20.png>] <Appendices/"VideoStream/21".png, id=1415
+Study/Appendices/VideoStream/20.png>] <Appendices/"VideoStream/21".png, id=1470
 , 411.03563pt x 278.54062pt>
 File: Appendices/"VideoStream/21".png Graphic file (type png)
 
@@ -3993,7 +4023,7 @@ Package pdftex.def Info: Appendices/"VideoStream/21".png used on input line 216
 .
 (pdftex.def)             Requested size: 334.60422pt x 226.74721pt.
 
-<Appendices/"VideoStream/22".png, id=1416, 408.02437pt x 276.28218pt>
+<Appendices/"VideoStream/22".png, id=1471, 408.02437pt x 276.28218pt>
 File: Appendices/"VideoStream/22".png Graphic file (type png)
 
 <use Appendices/"VideoStream/22".png>
@@ -4004,7 +4034,7 @@ Package pdftex.def Info: Appendices/"VideoStream/22".png used on input line 227
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/V
 ideoStream/21.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesign
-Study/Appendices/VideoStream/22.png>] <Appendices/"Chat/1".png, id=1425, 228.85
+Study/Appendices/VideoStream/22.png>] <Appendices/"Chat/1".png, id=1480, 228.85
 5pt x 433.62pt>
 File: Appendices/"Chat/1".png Graphic file (type png)
 
@@ -4015,7 +4045,7 @@ Package pdftex.def Info: Appendices/"Chat/1".png used on input line 247.
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/C
 hat/1.png>]
-<Appendices/"Chat/2".png, id=1432, 212.29312pt x 402.00188pt>
+<Appendices/"Chat/2".png, id=1487, 212.29312pt x 402.00188pt>
 File: Appendices/"Chat/2".png Graphic file (type png)
 
 <use Appendices/"Chat/2".png>
@@ -4025,14 +4055,14 @@ Package pdftex.def Info: Appendices/"Chat/2".png used on input line 255.
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/C
 hat/2.png>]
-<Appendices/"Chat/3".png, id=1440, 387.69844pt x 262.73157pt>
+<Appendices/"Chat/3".png, id=1495, 387.69844pt x 262.73157pt>
 File: Appendices/"Chat/3".png Graphic file (type png)
 
 <use Appendices/"Chat/3".png>
 Package pdftex.def Info: Appendices/"Chat/3".png used on input line 264.
 (pdftex.def)             Requested size: 334.60422pt x 226.75453pt.
 
-<Appendices/"Chat/4".png, id=1441, 376.40625pt x 255.20343pt>
+<Appendices/"Chat/4".png, id=1496, 376.40625pt x 255.20343pt>
 File: Appendices/"Chat/4".png Graphic file (type png)
 
 <use Appendices/"Chat/4".png>
@@ -4043,14 +4073,14 @@ Package pdftex.def Info: Appendices/"Chat/4".png used on input line 272.
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/C
 hat/3.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Ap
 pendices/Chat/4.png>]
-<Appendices/"Chat/5".png, id=1450, 386.94562pt x 260.47313pt>
+<Appendices/"Chat/5".png, id=1505, 386.94562pt x 260.47313pt>
 File: Appendices/"Chat/5".png Graphic file (type png)
 
 <use Appendices/"Chat/5".png>
 Package pdftex.def Info: Appendices/"Chat/5".png used on input line 282.
 (pdftex.def)             Requested size: 334.60422pt x 225.24255pt.
 
-<Appendices/"Chat/6".png, id=1451, 387.69844pt x 261.22594pt>
+<Appendices/"Chat/6".png, id=1506, 387.69844pt x 261.22594pt>
 File: Appendices/"Chat/6".png Graphic file (type png)
 
 <use Appendices/"Chat/6".png>
@@ -4061,14 +4091,14 @@ Package pdftex.def Info: Appendices/"Chat/6".png used on input line 289.
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/C
 hat/5.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Ap
 pendices/Chat/6.png>]
-<Appendices/"Chat/7".png, id=1460, 213.79875pt x 408.77719pt>
+<Appendices/"Chat/7".png, id=1515, 213.79875pt x 408.77719pt>
 File: Appendices/"Chat/7".png Graphic file (type png)
 
 <use Appendices/"Chat/7".png>
 Package pdftex.def Info: Appendices/"Chat/7".png used on input line 303.
 (pdftex.def)             Requested size: 188.21286pt x 359.85602pt.
 
-<Appendices/"Chat/8".png, id=1461, 210.03468pt x 397.485pt>
+<Appendices/"Chat/8".png, id=1516, 210.03468pt x 397.485pt>
 File: Appendices/"Chat/8".png Graphic file (type png)
 
 <use Appendices/"Chat/8".png>
@@ -4079,14 +4109,14 @@ Package pdftex.def Info: Appendices/"Chat/8".png used on input line 309.
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/C
 hat/7.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Ap
 pendices/Chat/8.png>]
-<Appendices/"Chat/9".png, id=1469, 208.52907pt x 393.72093pt>
+<Appendices/"Chat/9".png, id=1524, 208.52907pt x 393.72093pt>
 File: Appendices/"Chat/9".png Graphic file (type png)
 
 <use Appendices/"Chat/9".png>
 Package pdftex.def Info: Appendices/"Chat/9".png used on input line 322.
 (pdftex.def)             Requested size: 188.21286pt x 355.37889pt.
 
-<Appendices/"Chat/10".png, id=1470, 222.8325pt x 408.02437pt>
+<Appendices/"Chat/10".png, id=1525, 222.8325pt x 408.02437pt>
 File: Appendices/"Chat/10".png Graphic file (type png)
 
 <use Appendices/"Chat/10".png>
@@ -4095,14 +4125,14 @@ Package pdftex.def Info: Appendices/"Chat/10".png used on input line 328.
  [119 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/Chat/9.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStu
 dy/Appendices/Chat/10.png>]
-<Appendices/"Auto/1".png, id=1478, 587.19376pt x 173.89969pt>
+<Appendices/"Auto/1".png, id=1533, 587.19376pt x 173.89969pt>
 File: Appendices/"Auto/1".png Graphic file (type png)
 
 <use Appendices/"Auto/1".png>
 Package pdftex.def Info: Appendices/"Auto/1".png used on input line 351.
 (pdftex.def)             Requested size: 418.25368pt x 123.86765pt.
 
-<Appendices/"Auto/2".png, id=1479, 591.71063pt x 236.38312pt>
+<Appendices/"Auto/2".png, id=1534, 591.71063pt x 236.38312pt>
 File: Appendices/"Auto/2".png Graphic file (type png)
 
 <use Appendices/"Auto/2".png>
@@ -4114,7 +4144,7 @@ Package pdftex.def Info: Appendices/"Auto/2".png used on input line 361.
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/A
 uto/1.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Ap
 pendices/Auto/2.png>]
-<Appendices/"Auto/3".png, id=1488, 229.60782pt x 431.36156pt>
+<Appendices/"Auto/3".png, id=1543, 229.60782pt x 431.36156pt>
 File: Appendices/"Auto/3".png Graphic file (type png)
 
 <use Appendices/"Auto/3".png>
@@ -4124,14 +4154,14 @@ Package pdftex.def Info: Appendices/"Auto/3".png used on input line 372.
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/A
 uto/3.png>]
-<Appendices/"Auto/4".png, id=1496, 377.91188pt x 256.70906pt>
+<Appendices/"Auto/4".png, id=1551, 377.91188pt x 256.70906pt>
 File: Appendices/"Auto/4".png Graphic file (type png)
 
 <use Appendices/"Auto/4".png>
 Package pdftex.def Info: Appendices/"Auto/4".png used on input line 381.
 (pdftex.def)             Requested size: 334.60422pt x 227.29129pt.
 
-<Appendices/"Auto/5".png, id=1497, 382.42876pt x 258.21469pt>
+<Appendices/"Auto/5".png, id=1552, 382.42876pt x 258.21469pt>
 File: Appendices/"Auto/5".png Graphic file (type png)
 
 <use Appendices/"Auto/5".png>
@@ -4142,7 +4172,7 @@ Package pdftex.def Info: Appendices/"Auto/5".png used on input line 390.
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendices/A
 uto/4.png> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Ap
 pendices/Auto/5.png>]
-<Appendices/API/EmergencyClient.pdf, id=1506, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1561, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf>
@@ -4156,7 +4186,7 @@ Package pdftex.def Info: Appendices/API/EmergencyClient.pdf used on input line
 402.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<Appendices/API/EmergencyClient.pdf, id=1509, page=1, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1564, page=1, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 1>
@@ -4208,7 +4238,7 @@ Package pdftex.def Info: Appendices/API/EmergencyClient.pdf used on input line
 406.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<Appendices/API/EmergencyClient.pdf, id=1820, page=2, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1875, page=2, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 2>
@@ -4246,7 +4276,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1834, page=3, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1889, page=3, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 3>
@@ -4272,7 +4302,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1848, page=4, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1903, page=4, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 4>
@@ -4298,7 +4328,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1861, page=5, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1916, page=5, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 5>
@@ -4324,7 +4354,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1874, page=6, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1929, page=6, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 6>
@@ -4349,7 +4379,7 @@ ces/API/EmergencyClient.pdf
 pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <Appendices/API/EmergencyServer.pdf, id=1888, 598.235pt x 846.16125pt>
+>] <Appendices/API/EmergencyServer.pdf, id=1943, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf>
@@ -4363,7 +4393,7 @@ Package pdftex.def Info: Appendices/API/EmergencyServer.pdf used on input line
 407.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<Appendices/API/EmergencyServer.pdf, id=1891, page=1, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=1946, page=1, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 1>
@@ -4401,7 +4431,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2205, page=2, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2260, page=2, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 2>
@@ -4427,7 +4457,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2217, page=3, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2272, page=3, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 3>
@@ -4453,7 +4483,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2229, page=4, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2284, page=4, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 4>
@@ -4479,7 +4509,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2241, page=5, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2296, page=5, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 5>
@@ -4505,7 +4535,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2257, page=6, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2312, page=6, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 6>
@@ -4531,7 +4561,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2273, page=7, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2328, page=7, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 7>
@@ -4557,7 +4587,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2288, page=8, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2343, page=8, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 8>
@@ -4583,7 +4613,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2301, page=9, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2356, page=9, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 9>
@@ -4609,7 +4639,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2316, page=10, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2371, page=10, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 10>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page10 used on inp
@@ -4634,7 +4664,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2329, page=11, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2384, page=11, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 11>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page11 used on inp
@@ -4659,7 +4689,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2345, page=12, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2400, page=12, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 12>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page12 used on inp
@@ -4684,7 +4714,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2358, page=13, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2413, page=13, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 13>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page13 used on inp
@@ -4709,7 +4739,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2373, page=14, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2428, page=14, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 14>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page14 used on inp
@@ -4734,7 +4764,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2386, page=15, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2441, page=15, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 15>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page15 used on inp
@@ -4759,7 +4789,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2401, page=16, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2456, page=16, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 16>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page16 used on inp
@@ -4784,7 +4814,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2414, page=17, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2469, page=17, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 17>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page17 used on inp
@@ -4809,7 +4839,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2428, page=18, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2483, page=18, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 18>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page18 used on inp
@@ -4834,7 +4864,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2445, page=19, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2500, page=19, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 19>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page19 used on inp
@@ -4859,7 +4889,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2538, page=20, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2593, page=20, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 20>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page20 used on inp
@@ -4884,7 +4914,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2552, page=21, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2607, page=21, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 21>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page21 used on inp
@@ -4909,7 +4939,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2566, page=22, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2621, page=22, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 22>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page22 used on inp
@@ -4934,7 +4964,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2580, page=23, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2635, page=23, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 23>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page23 used on inp
@@ -4959,7 +4989,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2595, page=24, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2650, page=24, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 24>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page24 used on inp
@@ -4984,7 +5014,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2607, page=25, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2662, page=25, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 25>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page25 used on inp
@@ -5009,7 +5039,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2619, page=26, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2674, page=26, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 26>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page26 used on inp
@@ -5034,7 +5064,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2633, page=27, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2688, page=27, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 27>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page27 used on inp
@@ -5059,7 +5089,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2649, page=28, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2704, page=28, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 28>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page28 used on inp
@@ -5084,7 +5114,7 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2662, page=29, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2717, page=29, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 29>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page29 used on inp
@@ -5109,13 +5139,112 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+(D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Bibliography/
+Bibliography.tex
+Overfull \hbox (0.91396pt too wide) in paragraph at lines 9--14
+\OT1/cmr/m/n/10 Available: http://www.theguardian.com/news/datablog/2011/oct/28
+/mortality-statistics-
+ []
+
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∏ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+
+Overfull \hbox (56.25026pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 Available: http://www.sahlgrenska.se/upload/SU/omrade[]molndal/
+ambulans/Good%20outcome%20in
+ []
+
+Missing character: There is no √ in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[158]
+Overfull \hbox (0.19157pt too wide) in paragraph at lines 36--37
+\OT1/cmr/m/n/10 Available: http://wenda.baba.io/questions/1527378/is-gcm-servic
+e-reliable-for-large-scale-
+ []
+
+
+Overfull \hbox (68.99748pt too wide) in paragraph at lines 44--45
+\OT1/cmr/m/n/10 Avail-able: https://developer.android.com/reference/com/google/
+android/gms/maps/model/LatLng.html. 
+ []
+
+[159]
+Overfull \hbox (7.05276pt too wide) in paragraph at lines 64--65
+\OT1/cmr/m/n/10 Avail-able: http://stackoverflow.com/questions/22663778/why-and
+-how-is-push-notification-
+ []
+
+
+Overfull \hbox (42.95853pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 Avail-able: http://www.londonambulance.nhs.uk/calling[]999/what
+[]happens[]when[]you[]call[]999.aspx. 
+ []
+
+
+Overfull \hbox (50.10857pt too wide) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 Avail-able: http://www.londonambulance.nhs.uk/talking[]with[]us
+/use[]your[]personal[]information.aspx. 
+ []
+
+[160]
+Overfull \hbox (9.85832pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 Avail-able: http://www.trustedreviews.com/opinions/h-265-vs-vp9
+-4k-video-codes-explained. 
+ []
+
+
+Overfull \hbox (15.41388pt too wide) in paragraph at lines 98--99
+\OT1/cmr/m/n/10 Available: http://www.cnet.com/news/google-urges-fast-adoption-
+of-vp9-video-compression/. 
+ []
+
+
+Overfull \hbox (7.775pt too wide) in paragraph at lines 100--101
+\OT1/cmr/m/n/10 Avail-able: http://blog.euclidiq.com/video-compression-blog/the
+-video-codec-fight-h.265-vs.-
+ []
+
+
+Overfull \hbox (34.58054pt too wide) in paragraph at lines 104--105
+\OT1/cmr/m/n/10 Avail-able: https://ustream.zendesk.com/entries/22962268-Intern
+et-connection-and-recommended-
+ []
+
+[161]
+Overfull \hbox (20.3083pt too wide) in paragraph at lines 118--119
+\OT1/cmr/m/n/10 Avail-able: http://www.safenetwork.org.uk/training[]and[]awaren
+ess/pages/deaf-awareness.aspx. 
+ []
+
+
+Overfull \hbox (8.1361pt too wide) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 Avail-able: http://phillbarber.blogspot.co.uk/2014/02/client-si
+de-vs-server-side-session.html. 
+ []
+
+
+Overfull \hbox (13.30283pt too wide) in paragraph at lines 130--131
+\OT1/cmr/m/n/10 Available: http://www.ecma-international.org/publications/files
+/ECMA-ST/ECMA-404.pdf. 
+ []
+
+[162])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+ [163]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
 nStudy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
 
 
 Package rerunfilecheck Warning: File `SoftwareDesignStudy.out' has changed.
@@ -5123,15 +5252,15 @@ Package rerunfilecheck Warning: File `SoftwareDesignStudy.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `SoftwareDesignStudy.out':
-(rerunfilecheck)             Before: 8972B0DEBDF29F5FB36DFD059FF415B9;4354
-(rerunfilecheck)             After:  820F92FCCA8AEABA377F46598D9D337A;5284.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
+(rerunfilecheck)             Before: 897A0CF0813CDF8EED8A57A238341C71;5285
+(rerunfilecheck)             After:  EF486759333788895EE3205629C339B9;5463.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
  ) 
 Here is how much of TeX's memory you used:
- 13266 strings out of 493921
- 233634 string characters out of 3144864
+ 13357 strings out of 493921
+ 234725 string characters out of 3144864
  330911 words of memory out of 3000000
- 15315 multiletter control sequences out of 15000+200000
+ 15330 multiletter control sequences out of 15000+200000
  6850 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  74i,20n,98p,1352b,1837s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5143,9 +5272,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on SoftwareDesignStudy.pdf (157 pages, 6713261 bytes).
+Output written on SoftwareDesignStudy.pdf (163 pages, 6739335 bytes).
 PDF statistics:
- 2839 PDF objects out of 2984 (max. 8388607)
- 632 named destinations out of 1000 (max. 500000)
- 2007 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2996 PDF objects out of 3580 (max. 8388607)
+ 703 named destinations out of 1000 (max. 500000)
+ 2111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
