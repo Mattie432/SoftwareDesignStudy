@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 18:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 18:40
 entering extended mode
 **SoftwareDesignStudy.tex
 
@@ -683,6 +683,13 @@ File: TitlePage/university.jpg Graphic file (type jpg)
 <use TitlePage/university.jpg>
 Package pdftex.def Info: TitlePage/university.jpg used on input line 19.
 (pdftex.def)             Requested size: 376.42575pt x 333.44806pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
  [1
 
 {D:/Users/Mattie432/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/User
@@ -761,7 +768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--28
 
  []
 
-<Modules/"SDS Video Bandwidth".png, id=324, 516.42938pt x 611.28375pt>
+<Modules/"SDS Video Bandwidth".png, id=325, 516.42938pt x 611.28375pt>
 File: Modules/"SDS Video Bandwidth".png Graphic file (type png)
 
 <use Modules/"SDS Video Bandwidth".png>
@@ -894,7 +901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=357, 1039
+<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=358, 1039
 .885pt x 538.01pt>
 File: Specification/CommonTechnologies/"Network Map - Iteration 0".png Graphic 
 file (type png)
@@ -920,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 [13 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CommonTechnologies/Network Map - Iteration 0.png>]
-<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=367
+<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=368
 , 783.92876pt x 456.70625pt>
 File: Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png Gr
 aphic file (type png)
@@ -936,7 +943,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 
 <Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Iteratio
-n 0".png, id=368, 634.37pt x 405.515pt>
+n 0".png, id=369, 634.37pt x 405.515pt>
 File: Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -958,7 +965,7 @@ tion/CommonTechnologies/Initial GCM Setup - Iteration 0.png> <D:/Users/Mattie43
 2/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CommonTechnologie
 s/GCM Registration Sequence Diagram - Iteration 0.png>]
 <Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0".png
-, id=378, 795.97375pt x 538.01pt>
+, id=379, 795.97375pt x 538.01pt>
 File: Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0
 ".png Graphic file (type png)
 
@@ -977,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
 
 <Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Iteratio
-n 0".png, id=379, 735.74875pt x 626.34pt>
+n 0".png, id=380, 735.74875pt x 626.34pt>
 File: Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -1025,7 +1032,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=408,
+<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=409,
  603.0028pt x 132.495pt>
 File: Specification/CommonTechnologies/"GSM Sending a message upstream".png Gra
 phic file (type png)
@@ -1054,7 +1061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 [17 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CommonTechnologies/GSM Sending a message upstream.png>]
 <Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, 
-id=432, 450.18187pt x 277.78781pt>
+id=433, 450.18187pt x 277.78781pt>
 File: Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".
 png Graphic file (type png)
 
@@ -1102,7 +1109,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backendsearch".pn
-g, id=455, 832.10875pt x 552.0625pt>
+g, id=456, 832.10875pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backendsearc
 h".png Graphic file (type png)
 
@@ -1116,7 +1123,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequenceinitiatesession (2)
-".png, id=456, 634.37pt x 711.65875pt>
+".png, id=457, 634.37pt x 711.65875pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceinitiatesessio
 n (2)".png Graphic file (type png)
 
@@ -1141,7 +1148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 [21 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/EmergencyApp/EmergencyAppIteration1/sequenceinitiatesession (2).png>]
 <Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png, id=47
-1, 430.60875pt x 811.03pt>
+2, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png G
 raphic file (type png)
 
@@ -1220,7 +1227,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequencestartvideouser".png
-, id=487, 944.52875pt x 745.78625pt>
+, id=488, 944.52875pt x 745.78625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequencestartvideouser
 ".png Graphic file (type png)
 
@@ -1231,7 +1238,7 @@ uencestartvideouser".png used on input line 73.
 (pdftex.def)             Requested size: 418.25368pt x 330.25223pt.
  [23]
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorrequestvide
-o".png, id=495, 1131.22626pt x 976.64874pt>
+o".png, id=496, 1131.22626pt x 976.64874pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorreques
 tvideo".png Graphic file (type png)
 
@@ -1253,7 +1260,7 @@ uenceoperatorrequestvideo".png used on input line 87.
  [25 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/EmergencyAppIteration1/sequenceoperatorrequestvideo.png>]
 <Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStart.png
-, id=509, 430.60875pt x 811.03pt>
+, id=510, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStar
 t.png Graphic file (type png)
 
@@ -1264,7 +1271,7 @@ ation1videocallStart.png used on input line 94.
 (pdftex.def)             Requested size: 209.12683pt x 393.88121pt.
 
 <Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.png, 
-id=510, 430.60875pt x 811.03pt>
+id=511, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.
 png Graphic file (type png)
 
@@ -1280,7 +1287,7 @@ Overfull \hbox (4.44441pt too wide) in paragraph at lines 93--102
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png, id=
-511, 803.0pt x 552.0625pt>
+512, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png
  Graphic file (type png)
 
@@ -1290,7 +1297,7 @@ ration1backend".png used on input line 107.
 (pdftex.def)             Requested size: 376.42575pt x 258.7955pt.
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)".png,
- id=512, 803.0pt x 552.0625pt>
+ id=513, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)"
 .png Graphic file (type png)
 
@@ -1358,7 +1365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png, id=5
-33, 973.6375pt x 1013.7875pt>
+34, 973.6375pt x 1013.7875pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png 
 Graphic file (type png)
 
@@ -1369,7 +1376,7 @@ ration2ui (1)".png used on input line 142.
 
 [29]
 <Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".png, 
-id=541, 450.68375pt x 831.105pt>
+id=542, 450.68375pt x 831.105pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".
 png Graphic file (type png)
 
@@ -1419,7 +1426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_nochat (1
-)".png, id=555, 3212.0pt x 2208.25pt>
+)".png, id=556, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_noch
 at (1)".png Graphic file (type png)
 
@@ -1430,7 +1437,7 @@ kend_videocall_nochat (1)".png used on input line 181.
 (pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
 
 <Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_footage 
-(1)".png, id=556, 3212.0pt x 2208.25pt>
+(1)".png, id=557, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_foo
 tage (1)".png Graphic file (type png)
 
@@ -1464,7 +1471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfirmdia
-log (1)".png, id=573, 803.0pt x 552.0625pt>
+log (1)".png, id=574, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfi
 rmdialog (1)".png Graphic file (type png)
 
@@ -1480,7 +1487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--213
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search_scre
-en".png, id=574, 3328.435pt x 2234.3475pt>
+en".png, id=575, 3328.435pt x 2234.3475pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search
 _screen".png Graphic file (type png)
 
@@ -1510,7 +1517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_itera
-tion3 (1)".png, id=589, 3212.0pt x 2208.25pt>
+tion3 (1)".png, id=590, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_
 iteration3 (1)".png Graphic file (type png)
 
@@ -1521,7 +1528,7 @@ e_accident_streams_iteration3 (1)".png used on input line 238.
 (pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
 
 <Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_opene
-d_iteration3".png, id=590, 3212.0pt x 2208.25pt>
+d_iteration3".png, id=591, 3212.0pt x 2208.25pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_
 opened_iteration3".png Graphic file (type png)
 
@@ -1570,7 +1577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--310
  []
 
 [39]
-<Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png, id=655, 8
+<Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png, id=656, 8
 32.10875pt x 552.0625pt>
 File: Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png Graph
 ic file (type png)
@@ -1582,7 +1589,7 @@ d_search".png used on input line 350.
 
 [40 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/EmergencyApp/ChatIteration1/chat_backend_search.png>]
-<Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png, id=674
+<Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png, id=675
 , 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png Gr
 aphic file (type png)
@@ -1602,7 +1609,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
 <Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png, id=68
-3, 430.60875pt x 811.03pt>
+4, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png G
 raphic file (type png)
 
@@ -1684,7 +1691,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 390--391
  []
 
 
-<Specification/EmergencyApp/"ChatIteration2/chat (1)".png, id=684, 4095.3pt x 3
+<Specification/EmergencyApp/"ChatIteration2/chat (1)".png, id=685, 4095.3pt x 3
 244.12pt>
 File: Specification/EmergencyApp/"ChatIteration2/chat (1)".png Graphic file (ty
 pe png)
@@ -1713,7 +1720,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest".png,
- id=701, 803.0pt x 552.0625pt>
+ id=702, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest"
 .png Graphic file (type png)
 
@@ -1724,7 +1731,7 @@ tionbackendrequest".png used on input line 413.
 (pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
 
 <Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived".png
-, id=702, 803.0pt x 552.0625pt>
+, id=703, 803.0pt x 552.0625pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived
 ".png Graphic file (type png)
 
@@ -1736,7 +1743,7 @@ tionbackendreceived".png used on input line 421.
  [44 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/AutomaticVideoSending/locationbackendrequest.png>]
 <Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmation".
-png, id=711, 1722.435pt x 3244.12pt>
+png, id=712, 1722.435pt x 3244.12pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmat
 ion".png Graphic file (type png)
 
@@ -1749,7 +1756,7 @@ _location_confirmation".png used on input line 430.
 ation/EmergencyApp/AutomaticVideoSending/locationbackendreceived.png> <D:/Users
 /Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Emergenc
 yApp/AutomaticVideoSending/send_location_confirmation.png>]
-<Specification/EmergencyApp/"AutomaticVideoSending/gcm".png, id=720, 465.99094p
+<Specification/EmergencyApp/"AutomaticVideoSending/gcm".png, id=721, 465.99094p
 t x 301.125pt>
 File: Specification/EmergencyApp/"AutomaticVideoSending/gcm".png Graphic file (
 type png)
@@ -1760,7 +1767,7 @@ Package pdftex.def Info: Specification/EmergencyApp/"AutomaticVideoSending/gcm"
 (pdftex.def)             Requested size: 418.25368pt x 270.2886pt.
  [46 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/AutomaticVideoSending/gcm.png>]
-<Specification/EmergencyApp/"Database/file-page1".png, id=732, 481.8pt x 701.50
+<Specification/EmergencyApp/"Database/file-page1".png, id=733, 481.8pt x 701.50
 08pt>
 File: Specification/EmergencyApp/"Database/file-page1".png Graphic file (type p
 ng)
@@ -1785,7 +1792,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=739,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=740,
  894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png Gra
 phic file (type png)
@@ -1795,7 +1802,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 1".png used on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=740,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=741,
  894.34125pt x 455.7025pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png Gra
 phic file (type png)
@@ -1805,7 +1812,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 2".png used on input line 23.
 (pdftex.def)             Requested size: 418.25368pt x 213.11632pt.
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=741,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=742,
  894.34125pt x 454.69875pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png Gra
 phic file (type png)
@@ -1862,7 +1869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android Notification Layout".png, id=773, 
+<Specification/CPRSystem/"Iteration1/Android Notification Layout".png, id=774, 
 365.6862pt x 123.3408pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Layout".png Grap
 hic file (type png)
@@ -1890,7 +1897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android notification icon".jpg, id=785, 27
+<Specification/CPRSystem/"Iteration1/Android notification icon".jpg, id=786, 27
 8.9622pt x 288.5982pt>
 File: Specification/CPRSystem/"Iteration1/Android notification icon".jpg Graphi
 c file (type jpg)
@@ -1906,7 +1913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
 
 <Specification/CPRSystem/"Iteration1/Android Notification Layout Extended".png,
- id=786, 576.65437pt x 476.53032pt>
+ id=787, 576.65437pt x 476.53032pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Layout Extended"
 .png Graphic file (type png)
 
@@ -1987,7 +1994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android Notification Design".png, id=787, 
+<Specification/CPRSystem/"Iteration1/Android Notification Design".png, id=788, 
 416.30531pt x 318.43968pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Design".png Grap
 hic file (type png)
@@ -2100,7 +2107,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android CPR app pane".png, id=813, 431.612
+<Specification/CPRSystem/"Iteration1/Android CPR app pane".png, id=814, 431.612
 5pt x 819.06pt>
 File: Specification/CPRSystem/"Iteration1/Android CPR app pane".png Graphic fil
 e (type png)
@@ -2292,13 +2299,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 164.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
 Missing character: There is no ‚ in font cmti10!
 Missing character: There is no Ä in font cmti10!
 Missing character: There is no ô in font cmti10!
@@ -4174,31 +4174,31 @@ File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyClient.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page2 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+(pdftex.def)             Requested size: 598.23354pt x 789.25385pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page2 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page2 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page2 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page2 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [123 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyClient.pdf
 
@@ -4206,25 +4206,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1807, page=3, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1813, page=3, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 3>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page3 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 3>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page3 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 3>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page3 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [124 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyClient.pdf
 
@@ -4232,25 +4232,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1817, page=4, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1827, page=4, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 4>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page4 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 4>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page4 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 4>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page4 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [125 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyClient.pdf
 
@@ -4258,25 +4258,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1826, page=5, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1840, page=5, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 5>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page5 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 5>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page5 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 5>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page5 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [126 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyClient.pdf
 
@@ -4284,32 +4284,32 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyClient.pdf, id=1834, page=6, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyClient.pdf, id=1852, page=6, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 6>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page6 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 6>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page6 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyClient.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyClient.pdf, page 6>
 Package pdftex.def Info: Appendices/API/EmergencyClient.pdf, page6 used on inpu
 t line 406.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [127 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyClient.pdf
 
 pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyClient.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <Appendices/API/EmergencyServer.pdf, id=1845, 598.235pt x 846.16125pt>
+>] <Appendices/API/EmergencyServer.pdf, id=1867, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf>
@@ -4323,37 +4323,37 @@ Package pdftex.def Info: Appendices/API/EmergencyServer.pdf used on input line
 407.
 (pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
 
-<Appendices/API/EmergencyServer.pdf, id=1848, page=1, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=1870, page=1, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 1>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page1 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 598.23354pt x 846.1592pt.
+(pdftex.def)             Requested size: 598.23354pt x 789.25385pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 1>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page1 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 1>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page1 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 1>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page1 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 1>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page1 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [128 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4361,25 +4361,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2156, page=2, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2184, page=2, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page2 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page2 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 2>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page2 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [129 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4387,25 +4387,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2164, page=3, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2196, page=3, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 3>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page3 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 3>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page3 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 3>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page3 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [130 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4413,25 +4413,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2172, page=4, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2208, page=4, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 4>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page4 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 4>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page4 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 4>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page4 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [131 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4439,25 +4439,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2180, page=5, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2220, page=5, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 5>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page5 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 5>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page5 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 5>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page5 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [132 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4465,25 +4465,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2191, page=6, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2235, page=6, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 6>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page6 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 6>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page6 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 6>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page6 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [133 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4491,25 +4491,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2204, page=7, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2252, page=7, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 7>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page7 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 7>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page7 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 7>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page7 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [134 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4517,25 +4517,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2215, page=8, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2267, page=8, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 8>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page8 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 8>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page8 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 8>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page8 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [135 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4543,25 +4543,25 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2224, page=9, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2280, page=9, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 9>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page9 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 9>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page9 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 9>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page9 used on inpu
 t line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [136 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4569,24 +4569,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2235, page=10, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2295, page=10, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 10>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page10 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 10>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page10 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 10>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page10 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 10>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page10 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [137 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4594,24 +4594,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2244, page=11, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2308, page=11, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 11>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page11 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 11>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page11 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 11>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page11 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 11>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page11 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [138 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4619,24 +4619,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2255, page=12, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2323, page=12, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 12>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page12 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 12>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page12 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 12>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page12 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 12>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page12 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [139 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4644,24 +4644,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2265, page=13, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2337, page=13, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 13>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page13 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 13>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page13 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 13>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page13 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 13>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page13 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [140 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4669,24 +4669,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2276, page=14, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2352, page=14, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 14>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page14 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 14>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page14 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 14>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page14 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 14>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page14 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [141 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4694,24 +4694,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2285, page=15, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2365, page=15, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 15>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page15 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 15>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page15 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 15>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page15 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 15>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page15 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [142 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4719,24 +4719,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2296, page=16, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2380, page=16, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 16>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page16 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 16>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page16 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 16>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page16 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 16>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page16 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [143 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4744,24 +4744,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2305, page=17, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2393, page=17, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 17>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page17 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 17>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page17 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 17>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page17 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 17>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page17 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [144 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4769,24 +4769,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2314, page=18, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2406, page=18, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 18>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page18 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 18>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page18 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 18>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page18 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 18>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page18 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [145 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4794,24 +4794,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2328, page=19, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2424, page=19, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 19>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page19 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 19>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page19 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 19>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page19 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 19>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page19 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [146 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4819,24 +4819,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2417, page=20, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2517, page=20, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 20>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page20 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 20>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page20 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 20>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page20 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 20>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page20 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [147 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4844,24 +4844,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2427, page=21, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2531, page=21, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 21>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page21 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 21>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page21 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 21>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page21 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 21>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page21 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [148 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4869,24 +4869,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2437, page=22, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2545, page=22, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 22>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page22 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 22>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page22 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 22>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page22 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 22>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page22 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [149 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4894,24 +4894,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2447, page=23, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2559, page=23, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 23>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page23 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 23>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page23 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 23>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page23 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 23>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page23 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [150 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4919,24 +4919,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2457, page=24, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2573, page=24, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 24>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page24 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 24>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page24 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 24>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page24 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 24>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page24 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [151 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4944,24 +4944,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2466, page=25, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2586, page=25, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 25>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page25 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 25>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page25 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 25>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page25 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 25>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page25 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [152 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4969,24 +4969,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2474, page=26, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2598, page=26, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 26>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page26 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 26>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page26 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 26>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page26 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 26>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page26 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [153 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -4994,24 +4994,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2484, page=27, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2612, page=27, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 27>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page27 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 27>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page27 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 27>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page27 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 27>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page27 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [154 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -5019,24 +5019,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2496, page=28, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2628, page=28, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 28>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page28 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 28>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page28 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 28>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page28 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 28>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page28 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [155 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -5044,24 +5044,24 @@ pdfTeX warning: pdflatex (file D:/Users/Mattie432/Dropbox/Programming/LaTeX/Sof
 twareDesignStudy/Appendices/API/EmergencyServer.pdf): PDF inclusion: invalid ot
 her resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<Appendices/API/EmergencyServer.pdf, id=2505, page=29, 598.235pt x 846.16125pt>
+<Appendices/API/EmergencyServer.pdf, id=2641, page=29, 598.235pt x 846.16125pt>
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 <use Appendices/API/EmergencyServer.pdf, page 29>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page29 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
-File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
-
-<use Appendices/API/EmergencyServer.pdf, page 29>
-Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page29 used on inp
-ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
 File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
 
 <use Appendices/API/EmergencyServer.pdf, page 29>
 Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page29 used on inp
 ut line 407.
-(pdftex.def)             Requested size: 597.55803pt x 845.20375pt.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
+File: Appendices/API/EmergencyServer.pdf Graphic file (type pdf)
+
+<use Appendices/API/EmergencyServer.pdf, page 29>
+Package pdftex.def Info: Appendices/API/EmergencyServer.pdf, page29 used on inp
+ut line 407.
+(pdftex.def)             Requested size: 597.7406pt x 788.60352pt.
  [156 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Appendi
 ces/API/EmergencyServer.pdf
 
@@ -5081,10 +5081,10 @@ Package rerunfilecheck Info: File `SoftwareDesignStudy.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
  ) 
 Here is how much of TeX's memory you used:
- 13246 strings out of 493921
- 233356 string characters out of 3144864
- 330911 words of memory out of 3000000
- 15313 multiletter control sequences out of 15000+200000
+ 13248 strings out of 493921
+ 233391 string characters out of 3144864
+ 329911 words of memory out of 3000000
+ 15315 multiletter control sequences out of 15000+200000
  6850 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  74i,20n,98p,1352b,1837s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5096,9 +5096,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on SoftwareDesignStudy.pdf (156 pages, 6782980 bytes).
+Output written on SoftwareDesignStudy.pdf (156 pages, 6819804 bytes).
 PDF statistics:
- 2674 PDF objects out of 2984 (max. 8388607)
+ 2814 PDF objects out of 2984 (max. 8388607)
  614 named destinations out of 1000 (max. 500000)
- 1371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2007 words of extra memory for PDF output out of 10000 (max. 10000000)
 
