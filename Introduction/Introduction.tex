@@ -8,5 +8,33 @@
 \begin{document}
 \pagebreak
     \section{Introduction}
-	
+    \subsection{Background}
+    \subsection{Current Problem}
+    \subsection{Currently Available Systems}
+\subsubsection{Current Process}
+When someone dials 999, the call is taken by an emergency operator at an Operator Assistance Centre (OAC), which are run by the phone companies (e.g. BT). They then route the call to an Emergency Control Centre (ECC), of which there are several for each emergency service. Any call involving police (regardless of other services requested) is routed to one of their control centres. The police will make a record of the call, before passing it over to any other involved service, e.g. London Ambulance Service for giving medical advice. London Ambulance Service and the police’s systems are integrated, so passing from police to them is easy, however if the caller mentions London Fire Brigade, the message is routed to the Contact Desk, where someone has to pick up the phone and ring them on a dedicated line.
+
+\subsubsection{Call Handling System (CHS)}
+CAD has a text-based interface, so about 5 years ago a system called CHS (Call Handling System) was brought in. It effectively adds a more user-friendly interface to CAD, with demand created using it converted into CAD messages. Demand can be created using both CAD and CHS, but new employees are only trained to use CHS. Whenever CHS crashes, new call takers have to write out demands on paper and pass them to the old remaining CAD-trained person to type into the system.
+
+\subsubsection{CAD}
+CAD is the current dispatch system used by the Metropolitan Police Service. Developed by Unisys Corporation in the 1980s, it has long surpassed its predicted lifespan, and many contracts have been created to extend support for the system. It is slowly being phased out and replaced by Northrop Grumman’s CommandPoint system.
+
+\subsubsection{CAD Backup Facility (CBUF)}
+CBUF is a mirror CAD system, used if the latter crashes, runs slow or undergoes maintenance. The problem is switching between the two - demands trickle over over the period of about an hour. This is a serious problem if something serious comes in and one system immediately crashes - the switch to the other system is almost immediate, but it can take an hour before the last events from the old system appear. If CAD is going down for planned maintenance, supervisors in the despatch print their open incident lists so they at least have a clue about what was outstanding. The problem is when maintenance ends, the trickling problem happens again.
+
+Whenever possible, the Met uses CAD over CBUF, presumably because the maintenance contract specifies CAD should be fully functional most of the time and CBUF much less - no point in going for full functionality of both systems.
+
+\subsubsection{Emergency Help via SMS}
+In case of an emergency, people have to call 999 and request help. Unfortunately, people with hearing loss or speech impairment cannot use their mobile phones for voice calls. Currently, there exists an Emergency SMS service [49], in order to give these people the opportunity to request help in the case of an emergency.\\
+
+The current system, however, is very outdated, not very reliable and difficult to use. Some of its problems are there because it is based on SMS technology. Although sending an SMS requires a very low network coverage, it is very unreliable. It can take from a few seconds to a few minutes to deliver a single SMS message [50]. Apart from that, the order in which multiple SMS messages are delivered, may differ from the order in which they are sent. \\
+
+Because of this, the process of requesting help in the case of an emergency through SMS has become rather difficult to use. It consists of 4 steps [51]:
+\begin{enumerate}
+\item Registering the phone - This is required in order for the emergency center to filter real emergency messages from the fake ones. The user has to send an SMS with the text “register” to 999. Then an SMS, containing terms and conditions will be received, to which the user has to reply, using a second SMS with the text “yes”. At the end, the user will receive a confirmation SMS, indicating that the current phone number is registered.
+\item Write the emergency SMS - The user has to write as much of the required information as he can in a single SMS, in order to give details about the location and the incident and minimise the need of further communication through SMS with the call center.
+\item Send the SMS to 999 - Sending it as a single SMS makes sure that the information comes in the desired order and can be handled properly by the operators.
+\item Wait for response - A response will then arrive either asking for more information, or informing that the emergency team is on the way. Unfortunately, the “SMS Delivery Report”, which some operators provide, does not guarantee that the SMS was received by the emergency center. The Emergency SMS service suggests that response is usually received within 2 minutes, but if a response is not received within 3 minutes, a new SMS should be sent.
+\end{enumerate}
 \end{document}
