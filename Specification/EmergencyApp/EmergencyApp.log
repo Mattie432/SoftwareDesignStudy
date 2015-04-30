@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 01:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 01:42
 entering extended mode
 **EmergencyApp.tex
 
@@ -661,7 +661,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<"EmergencyAppIteration1/iteration1backendsearch".png, id=35, 832.10875pt x 552
+<"EmergencyAppIteration1/iteration1backendsearch".png, id=55, 832.10875pt x 552
 .0625pt>
 File: "EmergencyAppIteration1/iteration1backendsearch".png Graphic file (type p
 ng)
@@ -673,7 +673,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<"EmergencyAppIteration1/sequenceinitiatesession (2)".png, id=37, 634.37pt x 71
+<"EmergencyAppIteration1/sequenceinitiatesession (2)".png, id=57, 634.37pt x 71
 1.65875pt>
 File: "EmergencyAppIteration1/sequenceinitiatesession (2)".png Graphic file (ty
 pe png)
@@ -700,7 +700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 [2 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificat
 ion/EmergencyApp/EmergencyAppIteration1/sequenceinitiatesession (2).png>]
-<"EmergencyAppIteration1/emergencydialog".png, id=56, 430.60875pt x 811.03pt>
+<"EmergencyAppIteration1/emergencydialog".png, id=76, 430.60875pt x 811.03pt>
 File: "EmergencyAppIteration1/emergencydialog".png Graphic file (type png)
 
 <use "EmergencyAppIteration1/emergencydialog".png>
@@ -777,7 +777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 
-<"EmergencyAppIteration1/sequencestartvideouser".png, id=74, 944.52875pt x 745.
+<"EmergencyAppIteration1/sequencestartvideouser".png, id=94, 944.52875pt x 745.
 78625pt>
 File: "EmergencyAppIteration1/sequencestartvideouser".png Graphic file (type pn
 g)
@@ -786,8 +786,8 @@ Package pdftex.def Info: "EmergencyAppIteration1/sequencestartvideouser".png us
 ed on input line 70.
 (pdftex.def)             Requested size: 418.25368pt x 330.25223pt.
  [4]
-<"EmergencyAppIteration1/sequenceoperatorrequestvideo".png, id=82, 1131.22626pt
- x 976.64874pt>
+<"EmergencyAppIteration1/sequenceoperatorrequestvideo".png, id=102, 1131.22626p
+t x 976.64874pt>
 File: "EmergencyAppIteration1/sequenceoperatorrequestvideo".png Graphic file (t
 ype png)
 
@@ -806,8 +806,8 @@ png used on input line 84.
 (pdftex.def)             Requested size: 418.25368pt x 361.10104pt.
  [6 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/EmergencyApp/EmergencyAppIteration1/sequenceoperatorrequestvideo.png>]
-<EmergencyAppIteration1/iteration1videocallStart.png, id=95, 430.60875pt x 811.
-03pt>
+<EmergencyAppIteration1/iteration1videocallStart.png, id=115, 430.60875pt x 811
+.03pt>
 File: EmergencyAppIteration1/iteration1videocallStart.png Graphic file (type pn
 g)
  <use EmergencyAppIteration1/iteration1videocallStart.png>
@@ -815,8 +815,8 @@ Package pdftex.def Info: EmergencyAppIteration1/iteration1videocallStart.png us
 ed on input line 91.
 (pdftex.def)             Requested size: 209.12683pt x 393.88121pt.
 
-<EmergencyAppIteration1/iteration1videocallEnd.png, id=96, 430.60875pt x 811.03
-pt>
+<EmergencyAppIteration1/iteration1videocallEnd.png, id=116, 430.60875pt x 811.0
+3pt>
 File: EmergencyAppIteration1/iteration1videocallEnd.png Graphic file (type png)
 
  <use EmergencyAppIteration1/iteration1videocallEnd.png>
@@ -828,7 +828,8 @@ Overfull \hbox (4.44441pt too wide) in paragraph at lines 90--99
  [][]  [] 
  []
 
-<"EmergencyAppIteration1/iteration1backend".png, id=97, 803.0pt x 552.0625pt>
+
+<"EmergencyAppIteration1/iteration1backend".png, id=117, 803.0pt x 552.0625pt>
 File: "EmergencyAppIteration1/iteration1backend".png Graphic file (type png)
 
 <use "EmergencyAppIteration1/iteration1backend".png>
@@ -839,7 +840,7 @@ Package pdftex.def Info: "EmergencyAppIteration1/iteration1backend".png used on
 fication/EmergencyApp/EmergencyAppIteration1/iteration1videocallStart.png> <D:/
 Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Eme
 rgencyApp/EmergencyAppIteration1/iteration1videocallEnd.png>]
-<"EmergencyAppIteration1/iteration1backend (1)".png, id=111, 803.0pt x 552.0625
+<"EmergencyAppIteration1/iteration1backend (1)".png, id=131, 803.0pt x 552.0625
 pt>
 File: "EmergencyAppIteration1/iteration1backend (1)".png Graphic file (type png
 )
@@ -901,7 +902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
  []
 
 
-<"EmergencyAppIteration2/iteration2ui (1)".png, id=120, 973.6375pt x 1013.7875p
+<"EmergencyAppIteration2/iteration2ui (1)".png, id=140, 973.6375pt x 1013.7875p
 t>
 File: "EmergencyAppIteration2/iteration2ui (1)".png Graphic file (type png)
  <use "EmergencyAppIteration2/iteration2ui (1)".png>
@@ -909,7 +910,7 @@ Package pdftex.def Info: "EmergencyAppIteration2/iteration2ui (1)".png used on
 input line 139.
 (pdftex.def)             Requested size: 376.42575pt x 391.94139pt.
  [10]
-<"EmergencyAppIteration2/iteration2uisettings".png, id=128, 450.68375pt x 831.1
+<"EmergencyAppIteration2/iteration2uisettings".png, id=148, 450.68375pt x 831.1
 05pt>
 File: "EmergencyAppIteration2/iteration2uisettings".png Graphic file (type png)
 
@@ -957,7 +958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
  []
 
 
-<"EmergencyAppIteration3/backend_videocall_nochat (1)".png, id=141, 3212.0pt x 
+<"EmergencyAppIteration3/backend_videocall_nochat (1)".png, id=161, 3212.0pt x 
 2208.25pt>
 File: "EmergencyAppIteration3/backend_videocall_nochat (1)".png Graphic file (t
 ype png)
@@ -966,7 +967,7 @@ Package pdftex.def Info: "EmergencyAppIteration3/backend_videocall_nochat (1)".
 png used on input line 178.
 (pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
 
-<"EmergencyAppIteration3/backend_find_video_footage (1)".png, id=142, 3212.0pt 
+<"EmergencyAppIteration3/backend_find_video_footage (1)".png, id=162, 3212.0pt 
 x 2208.25pt>
 File: "EmergencyAppIteration3/backend_find_video_footage (1)".png Graphic file 
 (type png)
@@ -999,7 +1000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--203
  []
 
 
-<"EmergencyAppIteration4/iteration4backendconfirmdialog (1)".png, id=160, 803.0
+<"EmergencyAppIteration4/iteration4backendconfirmdialog (1)".png, id=180, 803.0
 pt x 552.0625pt>
 File: "EmergencyAppIteration4/iteration4backendconfirmdialog (1)".png Graphic f
 ile (type png)
@@ -1014,7 +1015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--210
  []
 
 
-<"EmergencyAppIteration4/current_session_search_screen".png, id=161, 3328.435pt
+<"EmergencyAppIteration4/current_session_search_screen".png, id=181, 3328.435pt
  x 2234.3475pt>
 File: "EmergencyAppIteration4/current_session_search_screen".png Graphic file (
 type png)
@@ -1043,7 +1044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
  []
 
 
-<"EmergencyAppIteration5/more_accident_streams_iteration3 (1)".png, id=176, 321
+<"EmergencyAppIteration5/more_accident_streams_iteration3 (1)".png, id=196, 321
 2.0pt x 2208.25pt>
 File: "EmergencyAppIteration5/more_accident_streams_iteration3 (1)".png Graphic
  file (type png)
@@ -1053,7 +1054,7 @@ Package pdftex.def Info: "EmergencyAppIteration5/more_accident_streams_iteratio
 n3 (1)".png used on input line 235.
 (pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
 
-<"EmergencyAppIteration5/more_accident_streams_opened_iteration3".png, id=177, 
+<"EmergencyAppIteration5/more_accident_streams_opened_iteration3".png, id=197, 
 3212.0pt x 2208.25pt>
 File: "EmergencyAppIteration5/more_accident_streams_opened_iteration3".png Grap
 hic file (type png)
@@ -1103,7 +1104,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--305
  []
 
 [19] [20]
-<"ChatIteration1/chat_backend_search".png, id=249, 832.10875pt x 552.0625pt>
+<"ChatIteration1/chat_backend_search".png, id=269, 832.10875pt x 552.0625pt>
 File: "ChatIteration1/chat_backend_search".png Graphic file (type png)
 
 <use "ChatIteration1/chat_backend_search".png>
@@ -1111,7 +1112,7 @@ Package pdftex.def Info: "ChatIteration1/chat_backend_search".png used on input
  line 345.
 (pdftex.def)             Requested size: 418.25368pt x 277.48788pt.
 
-<"ChatIteration1/backend_video_call (1)".png, id=250, 803.0pt x 552.0625pt>
+<"ChatIteration1/backend_video_call (1)".png, id=270, 803.0pt x 552.0625pt>
 File: "ChatIteration1/backend_video_call (1)".png Graphic file (type png)
 
 <use "ChatIteration1/backend_video_call (1)".png>
@@ -1120,24 +1121,191 @@ put line 363.
 (pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
  [21 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/ChatIteration1/chat_backend_search.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+<"ChatIteration2/videocalluielements (1)".png, id=284, 430.60875pt x 811.03pt>
+File: "ChatIteration2/videocalluielements (1)".png Graphic file (type png)
+
+<use "ChatIteration2/videocalluielements (1)".png>
+Package pdftex.def Info: "ChatIteration2/videocalluielements (1)".png used on i
+nput line 380.
+(pdftex.def)             Requested size: 200.75996pt x 378.12746pt.
  [22 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/EmergencyApp/ChatIteration1/backend_video_call (1).png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 1297) in paragraph at lines 383--384
+[] \OT1/cmr/bx/n/10 0.2.2.3 En-hanc-ing user in-ter-face[] \OT1/cmr/m/n/10 As
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 one emer-gency ses-sion will pro-vide ac-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 cess for the cur-rent user to both video
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 stream and emer-gency chat, the nav-i-ga-
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 and in-tu-itive. To do this, new but-
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 tons were in-tro-duced both in the chat
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 UI and the video stream UI. Dur-ing a
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 chat, the user will have a big but-ton
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 on top of the screen, which will di-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 that, there will be a quick but-ton for
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 send-ing the users lo-ca-tion in the chat
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 his lo-ca-tion, with-out the need to type
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+<"ChatIteration2/chat (1)".png, id=294, 4095.3pt x 3244.12pt>
+File: "ChatIteration2/chat (1)".png Graphic file (type png)
+
+<use "ChatIteration2/chat (1)".png>
+Package pdftex.def Info: "ChatIteration2/chat (1)".png used on input line 391.
+(pdftex.def)             Requested size: 418.25368pt x 331.31168pt.
+ [23 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/ChatIteration2/videocalluielements (1).png>] [24 <D:/Users/M
+attie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/EmergencyA
+pp/ChatIteration2/chat (1).png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+<"AutomaticVideoSending/locationbackendrequest".png, id=307, 803.0pt x 552.0625
+pt>
+File: "AutomaticVideoSending/locationbackendrequest".png Graphic file (type png
+)
+ <use "AutomaticVideoSending/locationbackendrequest".png>
+Package pdftex.def Info: "AutomaticVideoSending/locationbackendrequest".png use
+d on input line 408.
+(pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
+
+<"AutomaticVideoSending/locationbackendreceived".png, id=308, 803.0pt x 552.062
+5pt>
+File: "AutomaticVideoSending/locationbackendreceived".png Graphic file (type pn
+g)
+ <use "AutomaticVideoSending/locationbackendreceived".png>
+Package pdftex.def Info: "AutomaticVideoSending/locationbackendreceived".png us
+ed on input line 416.
+(pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
+ [25 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/AutomaticVideoSending/locationbackendrequest.png>]
+<"AutomaticVideoSending/send_location_confirmation".png, id=318, 1722.435pt x 3
+244.12pt>
+File: "AutomaticVideoSending/send_location_confirmation".png Graphic file (type
+ png)
+ <use "AutomaticVideoSending/send_location_confirmation".png>
+Package pdftex.def Info: "AutomaticVideoSending/send_location_confirmation".png
+ used on input line 425.
+(pdftex.def)             Requested size: 167.2989pt x 315.07527pt.
+ [26 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/AutomaticVideoSending/locationbackendreceived.png> <D:/Users
+/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Emergenc
+yApp/AutomaticVideoSending/send_location_confirmation.png>]
+<"AutomaticVideoSending/gcm".png, id=327, 465.99094pt x 301.125pt>
+File: "AutomaticVideoSending/gcm".png Graphic file (type png)
+
+<use "AutomaticVideoSending/gcm".png>
+Package pdftex.def Info: "AutomaticVideoSending/gcm".png used on input line 443
+.
+(pdftex.def)             Requested size: 418.25368pt x 270.2886pt.
+ [27 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/AutomaticVideoSending/gcm.png>] <"Database/file-page1".png, 
+id=339, 481.8pt x 701.5008pt>
+File: "Database/file-page1".png Graphic file (type png)
+
+<use "Database/file-page1".png>
+Package pdftex.def Info: "Database/file-page1".png used on input line 460.
+(pdftex.def)             Requested size: 334.60422pt x 487.19376pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
+ [28 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/Database/file-page1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 \EmergencyApp\EmergencyApp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
-Package rerunfilecheck Info: File `EmergencyApp.out' has not changed.
-(rerunfilecheck)             Checksum: 786E48483C755E0A2A6FD598B89C605C;711.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
+
+
+Package rerunfilecheck Warning: File `EmergencyApp.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `EmergencyApp.out':
+(rerunfilecheck)             Before: 122EB8AE4F12003165D989D6BF756316;1149
+(rerunfilecheck)             After:  DB6558957A9AE5E10B56F632134C9C38;1202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 466.
  ) 
 Here is how much of TeX's memory you used:
- 10816 strings out of 493921
- 170761 string characters out of 3144864
+ 10888 strings out of 493921
+ 172703 string characters out of 3144864
  308535 words of memory out of 3000000
- 13779 multiletter control sequences out of 15000+200000
+ 13812 multiletter control sequences out of 15000+200000
  5293 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  74i,8n,98p,1273b,1021s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1146,9 +1314,9 @@ Here is how much of TeX's memory you used:
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on EmergencyApp.pdf (22 pages, 986176 bytes).
+Output written on EmergencyApp.pdf (28 pages, 1655928 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 399 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 

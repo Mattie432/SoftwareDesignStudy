@@ -16,12 +16,24 @@
 \BOOKMARK [3][-]{subsubsection.5.1.2}{Database}{subsection.5.1}% 16
 \BOOKMARK [2][-]{subsection.5.2}{Emergency App - Video Streaming}{section.5}% 17
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Iteration 1 - Basic Functionality}{subsection.5.2}% 18
-\BOOKMARK [2][-]{subsection.5.3}{CPR System}{section.5}% 19
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration 1 - Basic Functionality}{subsection.5.3}% 20
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration 2 - Accept \046 Decline an emergency}{subsection.5.3}% 21
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Iteration 3 - Improving Responder Alert}{subsection.5.3}% 22
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Iteration 4 - Context of the emergency}{subsection.5.3}% 23
-\BOOKMARK [3][-]{subsubsection.5.3.5}{Iteration 5 - User Preferences}{subsection.5.3}% 24
-\BOOKMARK [3][-]{subsubsection.5.3.6}{Iteration 6 - Improving User Selection}{subsection.5.3}% 25
-\BOOKMARK [1][-]{section.6}{Project Management}{}% 26
-\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 27
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Iteration 2 - Enhanced User Experience}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Iteration 3 - Enhanced Dispatcher Experience}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Iteration 4 - Improving Reliability}{subsection.5.2}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.5}{Iteration 5 - Multiple Live Streams}{subsection.5.2}% 22
+\BOOKMARK [2][-]{subsection.5.3}{Emergency App - Chat}{section.5}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration 1 - Basic Functionality}{subsection.5.3}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration 2 - Security and Accessibility}{subsection.5.3}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Emergency App - Automatic Location Sending}{section.5}% 26
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Iteration 1 - Basic Functionality}{subsection.5.4}% 27
+\BOOKMARK [2][-]{subsection.5.5}{Emergency App - Database}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Database Design}{subsection.5.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.5.2}{ER Diagram}{subsection.5.5}% 30
+\BOOKMARK [2][-]{subsection.5.6}{CPR System}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Iteration 1 - Basic Functionality}{subsection.5.6}% 32
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Iteration 2 - Accept \046 Decline an emergency}{subsection.5.6}% 33
+\BOOKMARK [3][-]{subsubsection.5.6.3}{Iteration 3 - Improving Responder Alert}{subsection.5.6}% 34
+\BOOKMARK [3][-]{subsubsection.5.6.4}{Iteration 4 - Context of the emergency}{subsection.5.6}% 35
+\BOOKMARK [3][-]{subsubsection.5.6.5}{Iteration 5 - User Preferences}{subsection.5.6}% 36
+\BOOKMARK [3][-]{subsubsection.5.6.6}{Iteration 6 - Improving User Selection}{subsection.5.6}% 37
+\BOOKMARK [1][-]{section.6}{Project Management}{}% 38
+\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 39

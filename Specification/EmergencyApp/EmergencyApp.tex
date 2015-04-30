@@ -245,7 +245,7 @@ The backend user interface will allow to chose different streams and watch them,
 
 
 
-
+\pagebreak
 	\subsection{Emergency App - Chat}
 		\subsubsection{Iteration 1 - Basic Functionality}
 			\paragraph{Aims}
@@ -364,5 +364,103 @@ The backend will allow the operator to simultaneously use both the video stream 
 		
 		Both video streaming and live chat will be available to the operator in the same window
 	\end{figure}
+
+		\subsubsection{Iteration 2 - Security and Accessibility}
+			\paragraph{Aims}
+			This iteration aims at adding security and accessibility features, as well as making the user interface more intuitive, by adding quick buttons for easier access to the other features of the application.
+
+	\paragraph{Preventing chat button miss-click}
+	In order to prevent unintentional opening of the emergency chat or chat button missclick, a confirmation dialog will appear, informing the user of any further consequences. Under UK law [55] a hoax caller is “a person who for the purposes of causing annoyance, inconvenience or needless anxiety to another, sends, or causes to be sent, by means of a public electronic communications network, a message that the person knows to be false”. It is a criminal offence to make a hoax call. Thus, criminal proceedings can be brought against people who use the emergency chat for reporting false incidents or just to abuse the caller by any means. If the user confirms the dialog, he will be able to proceed to the chat dialog and will be able to start immediately an emergency chat.
+
+\paragraph{Enhancing user interface}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\vspace{-20pt}
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{"ChatIteration2/videocalluielements (1)"}
+  \end{center}
+\end{wrapfigure}
+As one emergency session will provide access for the current user to both video stream and emergency chat, the navigation in the mobile application between the chat and the video stream should be easy and intuitive. To do this, new buttons were introduced both in the chat UI and the video stream UI. During a chat, the user will have a big button on top of the screen, which will directly start a video stream. Apart from that, there will be a quick button for sending the user’s location in the chat screen. This will allow the user to send his location, without the need to type it.\\
+
+The button icon, that is included in the video stream screen and gives quick access to the emergency chat screen, also contains an indicator. It shows whether and how many new messages have been received. So a user may quickly see that a new message has arrived and navigate to the chat screen.\\
+
+Navigating from the chat screen to the video stream will keep the chat open, however, navigating from the video stream to the chat screen will stop the stream, as the user will have no indication that he is streaming video to the emergency center.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"ChatIteration2/chat (1)"}
+	\end{figure}
+
+
+
+\pagebreak
+	\subsection{Emergency App - Automatic Location Sending}
+		\subsubsection{Iteration 1 - Basic Functionality}
+			\paragraph{Aims}
+			During this iteration the basic components of the communication between the server and the device are produced.
+
+	\paragraph{Sending the location}
+	During a call, there will be several options for sending the caller’s location to the emergency center.\\
+
+The first one will be when an operator requests the location through the backend. The user needs to have the application installed. The operator will be able to search for and start an emergency session, as he would do when initiating a video call. The UI will then provide the option for requesting the location of the user’s phone. A notification will then be sent over to the user’s phone, which will cause a popup to appear, asking for confirmation, whether or not to send the current location. After confirming, the location will be sent over to the server and the operator will be able to see the location.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"AutomaticVideoSending/locationbackendrequest"}
+		Backend request location button
+	\end{figure}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\vspace{-30pt}
+		\includegraphics[width=1\textwidth]{"AutomaticVideoSending/locationbackendreceived"}
+		Backend location received
+		
+		\vspace{-17pt}
+	\end{figure}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.4\textwidth]{"AutomaticVideoSending/send_location_confirmation"}
+		
+		Confirmation dialog for sending the location
+		\vspace{-20pt}
+	\end{figure}
+
+
+The higher level view of the communication channels of the system is shown on fig.1 . The sequence is as follows.
+\begin{enumerate}
+\item The operator/backend requests data from the mobile phone.
+\item A notification is send from the backend to the Google Cloud Message (GCM) services.
+\item The notification is delivered to the mobile phone via GCM.
+\item The request is routed to the appropriate services on the phone.
+\item The requested data is gathered/generated and send to the server.
+\end{enumerate}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{"AutomaticVideoSending/gcm"}
+		
+		High level communication channels
+	\end{figure}
+	
+Apart from the operator requesting the location of the phone. The user will be able to do this from various places in the application: the initial screen, the UI when streaming live video or the chat UI. This will cause the phone to immediately send the location of the phone to the server and make it available to the operator.
+
+
+\pagebreak
+	\subsection{Emergency App - Database}
+		\subsubsection{Database Design}
+			Based on all requirements from the features, that were designed so far, the following database was created. It was designed in such a way, that it would be easy to either extend it, or introduce it into currently available databases. 
+			\subsubsection{ER Diagram}
+			ER diagram of the database.
+	\begin{figure}[H]
+	\vspace{-10pt}
+		\centering
+		\includegraphics[width=.8\textwidth]{"Database/file-page1"}
+	\vspace{-40pt}
+	\end{figure}
+			
+
 
 \end{document}

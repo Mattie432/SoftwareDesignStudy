@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 00:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.4.21)  30 APR 2015 01:43
 entering extended mode
 **SoftwareDesignStudy.tex
 
@@ -647,7 +647,7 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count147
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\TitlePage/Tit
-lePage.tex <TitlePage/university.jpg, id=111, 580.1675pt x 513.92pt>
+lePage.tex <TitlePage/university.jpg, id=159, 580.1675pt x 513.92pt>
 File: TitlePage/university.jpg Graphic file (type jpg)
 
 <use TitlePage/university.jpg>
@@ -734,7 +734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--33
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] <Modules/"SDS Video Bandwidth".png, id=157, 516.42938pt x 611.28375pt>
+[3] <Modules/"SDS Video Bandwidth".png, id=217, 516.42938pt x 611.28375pt>
 File: Modules/"SDS Video Bandwidth".png Graphic file (type png)
 
 <use Modules/"SDS Video Bandwidth".png>
@@ -857,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=179, 1039
+<Specification/CommonTechnologies/"Network Map - Iteration 0".png, id=239, 1039
 .885pt x 538.01pt>
 File: Specification/CommonTechnologies/"Network Map - Iteration 0".png Graphic 
 file (type png)
@@ -882,7 +882,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
  []
 
 
-<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=185
+<Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png, id=245
 , 783.92876pt x 456.70625pt>
 File: Specification/CommonTechnologies/"Initial GCM Setup - Iteration 0".png Gr
 aphic file (type png)
@@ -900,7 +900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 
 <Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Iteratio
-n 0".png, id=193, 634.37pt x 405.515pt>
+n 0".png, id=253, 634.37pt x 405.515pt>
 File: Specification/CommonTechnologies/"GCM Registration Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -919,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
 
 <Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0".png
-, id=194, 795.97375pt x 538.01pt>
+, id=254, 795.97375pt x 538.01pt>
 File: Specification/CommonTechnologies/"Sending a message via GCM - Iteration 0
 ".png Graphic file (type png)
 
@@ -942,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
 
 <Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Iteratio
-n 0".png, id=204, 735.74875pt x 626.34pt>
+n 0".png, id=264, 735.74875pt x 626.34pt>
 File: Specification/CommonTechnologies/"GCM Send Message Sequence Diagram - Ite
 ration 0".png Graphic file (type png)
 
@@ -990,7 +990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=233,
+<Specification/CommonTechnologies/"GSM Sending a message upstream".png, id=293,
  603.0028pt x 132.495pt>
 File: Specification/CommonTechnologies/"GSM Sending a message upstream".png Gra
 phic file (type png)
@@ -1019,7 +1019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 [13 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CommonTechnologies/GSM Sending a message upstream.png>]
 <Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".png, 
-id=258, 450.18187pt x 277.78781pt>
+id=318, 450.18187pt x 277.78781pt>
 File: Specification/CommonTechnologies/"GCM Upstream Message Sequence Diagram".
 png Graphic file (type png)
 
@@ -1067,7 +1067,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backendsearch".pn
-g, id=276, 832.10875pt x 552.0625pt>
+g, id=336, 832.10875pt x 552.0625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backendsearc
 h".png Graphic file (type png)
 
@@ -1081,7 +1081,7 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequenceinitiatesession (2)
-".png, id=277, 634.37pt x 711.65875pt>
+".png, id=337, 634.37pt x 711.65875pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceinitiatesessio
 n (2)".png Graphic file (type png)
 
@@ -1105,7 +1105,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 [16 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/EmergencyApp/EmergencyAppIteration1/sequenceinitiatesession (2).png>]
-<Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png, id=29
+<Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png, id=35
 2, 430.60875pt x 811.03pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/emergencydialog".png G
 raphic file (type png)
@@ -1185,7 +1185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
 
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequencestartvideouser".png
-, id=308, 944.52875pt x 745.78625pt>
+, id=368, 944.52875pt x 745.78625pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequencestartvideouser
 ".png Graphic file (type png)
 
@@ -1196,7 +1196,7 @@ uencestartvideouser".png used on input line 70.
 (pdftex.def)             Requested size: 418.25368pt x 330.25223pt.
  [18]
 <Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorrequestvide
-o".png, id=316, 1131.22626pt x 976.64874pt>
+o".png, id=376, 1131.22626pt x 976.64874pt>
 File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorreques
 tvideo".png Graphic file (type png)
 
@@ -1206,13 +1206,543 @@ Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration1/seq
 uenceoperatorrequestvideo".png used on input line 77.
 (pdftex.def)             Requested size: 418.25368pt x 361.10104pt.
  [19 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
-ation/EmergencyApp/EmergencyAppIteration1/sequencestartvideouser.png>])
+ation/EmergencyApp/EmergencyAppIteration1/sequencestartvideouser.png>]
+File: Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorreques
+tvideo".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration1/sequenceoperatorrequest
+video".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration1/seq
+uenceoperatorrequestvideo".png used on input line 84.
+(pdftex.def)             Requested size: 418.25368pt x 361.10104pt.
+ [20 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/EmergencyAppIteration1/sequenceoperatorrequestvideo.png>]
+<Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStart.png
+, id=390, 430.60875pt x 811.03pt>
+File: Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStar
+t.png Graphic file (type png)
+
+<use Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallStart
+.png>
+Package pdftex.def Info: Specification/EmergencyApp/EmergencyAppIteration1/iter
+ation1videocallStart.png used on input line 91.
+(pdftex.def)             Requested size: 209.12683pt x 393.88121pt.
+
+<Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.png, 
+id=391, 430.60875pt x 811.03pt>
+File: Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.
+png Graphic file (type png)
+
+<use Specification/EmergencyApp/EmergencyAppIteration1/iteration1videocallEnd.p
+ng>
+Package pdftex.def Info: Specification/EmergencyApp/EmergencyAppIteration1/iter
+ation1videocallEnd.png used on input line 96.
+(pdftex.def)             Requested size: 209.12683pt x 393.88121pt.
+
+Overfull \hbox (4.44441pt too wide) in paragraph at lines 90--99
+ [][]  [] 
+ []
+
+
+<Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png, id=
+392, 803.0pt x 552.0625pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png
+ Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration1/ite
+ration1backend".png used on input line 104.
+(pdftex.def)             Requested size: 376.42575pt x 258.7955pt.
+
+<Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)".png,
+ id=393, 803.0pt x 552.0625pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)"
+.png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration1/iteration1backend (1)".
+png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration1/ite
+ration1backend (1)".png used on input line 111.
+(pdftex.def)             Requested size: 376.42575pt x 258.7955pt.
+ [21 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/EmergencyAppIteration1/iteration1backend.png>] [22 <D:/Users
+/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Emergenc
+yApp/EmergencyAppIteration1/iteration1videocallStart.png> <D:/Users/Mattie432/D
+ropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/EmergencyApp/Emergen
+cyAppIteration1/iteration1videocallEnd.png>] [23 <D:/Users/Mattie432/Dropbox/Pr
+ogramming/LaTeX/SoftwareDesignStudy/Specification/EmergencyApp/EmergencyAppIter
+ation1/iteration1backend (1).png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+<Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png, id=4
+14, 973.6375pt x 1013.7875pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png 
+Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration2/iteration2ui (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration2/ite
+ration2ui (1)".png used on input line 139.
+(pdftex.def)             Requested size: 376.42575pt x 391.94139pt.
+
+[24]
+<Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".png, 
+id=422, 450.68375pt x 831.105pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".
+png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration2/iteration2uisettings".p
+ng>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration2/ite
+ration2uisettings".png used on input line 146.
+(pdftex.def)             Requested size: 250.95476pt x 462.79053pt.
+ [25 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/EmergencyAppIteration2/iteration2ui (1).png>] [26 <D:/Users/
+Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Emergency
+App/EmergencyAppIteration2/iteration2uisettings.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+
+<Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_nochat (1
+)".png, id=436, 3212.0pt x 2208.25pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_noch
+at (1)".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration3/backend_videocall_nocha
+t (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration3/bac
+kend_videocall_nochat (1)".png used on input line 178.
+(pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
+
+<Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_footage 
+(1)".png, id=437, 3212.0pt x 2208.25pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_foo
+tage (1)".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration3/backend_find_video_foot
+age (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration3/bac
+kend_find_video_footage (1)".png used on input line 184.
+(pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
+ [27] [28 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Spe
+cification/EmergencyApp/EmergencyAppIteration3/backend_videocall_nochat (1).png
+> <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificati
+on/EmergencyApp/EmergencyAppIteration3/backend_find_video_footage (1).png>]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+<Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfirmdia
+log (1)".png, id=454, 803.0pt x 552.0625pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfi
+rmdialog (1)".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration4/iteration4backendconfir
+mdialog (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration4/ite
+ration4backendconfirmdialog (1)".png used on input line 207.
+(pdftex.def)             Requested size: 376.42575pt x 258.7955pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--210
+
+ []
+
+
+<Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search_scre
+en".png, id=455, 3328.435pt x 2234.3475pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search
+_screen".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration4/current_session_search_
+screen".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration4/cur
+rent_session_search_screen".png used on input line 213.
+(pdftex.def)             Requested size: 376.42575pt x 252.66585pt.
+ [29 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/EmergencyAppIteration4/iteration4backendconfirmdialog (1).pn
+g>] [30 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Speci
+fication/EmergencyApp/EmergencyAppIteration4/current_session_search_screen.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+<Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_itera
+tion3 (1)".png, id=470, 3212.0pt x 2208.25pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_
+iteration3 (1)".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_i
+teration3 (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration5/mor
+e_accident_streams_iteration3 (1)".png used on input line 235.
+(pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
+
+<Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_opene
+d_iteration3".png, id=471, 3212.0pt x 2208.25pt>
+File: Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_
+opened_iteration3".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"EmergencyAppIteration5/more_accident_streams_o
+pened_iteration3".png>
+Package pdftex.def Info: Specification/EmergencyApp/"EmergencyAppIteration5/mor
+e_accident_streams_opened_iteration3".png used on input line 241.
+(pdftex.def)             Requested size: 376.42575pt x 258.77866pt.
+ [31 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/EmergencyAppIteration5/more_accident_streams_iteration3 (1).
+png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+[32 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/EmergencyApp/EmergencyAppIteration5/more_accident_streams_opened_iteration
+3.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+[33]
+<Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png, id=518, 8
+32.10875pt x 552.0625pt>
+File: Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png Graph
+ic file (type png)
+
+<use Specification/EmergencyApp/"ChatIteration1/chat_backend_search".png>
+Package pdftex.def Info: Specification/EmergencyApp/"ChatIteration1/chat_backen
+d_search".png used on input line 345.
+(pdftex.def)             Requested size: 418.25368pt x 277.48788pt.
+
+[34]
+<Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png, id=545
+, 803.0pt x 552.0625pt>
+File: Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png Gr
+aphic file (type png)
+
+<use Specification/EmergencyApp/"ChatIteration1/backend_video_call (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"ChatIteration1/backend_vid
+eo_call (1)".png used on input line 363.
+(pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
+
+[35 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/EmergencyApp/ChatIteration1/chat_backend_search.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+<Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png, id=55
+8, 430.60875pt x 811.03pt>
+File: Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png G
+raphic file (type png)
+
+<use Specification/EmergencyApp/"ChatIteration2/videocalluielements (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"ChatIteration2/videocallui
+elements (1)".png used on input line 380.
+(pdftex.def)             Requested size: 200.75996pt x 378.12746pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 1297) in paragraph at lines 383--384
+[] \OT1/cmr/bx/n/10 5.3.2.3 En-hanc-ing user in-ter-face[] \OT1/cmr/m/n/10 As
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 one emer-gency ses-sion will pro-vide ac-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 cess for the cur-rent user to both video
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 stream and emer-gency chat, the nav-i-ga-
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 and in-tu-itive. To do this, new but-
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 tons were in-tro-duced both in the chat
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 UI and the video stream UI. Dur-ing a
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 chat, the user will have a big but-ton
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 on top of the screen, which will di-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 that, there will be a quick but-ton for
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 send-ing the users lo-ca-tion in the chat
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 383--384
+\OT1/cmr/m/n/10 his lo-ca-tion, with-out the need to type
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
+[36 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/EmergencyApp/ChatIteration1/backend_video_call (1).png> <D:/Users/Mattie43
+2/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/EmergencyApp/Chat
+Iteration2/videocalluielements (1).png>]
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+
+<Specification/EmergencyApp/"ChatIteration2/chat (1)".png, id=570, 4095.3pt x 3
+244.12pt>
+File: Specification/EmergencyApp/"ChatIteration2/chat (1)".png Graphic file (ty
+pe png)
+ <use Specification/EmergencyApp/"ChatIteration2/chat (1)".png>
+Package pdftex.def Info: Specification/EmergencyApp/"ChatIteration2/chat (1)".p
+ng used on input line 391.
+(pdftex.def)             Requested size: 418.25368pt x 331.31168pt.
+
+[37 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/EmergencyApp/ChatIteration2/chat (1).png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+<Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest".png,
+ id=578, 803.0pt x 552.0625pt>
+File: Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest"
+.png Graphic file (type png)
+
+<use Specification/EmergencyApp/"AutomaticVideoSending/locationbackendrequest".
+png>
+Package pdftex.def Info: Specification/EmergencyApp/"AutomaticVideoSending/loca
+tionbackendrequest".png used on input line 408.
+(pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
+
+<Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived".png
+, id=579, 803.0pt x 552.0625pt>
+File: Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived
+".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"AutomaticVideoSending/locationbackendreceived"
+.png>
+Package pdftex.def Info: Specification/EmergencyApp/"AutomaticVideoSending/loca
+tionbackendreceived".png used on input line 416.
+(pdftex.def)             Requested size: 418.25368pt x 287.5543pt.
+ [38 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/AutomaticVideoSending/locationbackendrequest.png>]
+<Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmation".
+png, id=588, 1722.435pt x 3244.12pt>
+File: Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmat
+ion".png Graphic file (type png)
+
+<use Specification/EmergencyApp/"AutomaticVideoSending/send_location_confirmati
+on".png>
+Package pdftex.def Info: Specification/EmergencyApp/"AutomaticVideoSending/send
+_location_confirmation".png used on input line 425.
+(pdftex.def)             Requested size: 167.2989pt x 315.07527pt.
+ [39 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/AutomaticVideoSending/locationbackendreceived.png> <D:/Users
+/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/Emergenc
+yApp/AutomaticVideoSending/send_location_confirmation.png>]
+<Specification/EmergencyApp/"AutomaticVideoSending/gcm".png, id=600, 465.99094p
+t x 301.125pt>
+File: Specification/EmergencyApp/"AutomaticVideoSending/gcm".png Graphic file (
+type png)
+
+<use Specification/EmergencyApp/"AutomaticVideoSending/gcm".png>
+Package pdftex.def Info: Specification/EmergencyApp/"AutomaticVideoSending/gcm"
+.png used on input line 443.
+(pdftex.def)             Requested size: 418.25368pt x 270.2886pt.
+ [40 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/EmergencyApp/AutomaticVideoSending/gcm.png>]
+<Specification/EmergencyApp/"Database/file-page1".png, id=609, 481.8pt x 701.50
+08pt>
+File: Specification/EmergencyApp/"Database/file-page1".png Graphic file (type p
+ng)
+ <use Specification/EmergencyApp/"Database/file-page1".png>
+Package pdftex.def Info: Specification/EmergencyApp/"Database/file-page1".png u
+sed on input line 460.
+(pdftex.def)             Requested size: 334.60422pt x 487.19376pt.
+)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\Specification
 /CPRSystem/CPRSystem.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
+[41 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/EmergencyApp/Database/file-page1.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1222,7 +1752,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=324,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png, id=617,
  894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 1".png Gra
 phic file (type png)
@@ -1232,7 +1762,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 1".png used on input line 18.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=325,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png, id=618,
  894.34125pt x 455.7025pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 2".png Gra
 phic file (type png)
@@ -1242,9 +1772,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 2".png used on input line 22.
 (pdftex.def)             Requested size: 418.25368pt x 213.11632pt.
 
-[20 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
-tion/EmergencyApp/EmergencyAppIteration1/sequenceoperatorrequestvideo.png>]
-<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=334,
+<Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png, id=619,
  894.34125pt x 454.69875pt>
 File: Specification/CPRSystem/"Iteration1/Storyboard - Iteration 0 - 3".png Gra
 phic file (type png)
@@ -1254,12 +1782,10 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Storyboard - Itera
 tion 0 - 3".png used on input line 26.
 (pdftex.def)             Requested size: 418.25368pt x 212.6469pt.
 
-[21 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[42 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration1/Storyboard - Iteration 0 - 1.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
-n1/Storyboard - Iteration 0 - 2.png> <D:/Users/Mattie432/Dropbox/Programming/La
-TeX/SoftwareDesignStudy/Specification/CPRSystem/Iteration1/Storyboard - Iterati
-on 0 - 3.png>]
+n1/Storyboard - Iteration 0 - 2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -1275,6 +1801,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
+[43 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration1/Storyboard - Iteration 0 - 3.png>]
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
@@ -1282,7 +1810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -1301,7 +1829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android Notification Layout".png, id=369, 
+<Specification/CPRSystem/"Iteration1/Android Notification Layout".png, id=650, 
 365.6862pt x 123.3408pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Layout".png Grap
 hic file (type png)
@@ -1310,6 +1838,8 @@ hic file (type png)
 Package pdftex.def Info: Specification/CPRSystem/"Iteration1/Android Notificati
 on Layout".png used on input line 70.
 (pdftex.def)             Requested size: 200.75996pt x 67.7153pt.
+
+[44]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -1326,9 +1856,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[23 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[45 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration1/Android Notification Layout.png>]
-<Specification/CPRSystem/"Iteration1/Android notification icon".jpg, id=377, 27
+<Specification/CPRSystem/"Iteration1/Android notification icon".jpg, id=668, 27
 8.9622pt x 288.5982pt>
 File: Specification/CPRSystem/"Iteration1/Android notification icon".jpg Graphi
 c file (type jpg)
@@ -1344,7 +1874,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
 
 <Specification/CPRSystem/"Iteration1/Android Notification Layout Extended".png,
- id=378, 576.65437pt x 476.53032pt>
+ id=669, 576.65437pt x 476.53032pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Layout Extended"
 .png Graphic file (type png)
 
@@ -1430,7 +1960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android Notification Design".png, id=379, 
+<Specification/CPRSystem/"Iteration1/Android Notification Design".png, id=670, 
 416.30531pt x 318.43968pt>
 File: Specification/CPRSystem/"Iteration1/Android Notification Design".png Grap
 hic file (type png)
@@ -1521,7 +2051,7 @@ Missing character: There is no ú in font cmtt10!
 Missing character: There is no ‚ in font cmtt10!
 Missing character: There is no Ä in font cmtt10!
 Missing character: There is no ù in font cmtt10!
-[24
+[46
 
  <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specificatio
 n/CPRSystem/Iteration1/Android notification icon.jpg> <D:/Users/Mattie432/Dropb
@@ -1548,13 +2078,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-[25]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-<Specification/CPRSystem/"Iteration1/Android CPR app pane".png, id=404, 431.612
+<Specification/CPRSystem/"Iteration1/Android CPR app pane".png, id=694, 431.612
 5pt x 819.06pt>
 File: Specification/CPRSystem/"Iteration1/Android CPR app pane".png Graphic fil
 e (type png)
@@ -1683,7 +2213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[26 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[48 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration1/Android CPR app pane.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
@@ -1736,7 +2266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[27]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
@@ -1789,8 +2319,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[28]
-<Specification/CPRSystem/"Iteration1/cpr-database-0".png, id=435, 572.1375pt x 
+[50]
+<Specification/CPRSystem/"Iteration1/cpr-database-0".png, id=726, 572.1375pt x 
 553.31718pt>
 File: Specification/CPRSystem/"Iteration1/cpr-database-0".png Graphic file (typ
 e png)
@@ -1800,7 +2330,7 @@ g used on input line 177.
 (pdftex.def)             Requested size: 418.25368pt x 404.50075pt.
 
 Overfull \hbox (6.29564pt too wide) in paragraph at lines 174--178
- \OT1/cmr/bx/n/10 5.3.1.9.3 En-tity Re-la-tion-ship Di-a-gram[] \OT1/cmr/m/n/10
+ \OT1/cmr/bx/n/10 5.6.1.9.3 En-tity Re-la-tion-ship Di-a-gram[] \OT1/cmr/m/n/10
  En-tity re-la-tion-ship di-a-gram of the database. 
  []
 
@@ -1816,13 +2346,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
 (D:\Users\Mattie432\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-) [29 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
+) [51 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifi
 cation/CPRSystem/Iteration1/cpr-database-0.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-[30]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
@@ -1833,7 +2363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
  []
 
 
-<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png, id=478,
+<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png, id=769,
  799.98875pt x 389.455pt>
 File: Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 1".png Gra
 phic file (type png)
@@ -1844,12 +2374,12 @@ tion 1 - 1".png used on input line 238.
 (pdftex.def)             Requested size: 418.25368pt x 203.61714pt.
 
 Overfull \hbox (8.69775pt too wide) in paragraph at lines 235--239
- \OT1/cmr/bx/n/10 5.3.2.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
+ \OT1/cmr/bx/n/10 5.6.2.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
 u-alises the in-tended func-tion-al-ity of the sys-tem. 
  []
 
 
-<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png, id=479,
+<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png, id=770,
  799.98875pt x 399.4925pt>
 File: Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 2".png Gra
 phic file (type png)
@@ -1859,7 +2389,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration2/Storyboard - Itera
 tion 1 - 2".png used on input line 242.
 (pdftex.def)             Requested size: 418.25368pt x 208.865pt.
 
-<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png, id=480,
+<Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png, id=771,
  799.98875pt x 389.455pt>
 File: Specification/CPRSystem/"Iteration2/Storyboard - Iteration 1 - 3".png Gra
 phic file (type png)
@@ -1869,7 +2399,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration2/Storyboard - Itera
 tion 1 - 3".png used on input line 246.
 (pdftex.def)             Requested size: 418.25368pt x 203.61714pt.
 
-[31 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[53 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/Storyboard - Iteration 1 - 1.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
 n2/Storyboard - Iteration 1 - 2.png>]
@@ -1879,7 +2409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
 
 <Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 1".pn
-g, id=492, 422.57875pt x 808.01875pt>
+g, id=782, 422.57875pt x 808.01875pt>
 File: Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 
 1".png Graphic file (type png)
 
@@ -1954,7 +2484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-[32 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[54 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/Storyboard - Iteration 1 - 3.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
 n2/Iteration 1 - Accept_Decline Buttons 1.png>]
@@ -1999,7 +2529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
 
 <Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 2".pn
-g, id=506, 429.605pt x 809.0225pt>
+g, id=796, 429.605pt x 809.0225pt>
 File: Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 
 2".png Graphic file (type png)
 
@@ -2023,10 +2553,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
-[33 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
-tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 2.png>] [34]
+[55 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 2.png>] [56]
 <Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 3".pn
-g, id=518, 430.60875pt x 809.0225pt>
+g, id=809, 430.60875pt x 809.0225pt>
 File: Specification/CPRSystem/"Iteration2/Iteration 1 - Accept_Decline Buttons 
 3".png Graphic file (type png)
 
@@ -2090,7 +2620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
-[35 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[57 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/Iteration 1 - Accept_Decline Buttons 3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
@@ -2102,7 +2632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--311
  []
 
 
-<Specification/CPRSystem/"Iteration2/cpr-database-1".png, id=525, 572.89032pt x
+<Specification/CPRSystem/"Iteration2/cpr-database-1".png, id=816, 572.89032pt x
  551.81157pt>
 File: Specification/CPRSystem/"Iteration2/cpr-database-1".png Graphic file (typ
 e png)
@@ -2116,7 +2646,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--320
  []
 
 
-<Specification/CPRSystem/"Iteration2/cpr-database-2-portrait".png, id=526, 580.
+<Specification/CPRSystem/"Iteration2/cpr-database-2-portrait".png, id=817, 580.
 41844pt x 663.22781pt>
 File: Specification/CPRSystem/"Iteration2/cpr-database-2-portrait".png Graphic 
 file (type png)
@@ -2130,7 +2660,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--325
 
  []
 
-[36 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[58 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/cpr-database-1.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2172,7 +2702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
-[37 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[59 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration2/cpr-database-2-portrait.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2196,7 +2726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
-[38]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
@@ -2207,7 +2737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
  []
 
 
-<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 1".png, id=546,
+<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 1".png, id=836,
  914.41624pt x 456.70625pt>
 File: Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 1".png Gra
 phic file (type png)
@@ -2218,12 +2748,12 @@ tion 2 - 1".png used on input line 351.
 (pdftex.def)             Requested size: 418.25368pt x 208.89575pt.
 
 Overfull \hbox (8.69775pt too wide) in paragraph at lines 348--352
- \OT1/cmr/bx/n/10 5.3.3.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
+ \OT1/cmr/bx/n/10 5.6.3.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
 u-alises the in-tended func-tion-al-ity of the sys-tem. 
  []
 
 
-<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 2".png, id=547,
+<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 2".png, id=837,
  923.45pt x 462.72874pt>
 File: Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 2".png Gra
 phic file (type png)
@@ -2233,7 +2763,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration3/Storyboard - Itera
 tion 2 - 2".png used on input line 355.
 (pdftex.def)             Requested size: 418.25368pt x 209.58165pt.
 
-<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 3".png, id=548,
+<Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 3".png, id=838,
  923.45pt x 458.71375pt>
 File: Specification/CPRSystem/"Iteration3/Storyboard - Iteration 2 - 3".png Gra
 phic file (type png)
@@ -2243,7 +2773,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration3/Storyboard - Itera
 tion 2 - 3".png used on input line 359.
 (pdftex.def)             Requested size: 418.25368pt x 207.76317pt.
 
-[39 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[61 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/Storyboard - Iteration 2 - 1.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
 n3/Storyboard - Iteration 2 - 2.png>]
@@ -2253,7 +2783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
 
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (1)".png, id
-=559, 355.3275pt x 894.34125pt>
+=850, 355.3275pt x 894.34125pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (1)".pn
 g Graphic file (type png)
 
@@ -2264,7 +2794,7 @@ _search (4) (1)".png used on input line 372.
 (pdftex.def)             Requested size: 167.2989pt x 421.091pt.
 
 Underfull \hbox (badness 3989) in paragraph at lines 376--377
-[] \OT1/cmr/bx/n/10 5.3.3.3 Par-al-lel Searches[] \OT1/cmr/m/n/10 In or-der to 
+[] \OT1/cmr/bx/n/10 5.6.3.3 Par-al-lel Searches[] \OT1/cmr/m/n/10 In or-der to 
 im-ple-
  []
 
@@ -2333,12 +2863,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
-[40 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[62 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/Storyboard - Iteration 2 - 3.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
 n3/parallelization_of_search (4) (1).png>]
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (2) (1)".png, id
-=573, 680.5425pt x 1081.03876pt>
+=864, 680.5425pt x 1081.03876pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (2) (1)".pn
 g Graphic file (type png)
 
@@ -2354,7 +2884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 386--388
 
 
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (3) (1)".png, id
-=574, 246.9225pt x 609.77812pt>
+=865, 246.9225pt x 609.77812pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (3) (1)".pn
 g Graphic file (type png)
 
@@ -2383,7 +2913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-[41 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[63 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/parallelization_of_search (2) (1).png> <D:/Users/Matt
 ie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Ite
 ration3/parallelization_of_search (3) (1).png>]
@@ -2437,7 +2967,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
 
 <Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (2)".png, id
-=583, 355.3275pt x 894.34125pt>
+=874, 355.3275pt x 894.34125pt>
 File: Specification/CPRSystem/"Iteration3/parallelization_of_search (4) (2)".pn
 g Graphic file (type png)
 
@@ -2496,13 +3026,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
-[42 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[64 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration3/parallelization_of_search (4) (2).png>]
 Underfull \hbox (badness 10000) in paragraph at lines 410--411
 
  []
 
-[43]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
@@ -2517,13 +3047,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
-[44]
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 1".png, id=600,
+<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 1".png, id=890,
  894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 1".png Gra
 phic file (type png)
@@ -2534,12 +3064,12 @@ tion 3 - 1".png used on input line 432.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
 Overfull \hbox (8.69775pt too wide) in paragraph at lines 429--433
- \OT1/cmr/bx/n/10 5.3.4.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
+ \OT1/cmr/bx/n/10 5.6.4.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
 u-alises the in-tended func-tion-al-ity of the sys-tem. 
  []
 
 
-<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 2".png, id=601,
+<Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 2".png, id=891,
  894.34125pt x 464.73625pt>
 File: Specification/CPRSystem/"Iteration4/Storyboard - Iteration 3 - 2".png Gra
 phic file (type png)
@@ -2549,7 +3079,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration4/Storyboard - Itera
 tion 3 - 2".png used on input line 437.
 (pdftex.def)             Requested size: 418.25368pt x 217.3411pt.
 
-[45 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[67 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration4/Storyboard - Iteration 3 - 1.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
 n4/Storyboard - Iteration 3 - 2.png>]
@@ -2582,7 +3112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
-[46]
+[68]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -2625,13 +3155,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--515
 
  []
 
-[47]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
 
-<Specification/CPRSystem/"Iteration4/Additional Details - 1".png, id=647, 900.3
+<Specification/CPRSystem/"Iteration4/Additional Details - 1".png, id=938, 900.3
 6375pt x 872.25874pt>
 File: Specification/CPRSystem/"Iteration4/Additional Details - 1".png Graphic f
 ile (type png)
@@ -2661,9 +3191,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
-[48 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[70 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration4/Additional Details - 1.png>]
-<Specification/CPRSystem/"Iteration4/Additional Details - 2".png, id=654, 428.6
+<Specification/CPRSystem/"Iteration4/Additional Details - 2".png, id=945, 428.6
 0126pt x 872.25874pt>
 File: Specification/CPRSystem/"Iteration4/Additional Details - 2".png Graphic f
 ile (type png)
@@ -2672,9 +3202,9 @@ ile (type png)
 Package pdftex.def Info: Specification/CPRSystem/"Iteration4/Additional Details
  - 2".png used on input line 532.
 (pdftex.def)             Requested size: 250.95476pt x 510.72849pt.
- [49 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ [71 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
 ation/CPRSystem/Iteration4/Additional Details - 2.png>]
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 1".png, id=662,
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 1".png, id=952,
  816.04875pt x 423.5825pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 1".png Gra
 phic file (type png)
@@ -2685,12 +3215,12 @@ tion 5 - 1".png used on input line 546.
 (pdftex.def)             Requested size: 418.25368pt x 217.10359pt.
 
 Overfull \hbox (8.69775pt too wide) in paragraph at lines 543--547
- \OT1/cmr/bx/n/10 5.3.5.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
+ \OT1/cmr/bx/n/10 5.6.5.2 Sto-ry-board[] \OT1/cmr/m/n/10 This sto-ry-board vi-s
 u-alises the in-tended func-tion-al-ity of the sys-tem. 
  []
 
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 2".png, id=663,
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 2".png, id=953,
  821.0675pt x 414.54875pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 5 - 2".png Gra
 phic file (type png)
@@ -2704,7 +3234,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
-[50 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[72 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration5/Storyboard - Iteration 5 - 1.png> <D:/Users/Mattie432
 /Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/Iteratio
 n5/Storyboard - Iteration 5 - 2.png>]
@@ -2725,7 +3255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 568--569
  []
 
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 1".png, id=676,
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 1".png, id=966,
  912.40875pt x 876.27374pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 1".png Gra
 phic file (type png)
@@ -2735,7 +3265,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration5/Storyboard - Itera
 tion 6 - 1".png used on input line 573.
 (pdftex.def)             Requested size: 418.25368pt x 401.68687pt.
 
-[51]
+[73]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -2758,13 +3288,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--589
 
  []
 
-[52 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[74 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration5/Storyboard - Iteration 6 - 1.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Specification/CPRSystem/"Iteration5/iteration-5-dnd".png, id=690, 248.42813pt 
+<Specification/CPRSystem/"Iteration5/iteration-5-dnd".png, id=981, 248.42813pt 
 x 161.10187pt>
 File: Specification/CPRSystem/"Iteration5/iteration-5-dnd".png Graphic file (ty
 pe png)
@@ -2806,7 +3336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--606
  []
 
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 2".png, id=691,
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 2".png, id=982,
  912.40875pt x 854.19125pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 2".png Gra
 phic file (type png)
@@ -2816,7 +3346,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration5/Storyboard - Itera
 tion 6 - 2".png used on input line 610.
 (pdftex.def)             Requested size: 418.25368pt x 391.5642pt.
 
-[53 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[75 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration5/iteration-5-dnd.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 613--614
 
@@ -2853,7 +3383,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 3".png, id=701,
+<Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 3".png, id=992,
  912.40875pt x 870.25125pt>
 File: Specification/CPRSystem/"Iteration5/Storyboard - Iteration 6 - 3".png Gra
 phic file (type png)
@@ -2867,7 +3397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--627
 
  []
 
-[54 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[76 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration5/Storyboard - Iteration 6 - 2.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2894,8 +3424,8 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Specification/CPRSystem/"Iteration5/iteration-5-sleep".png, id=710, 248.42813p
-t x 193.47281pt>
+<Specification/CPRSystem/"Iteration5/iteration-5-sleep".png, id=1001, 248.42813
+pt x 193.47281pt>
 File: Specification/CPRSystem/"Iteration5/iteration-5-sleep".png Graphic file (
 type png)
 
@@ -2903,12 +3433,12 @@ type png)
 Package pdftex.def Info: Specification/CPRSystem/"Iteration5/iteration-5-sleep"
 .png used on input line 638.
 (pdftex.def)             Requested size: 209.12683pt x 162.86736pt.
- [55 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
-ation/CPRSystem/Iteration5/Storyboard - Iteration 6 - 3.png>] [56 <D:/Users/Mat
+ [77 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specific
+ation/CPRSystem/Iteration5/Storyboard - Iteration 6 - 3.png>] [78 <D:/Users/Mat
 tie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specification/CPRSystem/It
 eration5/iteration-5-sleep.png>]
-<Specification/CPRSystem/"Iteration5/iteration-5-end".png, id=725, 580.41844pt 
-x 724.95844pt>
+<Specification/CPRSystem/"Iteration5/iteration-5-end".png, id=1015, 580.41844pt
+ x 724.95844pt>
 File: Specification/CPRSystem/"Iteration5/iteration-5-end".png Graphic file (ty
 pe png)
  <use Specification/CPRSystem/"Iteration5/iteration-5-end".png>
@@ -2916,7 +3446,7 @@ Package pdftex.def Info: Specification/CPRSystem/"Iteration5/iteration-5-end".p
 ng used on input line 645.
 (pdftex.def)             Requested size: 418.25368pt x 522.41216pt.
 
-[57 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
+[79 <D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/Specifica
 tion/CPRSystem/Iteration5/iteration-5-end.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2942,7 +3472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 668--669
 
  []
 
-[58]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
@@ -2967,7 +3497,7 @@ ment/ProjectManagement.tex)
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\PersonalRefle
 ctions/PersonalReflections.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
- [59]
+ [81]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
 
 (D:\Users\Mattie432\Dropbox\Programming\LaTeX\SoftwareDesignStudy\SoftwareDesig
@@ -2975,14 +3505,14 @@ nStudy.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `SoftwareDesignStudy.out' has not changed.
-(rerunfilecheck)             Checksum: 95CEEB2714E3218F22B81F4A28FDBFAD;1987.
+(rerunfilecheck)             Checksum: 26FE27878928C0C3F92071D16B924915;3058.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
  ) 
 Here is how much of TeX's memory you used:
- 11657 strings out of 493921
- 194607 string characters out of 3144864
+ 12013 strings out of 493921
+ 207255 string characters out of 3144864
  316422 words of memory out of 3000000
- 14240 multiletter control sequences out of 15000+200000
+ 14348 multiletter control sequences out of 15000+200000
  6850 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  74i,9n,98p,1352b,1926s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2994,9 +3524,9 @@ ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on SoftwareDesignStudy.pdf (59 pages, 3185231 bytes).
+Output written on SoftwareDesignStudy.pdf (81 pages, 4600760 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 344 named destinations out of 1000 (max. 500000)
- 467 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1165 PDF objects out of 1200 (max. 8388607)
+ 475 named destinations out of 1000 (max. 500000)
+ 668 words of extra memory for PDF output out of 10000 (max. 10000000)
 

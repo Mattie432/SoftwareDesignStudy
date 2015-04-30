@@ -76,5 +76,17 @@ The system works by having willing civilians trained in CPR register to help if 
 This is the basis for our implementation of this feature. We believe that this project has done incredible work and shown people a new way of being a part of first aid assistance, but that there are areas which could be refined and improved. For example, the project currently has users register two areas that they will likely be, one for day and one for evening, then uses these areas to determine people to contact. This, and other problems like it, will be what we intend to address in our implementation of the system.\\
 
     \subsection{API}
-    
+    As it was previously explained the project consist of several systems communicating and interacting with one another. The communication between different systems is done via an Application Programming Interface (API). Since the current systems declined to share their API, we have decided to create and provide an API to third party developers. They should be able to integrate it seamlessly in their products.\\
+
+It was decided that all interactions with the system, where possible, will be made through the API. This includes the communication between the backend user interface and the Server infrastructure as well as the communication with the mobile applications, where possible. Using a well documented API throughout the project ensures that all functional capabilities are exposed. This in turn means that if the existing emergency systems decide to integrate with our product the integration could be done without a modification of the existing infrastructure.\\
+
+When researching different API technologies a number of requirements had to be taken into account.
+\begin{enumerate}
+\item \textit{The API needs to be platform independent}\\
+Since the the system being developed has Android application, Server infrastructure, Operator front end, one of main requirements of the API is to be cross-platform.
+
+\item \textit{The technology should be popular}\\
+Given the variety of the systems involved, the technology used to develop the API should be well established so that properly developed and tested libraries can be used.
+Since popular technologies are well known to developers, this manner of implementation will ease third-party integration with the platform.
+\end{enumerate}
 \end{document}
