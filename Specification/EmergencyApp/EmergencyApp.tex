@@ -4,6 +4,7 @@
 
 \begin{document}
 %start of iteration 1
+\pagebreak
 	\subsection{Emergency App - Video Streaming}
 		\subsubsection{Iteration 1 - Basic Functionality}
 			\paragraph{Aims}
@@ -28,6 +29,8 @@ Before a video stream can be initiated, the operator has to enter the caller’s
 There are two options in order to start the stream: Either the user opens the app and starts the stream manually, or the operator requests the sending of a notification to the user’s phone. After the user’s phone receives the notification, it will display a confirm dialog, which will start the video stream on confirmation.\\
 
 In the second case, the server sends the notification through the Google Cloud Messaging (GCM) service. In order to do this, the server matches the phone number of the caller with its GCM \texttt{\color{OliveGreen}notification\_id} in the database and creates a message with a structure as shown below. The message is then sent and handled by the GCM service.
+
+\pagebreak
 \begin{lstlisting}
 ...
 "data":
@@ -246,6 +249,7 @@ The backend user interface will allow to chose different streams and watch them,
 
 
 \pagebreak
+\pagebreak
 	\subsection{Emergency App - Chat}
 		\subsubsection{Iteration 1 - Basic Functionality}
 			\paragraph{Aims}
@@ -279,6 +283,7 @@ Response from the server:
 \end{lstlisting}
 After the session has been initiated, the user can start typing the emergency messages. Once the user starts typing a message, a notification is being sent, that the current Emergency chat is active and requiring operator’s attention. This is done in order to shorten the response time, by notifying the call center of new emergency chats, before the actual message has been received.\\
 
+\pagebreak
 Application notifies the server for an active chat:
 \begin{lstlisting}
       {
@@ -364,7 +369,7 @@ The backend will allow the operator to simultaneously use both the video stream 
 		
 		Both video streaming and live chat will be available to the operator in the same window
 	\end{figure}
-
+\pagebreak
 		\subsubsection{Iteration 2 - Security and Accessibility}
 			\paragraph{Aims}
 			This iteration aims at adding security and accessibility features, as well as making the user interface more intuitive, by adding quick buttons for easier access to the other features of the application.
@@ -428,7 +433,7 @@ The first one will be when an operator requests the location through the backend
 		\vspace{-20pt}
 	\end{figure}
 
-
+\pagebreak
 The higher level view of the communication channels of the system is shown on fig.1 . The sequence is as follows.
 \begin{enumerate}
 \item The operator/backend requests data from the mobile phone.

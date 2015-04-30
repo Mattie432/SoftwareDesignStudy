@@ -21,121 +21,141 @@
 \@writefile{toc}{\select@language{english}}
 \@writefile{lof}{\select@language{english}}
 \@writefile{lot}{\select@language{english}}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Abstract}{3}{section.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Introduction}{3}{section.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}System Overview}{3}{section.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Modules}{3}{section.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Emergency App}{3}{subsection.4.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Video Streaming Rationale}{3}{subsubsection.4.1.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The bandwidth requirements for video streaming.\relax }}{5}{figure.caption.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Chat System Rationale}{6}{subsubsection.4.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Automatic Video Sending Rationale}{6}{subsubsection.4.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}CPR System}{7}{subsection.4.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Rationale}{7}{subsubsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Project SMS-livräddare}{7}{subsubsection.4.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}API}{8}{subsection.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Specification}{8}{section.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Common Technologies}{8}{subsection.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Google Cloud Messaging}{8}{subsubsection.5.1.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.1}Design Overview}{8}{paragraph.5.1.1.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Network map of how our system will communicate between devices and the server\relax }}{9}{figure.caption.4}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.2}GCM Setup}{9}{paragraph.5.1.1.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Diagram of the initial setup and registration with Google Cloud Messaging\relax }}{10}{figure.caption.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Sequence diagram showing interactions when registering a device\relax }}{10}{figure.caption.6}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.3}Sending Downstream Messages}{10}{paragraph.5.1.1.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Diagram illustrating sending of a message to a clients device\relax }}{11}{figure.caption.7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Sequence diagram showing the interactions when sending a message to the client device\relax }}{12}{figure.caption.8}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.4}Sending Upstream Messages}{13}{paragraph.5.1.1.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Diagram showing the sending of a message from the client device to the server\relax }}{13}{figure.caption.9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Sequence diagram showing the interactions when sending a message to the server from a client device\relax }}{14}{figure.caption.10}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Database}{14}{subsubsection.5.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Emergency App - Video Streaming}{15}{subsection.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Iteration 1 - Basic Functionality}{15}{subsubsection.5.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.1}Aims}{15}{paragraph.5.2.1.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.2}Starting a video stream}{15}{paragraph.5.2.1.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.3}Opening the Socket}{18}{paragraph.5.2.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Iteration 2 - Enhanced User Experience}{24}{subsubsection.5.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.2.1}Aims}{24}{paragraph.5.2.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.2.2}Setting the quality of the video stream}{24}{paragraph.5.2.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.2.3}Video Stream UI}{24}{paragraph.5.2.2.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}Iteration 3 - Enhanced Dispatcher Experience}{27}{subsubsection.5.2.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.3.1}Aims}{27}{paragraph.5.2.3.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.3.2}Video storage and skip/seek to a certain time}{27}{paragraph.5.2.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.4}Iteration 4 - Improving Reliability}{29}{subsubsection.5.2.4}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.4.1}Aims}{29}{paragraph.5.2.4.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.4.2}Restore on unexpected close}{29}{paragraph.5.2.4.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.5}Iteration 5 - Multiple Live Streams}{31}{subsubsection.5.2.5}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.5.1}Aims}{31}{paragraph.5.2.5.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.5.2}Multiple Streams}{31}{paragraph.5.2.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Emergency App - Chat}{32}{subsection.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Iteration 1 - Basic Functionality}{32}{subsubsection.5.3.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1.1}Aims}{32}{paragraph.5.3.1.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1.2}Starting a live chat with an emergency operator}{32}{paragraph.5.3.1.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1.3}Sending a notification for a started chat session}{34}{paragraph.5.3.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Iteration 2 - Security and Accessibility}{36}{subsubsection.5.3.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.2.1}Aims}{36}{paragraph.5.3.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.2.2}Preventing chat button miss-click}{36}{paragraph.5.3.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.2.3}Enhancing user interface}{36}{figure.caption.30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Emergency App - Automatic Location Sending}{38}{subsection.5.4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Iteration 1 - Basic Functionality}{38}{subsubsection.5.4.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.4.1.1}Aims}{38}{paragraph.5.4.1.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.4.1.2}Sending the location}{38}{paragraph.5.4.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Emergency App - Database}{41}{subsection.5.5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}Database Design}{41}{subsubsection.5.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.2}ER Diagram}{41}{subsubsection.5.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}CPR System}{41}{subsection.5.6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.1}Iteration 1 - Basic Functionality}{41}{subsubsection.5.6.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.1}Aims}{41}{paragraph.5.6.1.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.2}Storyboard}{42}{paragraph.5.6.1.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.3}Sending Notifications}{43}{paragraph.5.6.1.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.4}Notification Interaction and Alert}{44}{paragraph.5.6.1.4}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.5}Cancel Notification}{46}{paragraph.5.6.1.5}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.6}Notification Sound of the App}{47}{paragraph.5.6.1.6}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.7}CPR App Pane}{48}{paragraph.5.6.1.7}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.8}GPS Location}{48}{paragraph.5.6.1.8}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.9}Database Design}{50}{paragraph.5.6.1.9}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.1.9.1}Requirements}{50}{subparagraph.5.6.1.9.1}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.1.9.2}Data Types}{50}{subparagraph.5.6.1.9.2}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.1.9.3}Entity Relationship Diagram}{51}{subparagraph.5.6.1.9.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.10}Selecting the Responder to notify}{51}{paragraph.5.6.1.10}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.2}Iteration 2 - Accept \& Decline an emergency}{53}{subsubsection.5.6.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.1}Aim}{53}{paragraph.5.6.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.2}Storyboard}{53}{paragraph.5.6.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.3}Confirming Attendance}{54}{paragraph.5.6.2.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.4}Confirmation Messages}{55}{figure.caption.50}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.5}Keep playing alert sound until user accepts/declines}{58}{paragraph.5.6.2.5}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.6}Database Modifications}{58}{paragraph.5.6.2.6}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.7}Selection Algorithm Modifications}{60}{paragraph.5.6.2.7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.3}Iteration 3 - Improving Responder Alert}{61}{subsubsection.5.6.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.1}Aim}{61}{paragraph.5.6.3.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.2}Storyboard}{61}{paragraph.5.6.3.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.3}Parallel Searches}{62}{figure.caption.57}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.4}Usage}{66}{paragraph.5.6.3.4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.4}Iteration 4 - Context of the emergency}{67}{subsubsection.5.6.4}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.1}Aim}{67}{paragraph.5.6.4.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.2}Storyboard}{67}{paragraph.5.6.4.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.3}Information}{68}{paragraph.5.6.4.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.4}Notification Details}{69}{paragraph.5.6.4.4}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.5}App CPR Pane}{69}{paragraph.5.6.4.5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.5}Iteration 5 - User Preferences}{72}{subsubsection.5.6.5}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.1}Aim}{72}{paragraph.5.6.5.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.2}Storyboard}{72}{paragraph.5.6.5.2}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.3}'Do Not Disturb' for a period of time}{73}{paragraph.5.6.5.3}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.3.1}App Design}{73}{subparagraph.5.6.5.3.1}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.3.2}Server Modifications}{74}{subparagraph.5.6.5.3.2}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.3.3}Database Modifications}{75}{subparagraph.5.6.5.3.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.4}Respecting system alert preferences}{75}{paragraph.5.6.5.4}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.4.1}App design}{75}{subparagraph.5.6.5.4.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.5}Let the user specify the hours they will be asleep and thus unavailable}{76}{paragraph.5.6.5.5}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.5.1}App Design}{76}{subparagraph.5.6.5.5.1}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.5.2}Server Modifications}{77}{subparagraph.5.6.5.5.2}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.5.3}Database Modifications}{77}{subparagraph.5.6.5.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.6}Iteration 6 - Improving User Selection}{80}{subsubsection.5.6.6}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.6.1}Aim}{80}{paragraph.5.6.6.1}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.6.2}Problems}{80}{paragraph.5.6.6.2}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.6.2.1}Impassable Terrain}{80}{subparagraph.5.6.6.2.1}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.6.2.2}Mode of Transport}{80}{subparagraph.5.6.6.2.2}}
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.6.2.3}Elevation}{80}{subparagraph.5.6.6.2.3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.6.3}Solutions}{80}{paragraph.5.6.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Project Management}{81}{section.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Personal Reflections}{81}{section.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Abstract}{4}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Introduction}{5}{section.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}System Overview}{6}{section.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Modules}{7}{section.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Emergency App}{7}{subsection.4.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Video Streaming Rationale}{7}{subsubsection.4.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The bandwidth requirements for video streaming.\relax }}{8}{figure.caption.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Chat System Rationale}{9}{subsubsection.4.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Automatic Video Sending Rationale}{9}{subsubsection.4.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}CPR System}{10}{subsection.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Rationale}{10}{subsubsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Project SMS-livräddare}{10}{subsubsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}API}{12}{subsection.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Specification}{13}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Common Technologies}{13}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Google Cloud Messaging}{13}{subsubsection.5.1.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.1}Design Overview}{13}{paragraph.5.1.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Network map of how our system will communicate between devices and the server\relax }}{13}{figure.caption.4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.2}GCM Setup}{13}{paragraph.5.1.1.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Diagram of the initial setup and registration with Google Cloud Messaging\relax }}{14}{figure.caption.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Sequence diagram showing interactions when registering a device\relax }}{14}{figure.caption.6}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.3}Sending Downstream Messages}{14}{paragraph.5.1.1.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Diagram illustrating sending of a message to a clients device\relax }}{15}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Sequence diagram showing the interactions when sending a message to the client device\relax }}{16}{figure.caption.8}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.4}Sending Upstream Messages}{17}{paragraph.5.1.1.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Diagram showing the sending of a message from the client device to the server\relax }}{17}{figure.caption.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Sequence diagram showing the interactions when sending a message to the server from a client device\relax }}{18}{figure.caption.10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Database}{19}{subsubsection.5.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Emergency App - Video Streaming}{20}{subsection.5.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Iteration 1 - Basic Functionality}{20}{subsubsection.5.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.1}Aims}{20}{paragraph.5.2.1.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.2}Starting a video stream}{20}{paragraph.5.2.1.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.3}Opening the Socket}{23}{paragraph.5.2.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Iteration 2 - Enhanced User Experience}{29}{subsubsection.5.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.2.1}Aims}{29}{paragraph.5.2.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.2.2}Setting the quality of the video stream}{29}{paragraph.5.2.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.2.3}Video Stream UI}{29}{paragraph.5.2.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}Iteration 3 - Enhanced Dispatcher Experience}{32}{subsubsection.5.2.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.3.1}Aims}{32}{paragraph.5.2.3.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.3.2}Video storage and skip/seek to a certain time}{32}{paragraph.5.2.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.4}Iteration 4 - Improving Reliability}{34}{subsubsection.5.2.4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.4.1}Aims}{34}{paragraph.5.2.4.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.4.2}Restore on unexpected close}{34}{paragraph.5.2.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.5}Iteration 5 - Multiple Live Streams}{36}{subsubsection.5.2.5}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.5.1}Aims}{36}{paragraph.5.2.5.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.5.2}Multiple Streams}{36}{paragraph.5.2.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Emergency App - Chat}{38}{subsection.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}Iteration 1 - Basic Functionality}{38}{subsubsection.5.3.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1.1}Aims}{38}{paragraph.5.3.1.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1.2}Starting a live chat with an emergency operator}{38}{paragraph.5.3.1.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.1.3}Sending a notification for a started chat session}{40}{paragraph.5.3.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}Iteration 2 - Security and Accessibility}{42}{subsubsection.5.3.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.2.1}Aims}{42}{paragraph.5.3.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.2.2}Preventing chat button miss-click}{42}{paragraph.5.3.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.3.2.3}Enhancing user interface}{42}{figure.caption.30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Emergency App - Automatic Location Sending}{44}{subsection.5.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}Iteration 1 - Basic Functionality}{44}{subsubsection.5.4.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.4.1.1}Aims}{44}{paragraph.5.4.1.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.4.1.2}Sending the location}{44}{paragraph.5.4.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Emergency App - Database}{47}{subsection.5.5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.1}Database Design}{47}{subsubsection.5.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.5.2}ER Diagram}{47}{subsubsection.5.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}CPR System}{48}{subsection.5.6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.1}Iteration 1 - Basic Functionality}{48}{subsubsection.5.6.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.1}Aims}{48}{paragraph.5.6.1.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.2}Storyboard}{48}{paragraph.5.6.1.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.3}Sending Notifications}{49}{paragraph.5.6.1.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.4}Notification Interaction and Alert}{50}{paragraph.5.6.1.4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.5}Cancel Notification}{52}{paragraph.5.6.1.5}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.6}Notification Sound of the App}{52}{paragraph.5.6.1.6}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.7}CPR App Pane}{53}{paragraph.5.6.1.7}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.8}GPS Location}{53}{paragraph.5.6.1.8}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.9}Database Design}{55}{paragraph.5.6.1.9}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.1.9.1}Requirements}{55}{subparagraph.5.6.1.9.1}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.1.9.2}Data Types}{55}{subparagraph.5.6.1.9.2}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.1.9.3}Entity Relationship Diagram}{56}{subparagraph.5.6.1.9.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.1.10}Selecting the Responder to notify}{56}{paragraph.5.6.1.10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.2}Iteration 2 - Accept \& Decline an emergency}{58}{subsubsection.5.6.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.1}Aim}{58}{paragraph.5.6.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.2}Storyboard}{58}{paragraph.5.6.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.3}Confirming Attendance}{60}{paragraph.5.6.2.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.4}Confirmation Messages}{61}{figure.caption.50}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.5}Keep playing alert sound until user accepts/declines}{63}{paragraph.5.6.2.5}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.6}Database Modifications}{63}{paragraph.5.6.2.6}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.2.7}Selection Algorithm Modifications}{65}{paragraph.5.6.2.7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.3}Iteration 3 - Improving Responder Alert}{66}{subsubsection.5.6.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.1}Aim}{66}{paragraph.5.6.3.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.2}Storyboard}{66}{paragraph.5.6.3.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.3}Parallel Searches}{68}{figure.caption.57}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.3.4}Usage}{72}{paragraph.5.6.3.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.4}Iteration 4 - Context of the emergency}{73}{subsubsection.5.6.4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.1}Aim}{73}{paragraph.5.6.4.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.2}Storyboard}{73}{paragraph.5.6.4.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.3}Information}{74}{paragraph.5.6.4.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.4}Notification Details}{75}{paragraph.5.6.4.4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.4.5}App CPR Pane}{75}{paragraph.5.6.4.5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.5}Iteration 5 - User Preferences}{78}{subsubsection.5.6.5}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.1}Aim}{78}{paragraph.5.6.5.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.2}Storyboard}{78}{paragraph.5.6.5.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.3}'Do Not Disturb' for a period of time}{79}{paragraph.5.6.5.3}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.3.1}App Design}{80}{subparagraph.5.6.5.3.1}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.3.2}Server Modifications}{80}{subparagraph.5.6.5.3.2}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.3.3}Database Modifications}{81}{subparagraph.5.6.5.3.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.4}Respecting system alert preferences}{81}{paragraph.5.6.5.4}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.4.1}App design}{82}{subparagraph.5.6.5.4.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.5.5}Let the user specify the hours they will be asleep and thus unavailable}{82}{paragraph.5.6.5.5}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.5.1}App Design}{83}{subparagraph.5.6.5.5.1}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.5.2}Server Modifications}{83}{subparagraph.5.6.5.5.2}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.5.5.3}Database Modifications}{83}{subparagraph.5.6.5.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.6.6}Iteration 6 - Improving User Selection}{86}{subsubsection.5.6.6}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.6.1}Aim}{86}{paragraph.5.6.6.1}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.6.2}Problems}{86}{paragraph.5.6.6.2}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.6.2.1}Impassable Terrain}{86}{subparagraph.5.6.6.2.1}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.6.2.2}Mode of Transport}{86}{subparagraph.5.6.6.2.2}}
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {5.6.6.2.3}Elevation}{86}{subparagraph.5.6.6.2.3}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.6.6.3}Solutions}{86}{paragraph.5.6.6.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}API}{88}{subsection.5.7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.1}HTTP}{88}{subsubsection.5.7.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.2}JSON}{88}{subsubsection.5.7.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.3}Documentation}{88}{subsubsection.5.7.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.4}Security}{89}{subsubsection.5.7.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.7.5}Requests}{90}{subsubsection.5.7.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Project Management}{91}{section.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Personal Reflections}{92}{section.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Appendices}{93}{section.8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Emergency App Features Survey}{93}{subsection.8.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Video Stream}{97}{subsection.8.2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {8.2.0.1}Iteration 1}{97}{paragraph.8.2.0.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.1}Iteration 2}{104}{subsubsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.2}Iteration 3}{110}{subsubsection.8.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.3}Iteration 4}{111}{subsubsection.8.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.4}Iteration 4}{112}{subsubsection.8.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Chat}{113}{subsection.8.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.1}Iteration 1}{113}{subsubsection.8.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2}Iteration 2}{117}{subsubsection.8.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Automatic Video Sending}{119}{subsection.8.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.4.1}Iteration 1}{119}{subsubsection.8.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.5}API for Client \& Server}{122}{subsection.8.5}}

@@ -75,24 +75,30 @@ Android supports a variety of notification formats [22] however they all have fo
 
 \begin{wrapfigure}{l}{0.15\textwidth}
   \begin{center}
+  \vspace{-20pt}
     \includegraphics[width=0.15\textwidth]{"Iteration1/Android notification icon"}
+  \vspace{-30pt}
   \end{center}
 \end{wrapfigure}
 The notification icon should also be striking to grab their attention, and also needs to be unique to the app and tell the user, at a glance, the nature of the notification. Something similar to this image would be best as the image is striking and so should catch the users attention while being unique among other notification icons and being related to the theme of the notification. \\
 
+
 \begin{wrapfigure}{r}{0.5\textwidth}
   \begin{center}
+  \vspace{-20pt}
     \includegraphics[width=0.48\textwidth]{"Iteration1/Android Notification Layout Extended"}
   \end{center}
 \end{wrapfigure}
-The timestamp of the notification should be set to the time that the push notification was received and the message body should contain both the distance to and the address of the emergency. Android allows “expandable layouts” [22] which allows the notification to be minimal initially and expand when clicked on. The minimal layout still contains both the title and the icon (along with a line of text) which means the user can still instantly see what the notification is about and can click on it to expand the description (which contains the address). \\\\
+The timestamp of the notification should be set to the time that the push notification was received and the message body should contain both the distance to and the address of the emergency. Android allows “expandable layouts” [22] which allows the notification to be minimal initially and expand when clicked on. The minimal layout still contains both the title and the icon (along with a line of text) which means the user can still instantly see what the notification is about and can click on it to expand the description (which contains the address).\\
 
 \begin{wrapfigure}{l}{0.5\textwidth}
   \begin{center}
+  \vspace{-20pt}
 		\includegraphics[width=0.5\textwidth]{"Iteration1/Android Notification Design"}  \end{center}
 \end{wrapfigure}
-	This is a design shown how our notification might look to the user on either the lock screen or while actively using the phone. Upon clicking this notification the app will be launched and show a ‘CPR pane’ which would not be normally accessible. This pane contains a map with the location of the emergency shown clearly with a marker, the users current location and a directions button which will plot a route to the emergency from the users current location.\\\\\\
+	This is a design shown how our notification might look to the user on either the lock screen or while actively using the phone. Upon clicking this notification the app will be launched and show a ‘CPR pane’ which would not be normally accessible. This pane contains a map with the location of the emergency shown clearly with a marker, the users current location and a directions button which will plot a route to the emergency from the users current location.\\
 	
+	\pagebreak
 	\paragraph{Cancel Notification}
 	The dispatchers should also be able to cancel the assistance request remotely for a variety of reasons such as the emergency has been dealt with or paramedics have already arrived to name a few. To do this we will utilise the collapsible feature of messages sent over GCM [23] which allows us to overwrite previous messages with the same \texttt{\color{OliveGreen}“collapse\_key”}. We can combine this with the field in the payload of the message \texttt{\color{OliveGreen}"message\_type"} which is set to \texttt{\color{OliveGreen}"new\_emergency"} when the dispatcher wishes to ask for assistance. The new message should have a  \texttt{\color{OliveGreen}"message\_type":"close\_emergency"} so that, when the message is read the message type should be checked and the appropriate action taken, in this case it should, if its currently accessible, hide the CPR pane and clear any associated data. A message field should also be present which will be displayed in the message field of the notification.
 	\begin{lstlisting}
@@ -253,6 +259,7 @@ On completion, this iteration should give responders the choice to either accept
 	\end{enumerate}
 	This will make our system more robust as we are no longer assuming that the first person contacted can attend the incident. It also gives responders more control over when they can help rather than simply being contacted and their attendance assumed (as in the previous iteration). This reflects a much more realistic use case, as in reality responders will be busy, or their devices will be unavailable, or notifications will be delayed.\\
 		
+		\pagebreak
 	\paragraph{Confirming Attendance}
 	The best way for us to allow the user to tell the server if they intend to respond to an emergency help request is through  Accept and Decline buttons. This presents the choice to responders in an obvious way that requires no training or learning time.\\
 \begin{wrapfigure}{l}{0.4\textwidth}
@@ -260,6 +267,7 @@ On completion, this iteration should give responders the choice to either accept
     \includegraphics[width=0.4\textwidth]{"Iteration2/Iteration 1 - Accept_Decline Buttons 1"}
   \end{center}
 \end{wrapfigure}
+	
 These buttons should be present in the app rather than the notification as then responders are able to see more information about the emergency (such as its the location on a map) before making their decision. It is also less likely to be miss-tapped, as the user first has to acknowledge the notification and open the app to be able to respond.\\
 
 This prototype demonstrates the button placement of the Accept and Decline buttons. They have taken the place of the ‘directions’ button (which started route guidance to the emergency), as this is not applicable until the user has indicated they are attending the incident. In addition, this placement does not interfere with any other visual elements; all information is still readable and clear.\\
@@ -366,6 +374,7 @@ This iteration aims to reduce this concern by adding a parallel search (in the s
 	\end{enumerate}
 	This will help our system to more quickly find an available responder to attend an incident as we are benefiting from the effects of parallelization. It also allows us to send multiple responders to an incident so that if one was delayed on route there is already another responder who is actively attending. It would also allow the dispatcher to specify that they required many responders, for example a large scale emergency with many casualties.\\
 	
+	\pagebreak
 	\paragraph{Parallel Searches}
 \begin{wrapfigure}{r}{0.4\textwidth}
   \begin{center}
@@ -386,6 +395,7 @@ This means that with some refactoring we can set up multiple runs of this search
 The above diagram shows how, after the number of required responders is specified, the searches can be run independently of each other and terminate on their own.
 Implementing this would require extracting the initial setup of the search (passing the details such as the location) and calling a overseeing method which then start the required number of parallel searches. As each search is using a common database for selecting and marking users decisions (using the methods described in the previous iteration) this should eliminate the possibility of a parallel search selecting a responder for an event who has already been contacted.\\
 
+\pagebreak
 \begin{wrapfigure}{l}{0.4\textwidth}
   \begin{center}
     \includegraphics[width=0.4\textwidth]{"Iteration3/parallelization_of_search (3) (1)"}
@@ -399,6 +409,7 @@ This can be implemented right after the selection has been made and before the n
 
 In order to further reduce same responder selection we can close the window for searches to overlap completely by locking the database table while one search is selecting a responder until they have marked them as selected. This would mean that two parallel searches that ran at exactly the same time would not be able to access the database table and so one would have to wait until the other finished and unlocked the table before continuing. Introducing a lock also introduces a form of staggered startup so that at the initial responder selection for each parallel search there would not be an occasion where they would both be able to select the same initial user to start as they could be running very close (time wise) together and have a greater chance of overlapping.\\
 
+\pagebreak
 \begin{wrapfigure}{l}{0.4\textwidth}
   \begin{center}
     \includegraphics[width=0.4\textwidth]{"Iteration3/parallelization_of_search (4) (2)"}
@@ -564,6 +575,7 @@ We feel that the option to ‘unregister’ from being contacted for a period of
 
 This feature could be used in a variety of situations such as a responder is going on holiday for a week or two, they are physically unable to help for a while (for example a broken foot) or other personal matters which mean they are not in a position to help. Whatever the reason our app will give the user the ability to specify a period of time that they are not to be contacted in.
 
+\pagebreak
 \subparagraph{App Design}
 Our settings menu should clearly show a category for allowing the user to say they are unavailable for a time. From here they should be taken to a new settings pane in which they are able to set the amount of time they are unavailable for. \\
 
@@ -601,6 +613,7 @@ We have decided to include this toggle for situations where the user does not wi
 
 The reasoning for this stems from the nature of the app: in an emergency situation every second is vital and a user not realising they have a notification would mean that the search would pause for 30 seconds until the alert is automatically declined. We also believe that users are of a mind that the importance of potentially saving a life is above any inconvenience caused by the users phone going off. Also the frequency of messages from this app is likely to be quite low from an individual's perspective so it is unlikely that this will prove to be a common issue for them.
 
+\pagebreak
 \subparagraph{App design}
 Our settings menu should clearly show a category for allowing the user to say they are unavailable for a time. From here they should be taken to a new settings pane in which they are able to set the amount of time they are unavailable for.\\
 
@@ -616,7 +629,7 @@ Different categories determine if the notification is affected by Androids ‘Pr
 
 \paragraph{Let the user specify the hours they will be asleep and thus unavailable}
 This option allows the user to set a time when they are likely to be asleep and therefore do not wish to be contacted about any emergencies. There is also an option for users who do not mind being contacted at all hours. When toggled to ‘ON’ the rest of the settings pane is greyed out and unavailable to change.
-
+\pagebreak
 \subparagraph{App Design}
 The settings pane for this feature allows the user to enter a start and end time during which they are usually asleep. This will then be sent to our server when the ‘save’ button is pressed and exclude this user between the two times. By default the app is set to “allow contact at all times” because we feel that it is best to let the user select the appropriate times for themselves. Also the frequency of messages from this app is likely to be quite low from an individual's perspective so it is unlikely that being woken in the night by this app will be a common problem for an individual.\\
 	\begin{figure}[H]

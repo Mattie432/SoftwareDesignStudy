@@ -7,8 +7,7 @@
 %% in directory macros/latex/base/lppl.txt.
 % 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
-\ProvidesPackage{myPackage}
-  [2011/01/11 v0.01 LaTeX package for my own purpose]
+\ProvidesPackage{myPackage}  [2011/01/11 v0.01 LaTeX package for my own purpose]
 
 \RequirePackage{standalone}
 \RequirePackage{graphicx}
@@ -34,12 +33,13 @@
 \RequirePackage{listings}
 \RequirePackage{booktabs}
 \newcommand{\bftab}{\fontseries{b}\selectfont}
+
 %Paths for graphics locations
 \graphicspath{ {./}{../../}{../}{TitlePage/}{SystemOverview/}{Modules/}{Specification/CommonTechnologies/}{CommonTechnologies/}{Modules/}{CPRSystem/}{Specification/CPRSystem/}{Specification/EmergencyApp/}{EmergencyApp/}{Appendices/}{Specification/API/}{API/}}
 
 %create common paths for inputs!!!
 \makeatletter
-\def\input@path{{CommonTechnologies/}{Specification/}}
+\def\input@path{{CommonTechnologies/}{Specification/}{Appendices/}}
 \makeatother
 
 \setcounter{secnumdepth}{5}
@@ -70,8 +70,6 @@
   breakatwhitespace=true,
   tabsize=3
 }
-
-
 
 \endinput
 %%

@@ -1,15 +1,10 @@
-\documentclass{article}
-\usepackage[normalem]{ulem}
-\usepackage{fixltx2e}
-\usepackage{color}
-\usepackage[hidelinks]{hyperref}
-\usepackage{graphicx}
-\usepackage[top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry}
-\usepackage{multicol}
-\usepackage{float}
+\documentclass[]{article}
+\usepackage{../myPackage}
+
 
 
 \begin{document}
+\pagebreak
 \section{Modules}
     \subsection{Emergency App}
     	\subsubsection{Video Streaming Rationale}
@@ -55,7 +50,7 @@ Using a live chat requires a minimum amount of internet access, which means that
 
 As already stated, nowadays, all mobile phones have the ability to access internet, through various technologies. Apart from that, most mobile phones have GPS sensors [34][35] and are able to locate themselves within seconds. The acquired location can either be exact, within a few meters, if a GPS sensor is available and a good GPS signal is present, or at least identifying the correct region, based on mobile network reception. This information is also very small, in terms of data size, which means that it can easily and quickly be sent over the network. Including such a feature in the emergency application can greatly reduce the time needed for the emergency team to head in the right direction, thus, the team will be able to arrive faster.\\
     	
-    	
+    \pagebreak	
     \subsection{CPR System}
     	\subsubsection{Rationale}
     	Cardiovascular diseases are one of the leading causes of death in the western world [1]. They come with an increased risk of cardiac arrest, of which there are an estimated 60,000 [2] incidents out of hospital annually in the UK - about 1 every 9 minutes. In fact, across the whole of Europe, 1 person per 1000 population will suffer a cardiac arrest in any year.\\
@@ -75,6 +70,7 @@ The system works by having willing civilians trained in CPR register to help if 
 
 This is the basis for our implementation of this feature. We believe that this project has done incredible work and shown people a new way of being a part of first aid assistance, but that there are areas which could be refined and improved. For example, the project currently has users register two areas that they will likely be, one for day and one for evening, then uses these areas to determine people to contact. This, and other problems like it, will be what we intend to address in our implementation of the system.\\
 
+\pagebreak
     \subsection{API}
     As it was previously explained the project consist of several systems communicating and interacting with one another. The communication between different systems is done via an Application Programming Interface (API). Since the current systems declined to share their API, we have decided to create and provide an API to third party developers. They should be able to integrate it seamlessly in their products.\\
 

@@ -1,0 +1,16 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdftex 2015.2.15)  30 APR 2015 17:57
+entering extended mode
+**D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/myPackage.st
+y
+
+(D:/Users/Mattie432/Dropbox/Programming/LaTeX/SoftwareDesignStudy/myPackage.sty
+! Undefined control sequence.
+l.9 \NeedsTeXFormat
+                   {LaTeX2e}[1994/06/01]
+? 
+! Emergency stop.
+l.9 \NeedsTeXFormat
+                   {LaTeX2e}[1994/06/01]
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

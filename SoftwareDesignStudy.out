@@ -35,5 +35,24 @@
 \BOOKMARK [3][-]{subsubsection.5.6.4}{Iteration 4 - Context of the emergency}{subsection.5.6}% 35
 \BOOKMARK [3][-]{subsubsection.5.6.5}{Iteration 5 - User Preferences}{subsection.5.6}% 36
 \BOOKMARK [3][-]{subsubsection.5.6.6}{Iteration 6 - Improving User Selection}{subsection.5.6}% 37
-\BOOKMARK [1][-]{section.6}{Project Management}{}% 38
-\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 39
+\BOOKMARK [2][-]{subsection.5.7}{API}{section.5}% 38
+\BOOKMARK [3][-]{subsubsection.5.7.1}{HTTP}{subsection.5.7}% 39
+\BOOKMARK [3][-]{subsubsection.5.7.2}{JSON}{subsection.5.7}% 40
+\BOOKMARK [3][-]{subsubsection.5.7.3}{Documentation}{subsection.5.7}% 41
+\BOOKMARK [3][-]{subsubsection.5.7.4}{Security}{subsection.5.7}% 42
+\BOOKMARK [3][-]{subsubsection.5.7.5}{Requests}{subsection.5.7}% 43
+\BOOKMARK [1][-]{section.6}{Project Management}{}% 44
+\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 45
+\BOOKMARK [1][-]{section.8}{Appendices}{}% 46
+\BOOKMARK [2][-]{subsection.8.1}{Emergency App Features Survey}{section.8}% 47
+\BOOKMARK [2][-]{subsection.8.2}{Video Stream}{section.8}% 48
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Iteration 2}{subsection.8.2}% 49
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Iteration 3}{subsection.8.2}% 50
+\BOOKMARK [3][-]{subsubsection.8.2.3}{Iteration 4}{subsection.8.2}% 51
+\BOOKMARK [3][-]{subsubsection.8.2.4}{Iteration 4}{subsection.8.2}% 52
+\BOOKMARK [2][-]{subsection.8.3}{Chat}{section.8}% 53
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Iteration 1}{subsection.8.3}% 54
+\BOOKMARK [3][-]{subsubsection.8.3.2}{Iteration 2}{subsection.8.3}% 55
+\BOOKMARK [2][-]{subsection.8.4}{Automatic Video Sending}{section.8}% 56
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Iteration 1}{subsection.8.4}% 57
+\BOOKMARK [2][-]{subsection.8.5}{API for Client \046 Server}{section.8}% 58

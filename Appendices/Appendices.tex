@@ -4,36 +4,25 @@
 
 
 \begin{document}
-
+\pagebreak
     \section{Appendices}
     \subsection{Emergency App Features Survey} Pages from the emergency app survey.
+
+
+    %\includepdf[pages={-}]{API/EmergencyClient.pdf}
+\begin{figure}[htp] \centering{
+\includepdf[pages={1},scale=0.9,offset=0 -15mm,clip,trim=0mm 25.2mm 0mm 30mm]{Survey/Emergencyapplicationsurvey-GoogleForms.pdf}}
+\end{figure}
+\pagebreak
+
+    \includepdf[pages={2-},clip,trim=0mm 20mm 0mm 10mm]{Survey/Emergencyapplicationsurvey-GoogleForms.pdf} 
     
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=.9\textwidth]{"Survey/file-page1"}
-		\vspace{-100pt}
-	\end{figure} \clearpage
     
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{"Survey/file-page2"}
-	\end{figure} \clearpage
-    
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{"Survey/file-page3"}
-	\end{figure} \clearpage
-    
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=1\textwidth]{"Survey/file-page4"}
-	\end{figure} \clearpage
-	
 	
     \subsection{Video Stream}
     \paragraph{Iteration 1} Appendices for iteration 1.
     
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=.9\textwidth]{"VideoStream/1"}
 
@@ -414,8 +403,8 @@ UI for the operator, in order to see the live stream and to stop the stream:
 \end{figure}
 \pagebreak
 
-    \includepdf[pages={2-}]{API/EmergencyClient.pdf}
-    \includepdf[pages={-}]{API/EmergencyServer.pdf}
+    \includepdf[pages={2-},pagecommand=\thispagestyle{plain},clip,trim=0mm 10mm 0mm 10mm]{API/EmergencyClient.pdf}
+    \includepdf[pages={-},pagecommand=\thispagestyle{plain},clip,trim=0mm 10mm 0mm 10mm]{API/EmergencyServer.pdf}
 
 
 	
