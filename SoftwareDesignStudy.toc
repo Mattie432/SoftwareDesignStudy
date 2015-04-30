@@ -1,131 +1,144 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Abstract}{4}{section.1}
 \contentsline {section}{\numberline {2}Introduction}{5}{section.2}
-\contentsline {section}{\numberline {3}System Overview}{6}{section.3}
-\contentsline {section}{\numberline {4}Modules}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Emergency App}{7}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Video Streaming Rationale}{7}{subsubsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.2}Chat System Rationale}{9}{subsubsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.3}Automatic Video Sending Rationale}{9}{subsubsection.4.1.3}
-\contentsline {subsection}{\numberline {4.2}CPR System}{10}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Rationale}{10}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Project SMS-livräddare}{10}{subsubsection.4.2.2}
-\contentsline {subsection}{\numberline {4.3}API}{12}{subsection.4.3}
-\contentsline {section}{\numberline {5}Specification}{13}{section.5}
-\contentsline {subsection}{\numberline {5.1}Common Technologies}{13}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Google Cloud Messaging}{13}{subsubsection.5.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.1}Design Overview}{13}{paragraph.5.1.1.1}
-\contentsline {paragraph}{\numberline {5.1.1.2}GCM Setup}{13}{paragraph.5.1.1.2}
-\contentsline {paragraph}{\numberline {5.1.1.3}Sending Downstream Messages}{14}{paragraph.5.1.1.3}
-\contentsline {paragraph}{\numberline {5.1.1.4}Sending Upstream Messages}{17}{paragraph.5.1.1.4}
-\contentsline {subsubsection}{\numberline {5.1.2}Database}{19}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Emergency App - Video Streaming}{20}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Iteration 1 - Basic Functionality}{20}{subsubsection.5.2.1}
-\contentsline {paragraph}{\numberline {5.2.1.1}Aims}{20}{paragraph.5.2.1.1}
-\contentsline {paragraph}{\numberline {5.2.1.2}Starting a video stream}{20}{paragraph.5.2.1.2}
-\contentsline {paragraph}{\numberline {5.2.1.3}Opening the Socket}{23}{paragraph.5.2.1.3}
-\contentsline {subsubsection}{\numberline {5.2.2}Iteration 2 - Enhanced User Experience}{29}{subsubsection.5.2.2}
-\contentsline {paragraph}{\numberline {5.2.2.1}Aims}{29}{paragraph.5.2.2.1}
-\contentsline {paragraph}{\numberline {5.2.2.2}Setting the quality of the video stream}{29}{paragraph.5.2.2.2}
-\contentsline {paragraph}{\numberline {5.2.2.3}Video Stream UI}{29}{paragraph.5.2.2.3}
-\contentsline {subsubsection}{\numberline {5.2.3}Iteration 3 - Enhanced Dispatcher Experience}{32}{subsubsection.5.2.3}
-\contentsline {paragraph}{\numberline {5.2.3.1}Aims}{32}{paragraph.5.2.3.1}
-\contentsline {paragraph}{\numberline {5.2.3.2}Video storage and skip/seek to a certain time}{32}{paragraph.5.2.3.2}
-\contentsline {subsubsection}{\numberline {5.2.4}Iteration 4 - Improving Reliability}{34}{subsubsection.5.2.4}
-\contentsline {paragraph}{\numberline {5.2.4.1}Aims}{34}{paragraph.5.2.4.1}
-\contentsline {paragraph}{\numberline {5.2.4.2}Restore on unexpected close}{34}{paragraph.5.2.4.2}
-\contentsline {subsubsection}{\numberline {5.2.5}Iteration 5 - Multiple Live Streams}{36}{subsubsection.5.2.5}
-\contentsline {paragraph}{\numberline {5.2.5.1}Aims}{36}{paragraph.5.2.5.1}
-\contentsline {paragraph}{\numberline {5.2.5.2}Multiple Streams}{36}{paragraph.5.2.5.2}
-\contentsline {subsection}{\numberline {5.3}Emergency App - Chat}{38}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Iteration 1 - Basic Functionality}{38}{subsubsection.5.3.1}
-\contentsline {paragraph}{\numberline {5.3.1.1}Aims}{38}{paragraph.5.3.1.1}
-\contentsline {paragraph}{\numberline {5.3.1.2}Starting a live chat with an emergency operator}{38}{paragraph.5.3.1.2}
-\contentsline {paragraph}{\numberline {5.3.1.3}Sending a notification for a started chat session}{40}{paragraph.5.3.1.3}
-\contentsline {subsubsection}{\numberline {5.3.2}Iteration 2 - Security and Accessibility}{42}{subsubsection.5.3.2}
-\contentsline {paragraph}{\numberline {5.3.2.1}Aims}{42}{paragraph.5.3.2.1}
-\contentsline {paragraph}{\numberline {5.3.2.2}Preventing chat button miss-click}{42}{paragraph.5.3.2.2}
-\contentsline {paragraph}{\numberline {5.3.2.3}Enhancing user interface}{42}{figure.caption.30}
-\contentsline {subsection}{\numberline {5.4}Emergency App - Automatic Location Sending}{44}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Iteration 1 - Basic Functionality}{44}{subsubsection.5.4.1}
-\contentsline {paragraph}{\numberline {5.4.1.1}Aims}{44}{paragraph.5.4.1.1}
-\contentsline {paragraph}{\numberline {5.4.1.2}Sending the location}{44}{paragraph.5.4.1.2}
-\contentsline {subsection}{\numberline {5.5}Emergency App - Database}{47}{subsection.5.5}
-\contentsline {subsubsection}{\numberline {5.5.1}Database Design}{47}{subsubsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.2}ER Diagram}{47}{subsubsection.5.5.2}
-\contentsline {subsection}{\numberline {5.6}CPR System}{48}{subsection.5.6}
-\contentsline {subsubsection}{\numberline {5.6.1}Iteration 1 - Basic Functionality}{48}{subsubsection.5.6.1}
-\contentsline {paragraph}{\numberline {5.6.1.1}Aims}{48}{paragraph.5.6.1.1}
-\contentsline {paragraph}{\numberline {5.6.1.2}Storyboard}{48}{paragraph.5.6.1.2}
-\contentsline {paragraph}{\numberline {5.6.1.3}Sending Notifications}{49}{paragraph.5.6.1.3}
-\contentsline {paragraph}{\numberline {5.6.1.4}Notification Interaction and Alert}{50}{paragraph.5.6.1.4}
-\contentsline {paragraph}{\numberline {5.6.1.5}Cancel Notification}{52}{paragraph.5.6.1.5}
-\contentsline {paragraph}{\numberline {5.6.1.6}Notification Sound of the App}{52}{paragraph.5.6.1.6}
-\contentsline {paragraph}{\numberline {5.6.1.7}CPR App Pane}{53}{paragraph.5.6.1.7}
-\contentsline {paragraph}{\numberline {5.6.1.8}GPS Location}{53}{paragraph.5.6.1.8}
-\contentsline {paragraph}{\numberline {5.6.1.9}Database Design}{55}{paragraph.5.6.1.9}
-\contentsline {subparagraph}{\numberline {5.6.1.9.1}Requirements}{55}{subparagraph.5.6.1.9.1}
-\contentsline {subparagraph}{\numberline {5.6.1.9.2}Data Types}{55}{subparagraph.5.6.1.9.2}
-\contentsline {subparagraph}{\numberline {5.6.1.9.3}Entity Relationship Diagram}{56}{subparagraph.5.6.1.9.3}
-\contentsline {paragraph}{\numberline {5.6.1.10}Selecting the Responder to notify}{56}{paragraph.5.6.1.10}
-\contentsline {subsubsection}{\numberline {5.6.2}Iteration 2 - Accept \& Decline an emergency}{58}{subsubsection.5.6.2}
-\contentsline {paragraph}{\numberline {5.6.2.1}Aim}{58}{paragraph.5.6.2.1}
-\contentsline {paragraph}{\numberline {5.6.2.2}Storyboard}{58}{paragraph.5.6.2.2}
-\contentsline {paragraph}{\numberline {5.6.2.3}Confirming Attendance}{60}{paragraph.5.6.2.3}
-\contentsline {paragraph}{\numberline {5.6.2.4}Confirmation Messages}{61}{figure.caption.50}
-\contentsline {paragraph}{\numberline {5.6.2.5}Keep playing alert sound until user accepts/declines}{63}{paragraph.5.6.2.5}
-\contentsline {paragraph}{\numberline {5.6.2.6}Database Modifications}{63}{paragraph.5.6.2.6}
-\contentsline {paragraph}{\numberline {5.6.2.7}Selection Algorithm Modifications}{65}{paragraph.5.6.2.7}
-\contentsline {subsubsection}{\numberline {5.6.3}Iteration 3 - Improving Responder Alert}{66}{subsubsection.5.6.3}
-\contentsline {paragraph}{\numberline {5.6.3.1}Aim}{66}{paragraph.5.6.3.1}
-\contentsline {paragraph}{\numberline {5.6.3.2}Storyboard}{66}{paragraph.5.6.3.2}
-\contentsline {paragraph}{\numberline {5.6.3.3}Parallel Searches}{68}{figure.caption.57}
-\contentsline {paragraph}{\numberline {5.6.3.4}Usage}{72}{paragraph.5.6.3.4}
-\contentsline {subsubsection}{\numberline {5.6.4}Iteration 4 - Context of the emergency}{73}{subsubsection.5.6.4}
-\contentsline {paragraph}{\numberline {5.6.4.1}Aim}{73}{paragraph.5.6.4.1}
-\contentsline {paragraph}{\numberline {5.6.4.2}Storyboard}{73}{paragraph.5.6.4.2}
-\contentsline {paragraph}{\numberline {5.6.4.3}Information}{74}{paragraph.5.6.4.3}
-\contentsline {paragraph}{\numberline {5.6.4.4}Notification Details}{75}{paragraph.5.6.4.4}
-\contentsline {paragraph}{\numberline {5.6.4.5}App CPR Pane}{75}{paragraph.5.6.4.5}
-\contentsline {subsubsection}{\numberline {5.6.5}Iteration 5 - User Preferences}{78}{subsubsection.5.6.5}
-\contentsline {paragraph}{\numberline {5.6.5.1}Aim}{78}{paragraph.5.6.5.1}
-\contentsline {paragraph}{\numberline {5.6.5.2}Storyboard}{78}{paragraph.5.6.5.2}
-\contentsline {paragraph}{\numberline {5.6.5.3}'Do Not Disturb' for a period of time}{79}{paragraph.5.6.5.3}
-\contentsline {subparagraph}{\numberline {5.6.5.3.1}App Design}{80}{subparagraph.5.6.5.3.1}
-\contentsline {subparagraph}{\numberline {5.6.5.3.2}Server Modifications}{80}{subparagraph.5.6.5.3.2}
-\contentsline {subparagraph}{\numberline {5.6.5.3.3}Database Modifications}{81}{subparagraph.5.6.5.3.3}
-\contentsline {paragraph}{\numberline {5.6.5.4}Respecting system alert preferences}{81}{paragraph.5.6.5.4}
-\contentsline {subparagraph}{\numberline {5.6.5.4.1}App design}{82}{subparagraph.5.6.5.4.1}
-\contentsline {paragraph}{\numberline {5.6.5.5}Let the user specify the hours they will be asleep and thus unavailable}{82}{paragraph.5.6.5.5}
-\contentsline {subparagraph}{\numberline {5.6.5.5.1}App Design}{83}{subparagraph.5.6.5.5.1}
-\contentsline {subparagraph}{\numberline {5.6.5.5.2}Server Modifications}{83}{subparagraph.5.6.5.5.2}
-\contentsline {subparagraph}{\numberline {5.6.5.5.3}Database Modifications}{83}{subparagraph.5.6.5.5.3}
-\contentsline {subsubsection}{\numberline {5.6.6}Iteration 6 - Improving User Selection}{86}{subsubsection.5.6.6}
-\contentsline {paragraph}{\numberline {5.6.6.1}Aim}{86}{paragraph.5.6.6.1}
-\contentsline {paragraph}{\numberline {5.6.6.2}Problems}{86}{paragraph.5.6.6.2}
-\contentsline {subparagraph}{\numberline {5.6.6.2.1}Impassable Terrain}{86}{subparagraph.5.6.6.2.1}
-\contentsline {subparagraph}{\numberline {5.6.6.2.2}Mode of Transport}{86}{subparagraph.5.6.6.2.2}
-\contentsline {subparagraph}{\numberline {5.6.6.2.3}Elevation}{86}{subparagraph.5.6.6.2.3}
-\contentsline {paragraph}{\numberline {5.6.6.3}Solutions}{86}{paragraph.5.6.6.3}
-\contentsline {subsection}{\numberline {5.7}API}{88}{subsection.5.7}
-\contentsline {subsubsection}{\numberline {5.7.1}HTTP}{88}{subsubsection.5.7.1}
-\contentsline {subsubsection}{\numberline {5.7.2}JSON}{88}{subsubsection.5.7.2}
-\contentsline {subsubsection}{\numberline {5.7.3}Documentation}{88}{subsubsection.5.7.3}
-\contentsline {subsubsection}{\numberline {5.7.4}Security}{89}{subsubsection.5.7.4}
-\contentsline {subsubsection}{\numberline {5.7.5}Requests}{90}{subsubsection.5.7.5}
-\contentsline {section}{\numberline {6}Project Management}{91}{section.6}
-\contentsline {section}{\numberline {7}Personal Reflections}{92}{section.7}
-\contentsline {section}{\numberline {8}Appendices}{93}{section.8}
-\contentsline {subsection}{\numberline {8.1}Emergency App Features Survey}{93}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Video Stream}{97}{subsection.8.2}
-\contentsline {paragraph}{\numberline {8.2.0.1}Iteration 1}{97}{paragraph.8.2.0.1}
-\contentsline {subsubsection}{\numberline {8.2.1}Iteration 2}{104}{subsubsection.8.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2}Iteration 3}{110}{subsubsection.8.2.2}
-\contentsline {subsubsection}{\numberline {8.2.3}Iteration 4}{111}{subsubsection.8.2.3}
-\contentsline {subsubsection}{\numberline {8.2.4}Iteration 4}{112}{subsubsection.8.2.4}
-\contentsline {subsection}{\numberline {8.3}Chat}{113}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Iteration 1}{113}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}Iteration 2}{117}{subsubsection.8.3.2}
-\contentsline {subsection}{\numberline {8.4}Automatic Video Sending}{119}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}Iteration 1}{119}{subsubsection.8.4.1}
-\contentsline {subsection}{\numberline {8.5}API for Client \& Server}{122}{subsection.8.5}
+\contentsline {subsection}{\numberline {2.1}Background}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Current Problem}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Currently Available Systems}{5}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Current Process}{5}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Call Handling System (CHS)}{5}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}CAD}{5}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}CAD Backup Facility (CBUF)}{5}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}Emergency Help via SMS}{6}{subsubsection.2.3.5}
+\contentsline {section}{\numberline {3}System Overview}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Emergency Services App}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}CPR App}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Why we chose two separate Apps}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Servers}{7}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}API}{7}{subsection.3.5}
+\contentsline {section}{\numberline {4}Modules}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Emergency App}{8}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Video Streaming Rationale}{8}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Chat System Rationale}{10}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Automatic Video Sending Rationale}{10}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}CPR System}{11}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Rationale}{11}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Project SMS-livräddare}{11}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}API}{13}{subsection.4.3}
+\contentsline {section}{\numberline {5}Specification}{14}{section.5}
+\contentsline {subsection}{\numberline {5.1}Common Technologies}{14}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Google Cloud Messaging}{14}{subsubsection.5.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.1}Design Overview}{14}{paragraph.5.1.1.1}
+\contentsline {paragraph}{\numberline {5.1.1.2}GCM Setup}{14}{paragraph.5.1.1.2}
+\contentsline {paragraph}{\numberline {5.1.1.3}Sending Downstream Messages}{15}{paragraph.5.1.1.3}
+\contentsline {paragraph}{\numberline {5.1.1.4}Sending Upstream Messages}{18}{paragraph.5.1.1.4}
+\contentsline {subsubsection}{\numberline {5.1.2}Database}{20}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Emergency App - Video Streaming}{21}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Iteration 1 - Basic Functionality}{21}{subsubsection.5.2.1}
+\contentsline {paragraph}{\numberline {5.2.1.1}Aims}{21}{paragraph.5.2.1.1}
+\contentsline {paragraph}{\numberline {5.2.1.2}Starting a video stream}{21}{paragraph.5.2.1.2}
+\contentsline {paragraph}{\numberline {5.2.1.3}Opening the Socket}{24}{paragraph.5.2.1.3}
+\contentsline {subsubsection}{\numberline {5.2.2}Iteration 2 - Enhanced User Experience}{30}{subsubsection.5.2.2}
+\contentsline {paragraph}{\numberline {5.2.2.1}Aims}{30}{paragraph.5.2.2.1}
+\contentsline {paragraph}{\numberline {5.2.2.2}Setting the quality of the video stream}{30}{paragraph.5.2.2.2}
+\contentsline {paragraph}{\numberline {5.2.2.3}Video Stream UI}{30}{paragraph.5.2.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3}Iteration 3 - Enhanced Dispatcher Experience}{33}{subsubsection.5.2.3}
+\contentsline {paragraph}{\numberline {5.2.3.1}Aims}{33}{paragraph.5.2.3.1}
+\contentsline {paragraph}{\numberline {5.2.3.2}Video storage and skip/seek to a certain time}{33}{paragraph.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.4}Iteration 4 - Improving Reliability}{35}{subsubsection.5.2.4}
+\contentsline {paragraph}{\numberline {5.2.4.1}Aims}{35}{paragraph.5.2.4.1}
+\contentsline {paragraph}{\numberline {5.2.4.2}Restore on unexpected close}{35}{paragraph.5.2.4.2}
+\contentsline {subsubsection}{\numberline {5.2.5}Iteration 5 - Multiple Live Streams}{37}{subsubsection.5.2.5}
+\contentsline {paragraph}{\numberline {5.2.5.1}Aims}{37}{paragraph.5.2.5.1}
+\contentsline {paragraph}{\numberline {5.2.5.2}Multiple Streams}{37}{paragraph.5.2.5.2}
+\contentsline {subsection}{\numberline {5.3}Emergency App - Chat}{39}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Iteration 1 - Basic Functionality}{39}{subsubsection.5.3.1}
+\contentsline {paragraph}{\numberline {5.3.1.1}Aims}{39}{paragraph.5.3.1.1}
+\contentsline {paragraph}{\numberline {5.3.1.2}Starting a live chat with an emergency operator}{39}{paragraph.5.3.1.2}
+\contentsline {paragraph}{\numberline {5.3.1.3}Sending a notification for a started chat session}{41}{paragraph.5.3.1.3}
+\contentsline {subsubsection}{\numberline {5.3.2}Iteration 2 - Security and Accessibility}{43}{subsubsection.5.3.2}
+\contentsline {paragraph}{\numberline {5.3.2.1}Aims}{43}{paragraph.5.3.2.1}
+\contentsline {paragraph}{\numberline {5.3.2.2}Preventing chat button miss-click}{43}{paragraph.5.3.2.2}
+\contentsline {paragraph}{\numberline {5.3.2.3}Enhancing user interface}{43}{figure.caption.30}
+\contentsline {subsection}{\numberline {5.4}Emergency App - Automatic Location Sending}{45}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Iteration 1 - Basic Functionality}{45}{subsubsection.5.4.1}
+\contentsline {paragraph}{\numberline {5.4.1.1}Aims}{45}{paragraph.5.4.1.1}
+\contentsline {paragraph}{\numberline {5.4.1.2}Sending the location}{45}{paragraph.5.4.1.2}
+\contentsline {subsection}{\numberline {5.5}Emergency App - Database}{48}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Database Design}{48}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}ER Diagram}{48}{subsubsection.5.5.2}
+\contentsline {subsection}{\numberline {5.6}CPR System}{49}{subsection.5.6}
+\contentsline {subsubsection}{\numberline {5.6.1}Iteration 1 - Basic Functionality}{49}{subsubsection.5.6.1}
+\contentsline {paragraph}{\numberline {5.6.1.1}Aims}{49}{paragraph.5.6.1.1}
+\contentsline {paragraph}{\numberline {5.6.1.2}Storyboard}{49}{paragraph.5.6.1.2}
+\contentsline {paragraph}{\numberline {5.6.1.3}Sending Notifications}{50}{paragraph.5.6.1.3}
+\contentsline {paragraph}{\numberline {5.6.1.4}Notification Interaction and Alert}{51}{paragraph.5.6.1.4}
+\contentsline {paragraph}{\numberline {5.6.1.5}Cancel Notification}{53}{paragraph.5.6.1.5}
+\contentsline {paragraph}{\numberline {5.6.1.6}Notification Sound of the App}{53}{paragraph.5.6.1.6}
+\contentsline {paragraph}{\numberline {5.6.1.7}CPR App Pane}{54}{paragraph.5.6.1.7}
+\contentsline {paragraph}{\numberline {5.6.1.8}GPS Location}{54}{paragraph.5.6.1.8}
+\contentsline {paragraph}{\numberline {5.6.1.9}Database Design}{56}{paragraph.5.6.1.9}
+\contentsline {subparagraph}{\numberline {5.6.1.9.1}Requirements}{56}{subparagraph.5.6.1.9.1}
+\contentsline {subparagraph}{\numberline {5.6.1.9.2}Data Types}{56}{subparagraph.5.6.1.9.2}
+\contentsline {subparagraph}{\numberline {5.6.1.9.3}Entity Relationship Diagram}{57}{subparagraph.5.6.1.9.3}
+\contentsline {paragraph}{\numberline {5.6.1.10}Selecting the Responder to notify}{57}{paragraph.5.6.1.10}
+\contentsline {subsubsection}{\numberline {5.6.2}Iteration 2 - Accept \& Decline an emergency}{59}{subsubsection.5.6.2}
+\contentsline {paragraph}{\numberline {5.6.2.1}Aim}{59}{paragraph.5.6.2.1}
+\contentsline {paragraph}{\numberline {5.6.2.2}Storyboard}{59}{paragraph.5.6.2.2}
+\contentsline {paragraph}{\numberline {5.6.2.3}Confirming Attendance}{61}{paragraph.5.6.2.3}
+\contentsline {paragraph}{\numberline {5.6.2.4}Confirmation Messages}{62}{figure.caption.50}
+\contentsline {paragraph}{\numberline {5.6.2.5}Keep playing alert sound until user accepts/declines}{64}{paragraph.5.6.2.5}
+\contentsline {paragraph}{\numberline {5.6.2.6}Database Modifications}{64}{paragraph.5.6.2.6}
+\contentsline {paragraph}{\numberline {5.6.2.7}Selection Algorithm Modifications}{66}{paragraph.5.6.2.7}
+\contentsline {subsubsection}{\numberline {5.6.3}Iteration 3 - Improving Responder Alert}{67}{subsubsection.5.6.3}
+\contentsline {paragraph}{\numberline {5.6.3.1}Aim}{67}{paragraph.5.6.3.1}
+\contentsline {paragraph}{\numberline {5.6.3.2}Storyboard}{67}{paragraph.5.6.3.2}
+\contentsline {paragraph}{\numberline {5.6.3.3}Parallel Searches}{69}{figure.caption.57}
+\contentsline {paragraph}{\numberline {5.6.3.4}Usage}{73}{paragraph.5.6.3.4}
+\contentsline {subsubsection}{\numberline {5.6.4}Iteration 4 - Context of the emergency}{74}{subsubsection.5.6.4}
+\contentsline {paragraph}{\numberline {5.6.4.1}Aim}{74}{paragraph.5.6.4.1}
+\contentsline {paragraph}{\numberline {5.6.4.2}Storyboard}{74}{paragraph.5.6.4.2}
+\contentsline {paragraph}{\numberline {5.6.4.3}Information}{75}{paragraph.5.6.4.3}
+\contentsline {paragraph}{\numberline {5.6.4.4}Notification Details}{76}{paragraph.5.6.4.4}
+\contentsline {paragraph}{\numberline {5.6.4.5}App CPR Pane}{76}{paragraph.5.6.4.5}
+\contentsline {subsubsection}{\numberline {5.6.5}Iteration 5 - User Preferences}{79}{subsubsection.5.6.5}
+\contentsline {paragraph}{\numberline {5.6.5.1}Aim}{79}{paragraph.5.6.5.1}
+\contentsline {paragraph}{\numberline {5.6.5.2}Storyboard}{79}{paragraph.5.6.5.2}
+\contentsline {paragraph}{\numberline {5.6.5.3}'Do Not Disturb' for a period of time}{80}{paragraph.5.6.5.3}
+\contentsline {subparagraph}{\numberline {5.6.5.3.1}App Design}{81}{subparagraph.5.6.5.3.1}
+\contentsline {subparagraph}{\numberline {5.6.5.3.2}Server Modifications}{81}{subparagraph.5.6.5.3.2}
+\contentsline {subparagraph}{\numberline {5.6.5.3.3}Database Modifications}{82}{subparagraph.5.6.5.3.3}
+\contentsline {paragraph}{\numberline {5.6.5.4}Respecting system alert preferences}{82}{paragraph.5.6.5.4}
+\contentsline {subparagraph}{\numberline {5.6.5.4.1}App design}{83}{subparagraph.5.6.5.4.1}
+\contentsline {paragraph}{\numberline {5.6.5.5}Let the user specify the hours they will be asleep and thus unavailable}{83}{paragraph.5.6.5.5}
+\contentsline {subparagraph}{\numberline {5.6.5.5.1}App Design}{84}{subparagraph.5.6.5.5.1}
+\contentsline {subparagraph}{\numberline {5.6.5.5.2}Server Modifications}{84}{subparagraph.5.6.5.5.2}
+\contentsline {subparagraph}{\numberline {5.6.5.5.3}Database Modifications}{84}{subparagraph.5.6.5.5.3}
+\contentsline {subsubsection}{\numberline {5.6.6}Iteration 6 - Improving User Selection}{87}{subsubsection.5.6.6}
+\contentsline {paragraph}{\numberline {5.6.6.1}Aim}{87}{paragraph.5.6.6.1}
+\contentsline {paragraph}{\numberline {5.6.6.2}Problems}{87}{paragraph.5.6.6.2}
+\contentsline {subparagraph}{\numberline {5.6.6.2.1}Impassable Terrain}{87}{subparagraph.5.6.6.2.1}
+\contentsline {subparagraph}{\numberline {5.6.6.2.2}Mode of Transport}{87}{subparagraph.5.6.6.2.2}
+\contentsline {subparagraph}{\numberline {5.6.6.2.3}Elevation}{87}{subparagraph.5.6.6.2.3}
+\contentsline {paragraph}{\numberline {5.6.6.3}Solutions}{87}{paragraph.5.6.6.3}
+\contentsline {subsection}{\numberline {5.7}API}{89}{subsection.5.7}
+\contentsline {subsubsection}{\numberline {5.7.1}HTTP}{89}{subsubsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.7.2}JSON}{89}{subsubsection.5.7.2}
+\contentsline {subsubsection}{\numberline {5.7.3}Documentation}{89}{subsubsection.5.7.3}
+\contentsline {subsubsection}{\numberline {5.7.4}Security}{90}{subsubsection.5.7.4}
+\contentsline {subsubsection}{\numberline {5.7.5}Requests}{91}{subsubsection.5.7.5}
+\contentsline {section}{\numberline {6}Project Management}{92}{section.6}
+\contentsline {section}{\numberline {7}Personal Reflections}{93}{section.7}
+\contentsline {section}{\numberline {8}Appendices}{94}{section.8}
+\contentsline {subsection}{\numberline {8.1}Emergency App Features Survey}{94}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Video Stream}{98}{subsection.8.2}
+\contentsline {paragraph}{\numberline {8.2.0.1}Iteration 1}{98}{paragraph.8.2.0.1}
+\contentsline {subsubsection}{\numberline {8.2.1}Iteration 2}{105}{subsubsection.8.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2}Iteration 3}{111}{subsubsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.3}Iteration 4}{112}{subsubsection.8.2.3}
+\contentsline {subsubsection}{\numberline {8.2.4}Iteration 4}{113}{subsubsection.8.2.4}
+\contentsline {subsection}{\numberline {8.3}Chat}{114}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Iteration 1}{114}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Iteration 2}{118}{subsubsection.8.3.2}
+\contentsline {subsection}{\numberline {8.4}Automatic Video Sending}{120}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Iteration 1}{120}{subsubsection.8.4.1}
+\contentsline {subsection}{\numberline {8.5}API for Client \& Server}{123}{subsection.8.5}

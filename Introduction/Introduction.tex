@@ -1,7 +1,5 @@
 \documentclass{article}
-\usepackage{graphicx}
-\usepackage[top=2cm,bottom=2cm,left=3cm,right=3cm]{geometry}
-\usepackage{multicol}
+\usepackage{../myPackage}
 
 
 
@@ -9,15 +7,20 @@
 \pagebreak
     \section{Introduction}
     \subsection{Background}
-    \subsection{Current Problem}
-    \subsection{Currently Available Systems}
-\subsubsection{Current Process}
-When someone dials 999, the call is taken by an emergency operator at an Operator Assistance Centre (OAC), which are run by the phone companies (e.g. BT). They then route the call to an Emergency Control Centre (ECC), of which there are several for each emergency service. Any call involving police (regardless of other services requested) is routed to one of their control centres. The police will make a record of the call, before passing it over to any other involved service, e.g. London Ambulance Service for giving medical advice. London Ambulance Service and the police’s systems are integrated, so passing from police to them is easy, however if the caller mentions London Fire Brigade, the message is routed to the Contact Desk, where someone has to pick up the phone and ring them on a dedicated line.
+    When someone dials 999, the call is taken by an emergency operator at an Operator Assistance Centre (OAC), which are run by the phone companies (e.g. BT). They then route the call to an Emergency Control Centre (ECC), of which there are several for each emergency service. Any call involving police (regardless of other services requested) is routed to one of their control centres. The police will make a record of the call, before passing it over to any other involved service, e.g. London Ambulance Service for giving medical advice. London Ambulance Service and the police’s systems are integrated, so passing from police to them is easy, however if the caller mentions London Fire Brigade, the message is routed to the Contact Desk, where someone has to pick up the phone and ring them on a dedicated line.
 
+    \subsection{Current Problem}
+    Our initial research into the area led us to the conclusion that the current software implementation used my the emergency services was not upto scratch. Poor software that had been extended since the 1980's should have no place in 2015 and we believe that this issue needed addressing.\\
+    
+    As it turns out so did the government, there is currently an ongoing project implementing Commandpoint (developed by Northrop Grumman) to replace the old system. This rather ruined our plans for a project as we did not see the need to design something that was already in existence. Instead we tried to find issues with command point and work on solutions to those, this fell short however when we discovered that the design of Commandpoint is very comprehensive and we could only find minor issues with it.\\
+    
+    This lead us on to the final direction of our project, we decided to develop some innovative extensions that could be implemented along side Commandpoint which would provide a host of useful features to the emergency call takers and the general public. 
+    
+    \subsection{Currently Available Systems}
 \subsubsection{Call Handling System (CHS)}
 CAD has a text-based interface, so about 5 years ago a system called CHS (Call Handling System) was brought in. It effectively adds a more user-friendly interface to CAD, with demand created using it converted into CAD messages. Demand can be created using both CAD and CHS, but new employees are only trained to use CHS. Whenever CHS crashes, new call takers have to write out demands on paper and pass them to the old remaining CAD-trained person to type into the system.
 
-\subsubsection{CAD}
+\subsubsection{Computer Aided Dispatch (CAD)}
 CAD is the current dispatch system used by the Metropolitan Police Service. Developed by Unisys Corporation in the 1980s, it has long surpassed its predicted lifespan, and many contracts have been created to extend support for the system. It is slowly being phased out and replaced by Northrop Grumman’s CommandPoint system.
 
 \subsubsection{CAD Backup Facility (CBUF)}
