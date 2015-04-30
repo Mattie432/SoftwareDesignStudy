@@ -14,7 +14,14 @@
 \BOOKMARK [2][-]{subsection.5.1}{Common Technologies}{section.5}% 14
 \BOOKMARK [3][-]{subsubsection.5.1.1}{Google Cloud Messaging}{subsection.5.1}% 15
 \BOOKMARK [3][-]{subsubsection.5.1.2}{Database}{subsection.5.1}% 16
-\BOOKMARK [2][-]{subsection.5.2}{CPR System}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{Emergency App - Video Streaming}{section.5}% 17
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Iteration 1 - Basic Functionality}{subsection.5.2}% 18
-\BOOKMARK [1][-]{section.6}{Project Management}{}% 19
-\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 20
+\BOOKMARK [2][-]{subsection.5.3}{CPR System}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration 1 - Basic Functionality}{subsection.5.3}% 20
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration 2 - Accept \046 Decline an emergency}{subsection.5.3}% 21
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Iteration 3 - Improving Responder Alert}{subsection.5.3}% 22
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Iteration 4 - Context of the emergency}{subsection.5.3}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Iteration 5 - User Preferences}{subsection.5.3}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.6}{Iteration 6 - Improving User Selection}{subsection.5.3}% 25
+\BOOKMARK [1][-]{section.6}{Project Management}{}% 26
+\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 27
