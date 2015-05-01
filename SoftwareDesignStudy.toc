@@ -139,16 +139,17 @@
 \contentsline {subsection}{\numberline {7.5}Robert Zlatarski}{99}{subsection.7.5}
 \contentsline {section}{\numberline {8}Appendices}{100}{section.8}
 \contentsline {subsection}{\numberline {8.1}Emergency App Features Survey}{100}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Video Stream}{104}{subsection.8.2}
-\contentsline {paragraph}{\numberline {8.2.0.1}Iteration 1}{104}{paragraph.8.2.0.1}
-\contentsline {subsubsection}{\numberline {8.2.1}Iteration 2}{111}{subsubsection.8.2.1}
-\contentsline {subsubsection}{\numberline {8.2.2}Iteration 3}{117}{subsubsection.8.2.2}
-\contentsline {subsubsection}{\numberline {8.2.3}Iteration 4}{118}{subsubsection.8.2.3}
-\contentsline {subsubsection}{\numberline {8.2.4}Iteration 4}{119}{subsubsection.8.2.4}
-\contentsline {subsection}{\numberline {8.3}Chat}{120}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Iteration 1}{120}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}Iteration 2}{124}{subsubsection.8.3.2}
-\contentsline {subsection}{\numberline {8.4}Automatic Video Sending}{126}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}Iteration 1}{126}{subsubsection.8.4.1}
-\contentsline {subsection}{\numberline {8.5}API for Client \& Server}{129}{subsection.8.5}
-\contentsline {section}{\numberline {9}Bibliography}{164}{section.9}
+\contentsline {subsection}{\numberline {8.2}Emergency App Database}{104}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Video Stream}{105}{subsection.8.3}
+\contentsline {paragraph}{\numberline {8.3.0.1}Iteration 1}{105}{paragraph.8.3.0.1}
+\contentsline {subsubsection}{\numberline {8.3.1}Iteration 2}{112}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}Iteration 3}{118}{subsubsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.3}Iteration 4}{119}{subsubsection.8.3.3}
+\contentsline {subsubsection}{\numberline {8.3.4}Iteration 4}{120}{subsubsection.8.3.4}
+\contentsline {subsection}{\numberline {8.4}Chat}{121}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Iteration 1}{121}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.2}Iteration 2}{125}{subsubsection.8.4.2}
+\contentsline {subsection}{\numberline {8.5}Automatic Video Sending}{127}{subsection.8.5}
+\contentsline {subsubsection}{\numberline {8.5.1}Iteration 1}{127}{subsubsection.8.5.1}
+\contentsline {subsection}{\numberline {8.6}API for Client \& Server}{130}{subsection.8.6}
+\contentsline {section}{\numberline {9}Bibliography}{165}{section.9}
