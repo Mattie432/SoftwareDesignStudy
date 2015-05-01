@@ -27,53 +27,55 @@
 \BOOKMARK [3][-]{subsubsection.5.1.1}{Google Cloud Messaging}{subsection.5.1}% 27
 \BOOKMARK [3][-]{subsubsection.5.1.2}{Database}{subsection.5.1}% 28
 \BOOKMARK [2][-]{subsection.5.2}{Emergency App - Video Streaming}{section.5}% 29
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Iteration 1 - Basic Functionality}{subsection.5.2}% 30
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Iteration 2 - Enhanced User Experience}{subsection.5.2}% 31
-\BOOKMARK [3][-]{subsubsection.5.2.3}{Iteration 3 - Enhanced Dispatcher Experience}{subsection.5.2}% 32
-\BOOKMARK [3][-]{subsubsection.5.2.4}{Iteration 4 - Improving Reliability}{subsection.5.2}% 33
-\BOOKMARK [3][-]{subsubsection.5.2.5}{Iteration 5 - Multiple Live Streams}{subsection.5.2}% 34
-\BOOKMARK [2][-]{subsection.5.3}{Emergency App - Chat}{section.5}% 35
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration 1 - Basic Functionality}{subsection.5.3}% 36
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration 2 - Security and Accessibility}{subsection.5.3}% 37
-\BOOKMARK [2][-]{subsection.5.4}{Emergency App - Automatic Location Sending}{section.5}% 38
-\BOOKMARK [3][-]{subsubsection.5.4.1}{Iteration 1 - Basic Functionality}{subsection.5.4}% 39
-\BOOKMARK [2][-]{subsection.5.5}{Emergency App - Database}{section.5}% 40
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Database Design}{subsection.5.5}% 41
-\BOOKMARK [3][-]{subsubsection.5.5.2}{ER Diagram}{subsection.5.5}% 42
-\BOOKMARK [2][-]{subsection.5.6}{CPR System}{section.5}% 43
-\BOOKMARK [3][-]{subsubsection.5.6.1}{Iteration 1 - Basic Functionality}{subsection.5.6}% 44
-\BOOKMARK [3][-]{subsubsection.5.6.2}{Iteration 2 - Accept \046 Decline an emergency}{subsection.5.6}% 45
-\BOOKMARK [3][-]{subsubsection.5.6.3}{Iteration 3 - Improving Responder Alert}{subsection.5.6}% 46
-\BOOKMARK [3][-]{subsubsection.5.6.4}{Iteration 4 - Context of the emergency}{subsection.5.6}% 47
-\BOOKMARK [3][-]{subsubsection.5.6.5}{Iteration 5 - User Preferences}{subsection.5.6}% 48
-\BOOKMARK [3][-]{subsubsection.5.6.6}{Iteration 6 - Improving User Selection}{subsection.5.6}% 49
-\BOOKMARK [2][-]{subsection.5.7}{API}{section.5}% 50
-\BOOKMARK [3][-]{subsubsection.5.7.1}{HTTP}{subsection.5.7}% 51
-\BOOKMARK [3][-]{subsubsection.5.7.2}{JSON}{subsection.5.7}% 52
-\BOOKMARK [3][-]{subsubsection.5.7.3}{Documentation}{subsection.5.7}% 53
-\BOOKMARK [3][-]{subsubsection.5.7.4}{Security}{subsection.5.7}% 54
-\BOOKMARK [3][-]{subsubsection.5.7.5}{Requests}{subsection.5.7}% 55
-\BOOKMARK [1][-]{section.6}{Project Management}{}% 56
-\BOOKMARK [2][-]{subsection.6.1}{Term 1}{section.6}% 57
-\BOOKMARK [2][-]{subsection.6.2}{Term 2}{section.6}% 58
-\BOOKMARK [2][-]{subsection.6.3}{Used Services}{section.6}% 59
-\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 60
-\BOOKMARK [2][-]{subsection.7.1}{George Brighton}{section.7}% 61
-\BOOKMARK [2][-]{subsection.7.2}{Matthew Flint}{section.7}% 62
-\BOOKMARK [2][-]{subsection.7.3}{Deyan Genovski}{section.7}% 63
-\BOOKMARK [2][-]{subsection.7.4}{Martin Mihov}{section.7}% 64
-\BOOKMARK [2][-]{subsection.7.5}{Robert Zlatarski}{section.7}% 65
-\BOOKMARK [1][-]{section.8}{Appendices}{}% 66
-\BOOKMARK [2][-]{subsection.8.1}{Emergency App Features Survey}{section.8}% 67
-\BOOKMARK [2][-]{subsection.8.2}{Video Stream}{section.8}% 68
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Iteration 2}{subsection.8.2}% 69
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Iteration 3}{subsection.8.2}% 70
-\BOOKMARK [3][-]{subsubsection.8.2.3}{Iteration 4}{subsection.8.2}% 71
-\BOOKMARK [3][-]{subsubsection.8.2.4}{Iteration 4}{subsection.8.2}% 72
-\BOOKMARK [2][-]{subsection.8.3}{Chat}{section.8}% 73
-\BOOKMARK [3][-]{subsubsection.8.3.1}{Iteration 1}{subsection.8.3}% 74
-\BOOKMARK [3][-]{subsubsection.8.3.2}{Iteration 2}{subsection.8.3}% 75
-\BOOKMARK [2][-]{subsection.8.4}{Automatic Video Sending}{section.8}% 76
-\BOOKMARK [3][-]{subsubsection.8.4.1}{Iteration 1}{subsection.8.4}% 77
-\BOOKMARK [2][-]{subsection.8.5}{API for Client \046 Server}{section.8}% 78
-\BOOKMARK [1][-]{section.9}{Bibliography}{}% 79
+\BOOKMARK [3][-]{subsubsection.5.2.1}{User Stories}{subsection.5.2}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Iteration 1 - Basic Functionality}{subsection.5.2}% 31
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Iteration 2 - Enhanced User Experience}{subsection.5.2}% 32
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Iteration 3 - Enhanced Dispatcher Experience}{subsection.5.2}% 33
+\BOOKMARK [3][-]{subsubsection.5.2.5}{Iteration 4 - Improving Reliability}{subsection.5.2}% 34
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Iteration 5 - Multiple Live Streams}{subsection.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Emergency App - Chat}{section.5}% 36
+\BOOKMARK [3][-]{subsubsection.5.3.1}{User Stories}{subsection.5.3}% 37
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration 1 - Basic Functionality}{subsection.5.3}% 38
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Iteration 2 - Security and Accessibility}{subsection.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.4}{Emergency App - Automatic Location Sending}{section.5}% 40
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Iteration 1 - Basic Functionality}{subsection.5.4}% 41
+\BOOKMARK [2][-]{subsection.5.5}{Emergency App - Database}{section.5}% 42
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Database Design}{subsection.5.5}% 43
+\BOOKMARK [3][-]{subsubsection.5.5.2}{ER Diagram}{subsection.5.5}% 44
+\BOOKMARK [2][-]{subsection.5.6}{CPR System}{section.5}% 45
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Iteration 1 - Basic Functionality}{subsection.5.6}% 46
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Iteration 2 - Accept \046 Decline an emergency}{subsection.5.6}% 47
+\BOOKMARK [3][-]{subsubsection.5.6.3}{Iteration 3 - Improving Responder Alert}{subsection.5.6}% 48
+\BOOKMARK [3][-]{subsubsection.5.6.4}{Iteration 4 - Context of the emergency}{subsection.5.6}% 49
+\BOOKMARK [3][-]{subsubsection.5.6.5}{Iteration 5 - User Preferences}{subsection.5.6}% 50
+\BOOKMARK [3][-]{subsubsection.5.6.6}{Iteration 6 - Improving User Selection}{subsection.5.6}% 51
+\BOOKMARK [2][-]{subsection.5.7}{API}{section.5}% 52
+\BOOKMARK [3][-]{subsubsection.5.7.1}{HTTP}{subsection.5.7}% 53
+\BOOKMARK [3][-]{subsubsection.5.7.2}{JSON}{subsection.5.7}% 54
+\BOOKMARK [3][-]{subsubsection.5.7.3}{Documentation}{subsection.5.7}% 55
+\BOOKMARK [3][-]{subsubsection.5.7.4}{Security}{subsection.5.7}% 56
+\BOOKMARK [3][-]{subsubsection.5.7.5}{Requests}{subsection.5.7}% 57
+\BOOKMARK [1][-]{section.6}{Project Management}{}% 58
+\BOOKMARK [2][-]{subsection.6.1}{Term 1}{section.6}% 59
+\BOOKMARK [2][-]{subsection.6.2}{Term 2}{section.6}% 60
+\BOOKMARK [2][-]{subsection.6.3}{Used Services}{section.6}% 61
+\BOOKMARK [1][-]{section.7}{Personal Reflections}{}% 62
+\BOOKMARK [2][-]{subsection.7.1}{George Brighton}{section.7}% 63
+\BOOKMARK [2][-]{subsection.7.2}{Matthew Flint}{section.7}% 64
+\BOOKMARK [2][-]{subsection.7.3}{Deyan Genovski}{section.7}% 65
+\BOOKMARK [2][-]{subsection.7.4}{Martin Mihov}{section.7}% 66
+\BOOKMARK [2][-]{subsection.7.5}{Robert Zlatarski}{section.7}% 67
+\BOOKMARK [1][-]{section.8}{Appendices}{}% 68
+\BOOKMARK [2][-]{subsection.8.1}{Emergency App Features Survey}{section.8}% 69
+\BOOKMARK [2][-]{subsection.8.2}{Video Stream}{section.8}% 70
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Iteration 2}{subsection.8.2}% 71
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Iteration 3}{subsection.8.2}% 72
+\BOOKMARK [3][-]{subsubsection.8.2.3}{Iteration 4}{subsection.8.2}% 73
+\BOOKMARK [3][-]{subsubsection.8.2.4}{Iteration 4}{subsection.8.2}% 74
+\BOOKMARK [2][-]{subsection.8.3}{Chat}{section.8}% 75
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Iteration 1}{subsection.8.3}% 76
+\BOOKMARK [3][-]{subsubsection.8.3.2}{Iteration 2}{subsection.8.3}% 77
+\BOOKMARK [2][-]{subsection.8.4}{Automatic Video Sending}{section.8}% 78
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Iteration 1}{subsection.8.4}% 79
+\BOOKMARK [2][-]{subsection.8.5}{API for Client \046 Server}{section.8}% 80
+\BOOKMARK [1][-]{section.9}{Bibliography}{}% 81
